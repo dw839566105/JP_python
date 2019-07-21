@@ -1,6 +1,12 @@
+srcL:=$(wildcard data/type1/ele*.root)
+dstL:=$(srcL:data/type1/%.root=8/%.h5)
+
+.PHONY: all
+all: $(dstL)
+
 iterl:=$(shell seq 7)
 
-bs=bsub -q normal -J $@ -oo $@.log -eo $@.err
+bs=bsub -J $@ -oo $@.log -eo $@.err
 
 1/%.h5: data/type1/%.root
 	mkdir -p $(dir $@)
