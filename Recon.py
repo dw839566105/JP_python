@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import numpy as np
-import scipy
+import scipy, h5py
 import scipy.stats as stats
 import math
 import ROOT
@@ -91,16 +91,20 @@ def con(args):
 
     return cons
 
-def recon(fid):
+def recon(fid, fout, miter=None):
+    '''
+    reconstruction
+
+    fid: root reference file
+    miter: intermediate files during iteration
+    fout: output file in this step
+    '''
     global event_count
     global flag_break
     
     result_recon = np.empty((0,5))
     result_truth = np.empty((0,4))
     result_const = np.empty((0,2))
-    doc_const = open('const'+str(iterNo)+'.txt','w')
-    doc_truth = open('truth'+str(iterNo)+'.txt','w')
-    doc_recon = open('recon'+str(iterNo)+'.txt','w')
 
     result_recon = np.empty((0,5))
     result_truth = np.empty((0,4))
@@ -147,8 +151,9 @@ def recon(fid):
             x0[0][4] = 95
             tau_d = 25
         else:
-            result_recon_old = np.load('result_recon'+str(iterNo-1)+'.npy')
-            result_const_old = np.load('result_const'+str(iterNo-1)+'.npy')
+            with h5py.File(miter) as ipt:
+                result_recon_old = ipt['recon'][...]
+                result_const_old = ipt["const"][...]
             x0 = result_recon_old[event_count,:]
             tau_d = result_const_old[event_count, 0]
             x0[4] = result_const_old[event_count, 1]
@@ -167,15 +172,6 @@ def recon(fid):
         result_truth = np.vstack((result_truth, truth_vertex))
         result_recon = np.vstack((result_recon, recon_vertex))
 
-        for truth_index in range(len(truth_vertex[0,:])):
-            print('%f\t'%(truth_vertex[0][truth_index]), file = doc_truth, end='')
-        print('\n',file = doc_truth, end='')
-
-        for recon_index in range(len(recon_vertex[0,:])):
-            print('%f\t'%(recon_vertex[0][recon_index]), file = doc_recon, end='')
-        print('%f\t'%(Likelihood_e), file = doc_recon, end='')
-        print('\n',file = doc_recon, end='')
-
         EE = recon_vertex[0,0]
         xx = recon_vertex[0,1]
         yy = recon_vertex[0,2]
@@ -189,51 +185,38 @@ def recon(fid):
         Likelihood_m = result.fun
         result_const = np.vstack((result_const, recon_const))
         tau_d = recon_const[0,0]
-        for const_index in range(len(recon_const[0,:])):
-            print('%f\t'%(recon_const[0][const_index]), file = doc_const, end='')
-        print('%f\t'%(Likelihood_m), file = doc_const, end='')
-        print('\n',file = doc_const, end='')
 
         event_count = event_count + 1
         print(event_count)
-        if(event_count >= 1e7):
-            np.save('result_truth' + str(iterNo) + '.npy', result_truth)
-            np.save('result_recon' + str(iterNo) + '.npy', result_recon)
-            np.save('result_const' + str(iterNo) + '.npy', result_const)
-            flag_break = 1
-            break
 
-    np.save('result_truth' + str(iterNo) + '.npy', result_truth)
-    np.save('result_recon' + str(iterNo) + '.npy', result_recon)
-    np.save('result_const' + str(iterNo) + '.npy', result_const)
-    #print(stats.norm.fit(result_truth[:,1]-result_recon[:,1]))
+    with h5py.File(fout,'w') as out:
+        out.create_dataset("truth", data=result_truth)
+        out.create_dataset("recon", data=result_recon)
+        out.create_dataset("const", data=result_const)
 
-def main(argv=None):
-    global iterNo
-    while(1):
-        filepath = r'/home/douwei/JSAP-install/Simulation/output/type1'
-        files = os.listdir(filepath)
-        f = open(r"./PMT_5kt_sphere.txt")
-        line = f.readline()
-        data_list = []
-        while line:
-            num = list(map(float,line.split()))
-            data_list.append(num)
-            line = f.readline()
-        f.close()
-        
-        global PMT_pos
-        global PMT_total
-        PMT_pos = np.array(data_list)
-        PMT_pos[:,1:4] = PMT_pos[:,1:4]/1000 # why is 4???
-        PMT_total = len(PMT_pos[:,0])
-        
-        event_count = 0
-        for fi in files:
-            fid = os.path.join(filepath,fi)
-            print(fid)
-            recon(fid)
-    iterNo = iterNo + 1
+iterNo = int(sys.argv[1])
+fid = sys.argv[3]
 
-if  __name__ == '__main__':
-    sys.exit(main())
+# Load PMT positions
+f = open(r"./PMT_5kt_sphere.txt")
+line = f.readline()
+data_list = []
+while line:
+    num = list(map(float,line.split()))
+    data_list.append(num)
+    line = f.readline()
+f.close()
+
+global PMT_pos
+global PMT_total
+PMT_pos = np.array(data_list)
+PMT_pos[:,1:4] = PMT_pos[:,1:4]/1000 # why is 4???
+PMT_total = len(PMT_pos[:,0])
+
+event_count = 0
+
+if len(sys.argv) > 4:
+    recon(fid, sys.argv[2], sys.argv[4])
+else:
+    # step 0
+    recon(fid, sys.argv[2])
