@@ -1,0 +1,8 @@
+1/%.h5: data/type1/%.root
+	mkdir -p $(dir $@)
+	python3 Recon.py 0 $@ $^
+
+# Delete partial files when the processes are killed.
+.DELETE_ON_ERROR:
+# Keep intermediate files around
+.SECONDARY:
