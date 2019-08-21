@@ -1,5 +1,5 @@
-srcL:=$(wildcard data/type3/ele*.root)
-dstL:=$(srcL:data/type3/%.root=8/%.h5)
+srcL:=$(wildcard data/type1/ele*.root)
+dstL:=$(srcL:data/type1/%.root=8/%.h5)
 
 .PHONY: all
 all: $(dstL)
