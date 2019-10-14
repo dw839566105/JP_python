@@ -1,5 +1,5 @@
-srcL:=$(wildcard data/type1/ele*.root)
-dstL:=$(srcL:data/type1/%.root=8/%.h5)
+srcL:=$(wildcard data/type2/ele*.root)
+dstL:=$(srcL:data/type2/%.root=8/%.h5)
 
 .PHONY: all
 all: $(dstL)
@@ -8,12 +8,12 @@ iterl:=$(shell seq 7)
 
 bs=bsub -J $@ -oo $@.log -eo $@.err
 
-1/%.h5: data/type1/%.root
+1/%.h5: data/type2/%.root
 	mkdir -p $(dir $@)
 	$(bs) python3 Recon.py 0 $@ $^
 
 define tpl_iter
-$(guile (+ $(1) 1))/%.h5: data/type1/%.root $(1)/%.h5
+$(guile (+ $(1) 1))/%.h5: data/type2/%.root $(1)/%.h5
 	mkdir -p $$(dir $$@)
 	$$(bs) -w 'done($$(word 2,$$^))' python3 Recon.py $(1) $$@ $$^
 endef
