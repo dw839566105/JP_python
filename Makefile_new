@@ -1,0 +1,14 @@
+srcL:=$(wildcard type1/ele*.root)
+dstL:=$(srcL:type1/%.root=output/%.h5)
+
+.PHONY: all
+all: $(dstL)
+
+output/%.h5: type1/%.root
+	mkdir -p output
+	python3 Recon_noiter.py $@ $^
+
+# Delete partial files when the processes are killed.
+.DELETE_ON_ERROR:
+# Keep intermediate files around
+.SECONDARY:
