@@ -23,15 +23,15 @@ recon_total[:,0] = 1/np.mean(recon_total[:,0])*np.mean(truth_total[:,0])*recon_t
 tau_real = 26*(np.log10(np.floor(10*truth_total[:,0])/10)*0.3+1)
 
 with open('Recon.txt','w') as f:
-    f.write('Energy bias: %f MeV\n' %(np.mean(recon_total[:,0]-truth_total[:,0])))
+    f.write('Energy bias: %f MeV\n' %(np.mean(np.abs(recon_total[:,0]-truth_total[:,0]))))
     f.write('Energy resolution: %f MeV\n' %(np.sqrt(np.var(recon_total[:,0]-truth_total[:,0]))))
-    f.write('x bias: %f m\n' %(np.mean(recon_total[:,1]-truth_total[:,1])))
+    f.write('x bias: %f m\n' %(np.mean(np.abs(recon_total[:,1]-truth_total[:,1]))))
     f.write('x resolution: %f m\n' %(np.sqrt(np.var(recon_total[:,1]-truth_total[:,1]))))
-    f.write('y bias: %f m\n' %(np.mean(recon_total[:,2]-truth_total[:,2])))
+    f.write('y bias: %f m\n' %(np.mean(np.abs(recon_total[:,2]-truth_total[:,2]))))
     f.write('y resolution: %f m\n' %(np.sqrt(np.var(recon_total[:,2]-truth_total[:,2]))))
-    f.write('z bias: %f m\n' %(np.mean(recon_total[:,3]-truth_total[:,3])))
+    f.write('z bias: %f m\n' %(np.mean(np.abs(recon_total[:,3]-truth_total[:,3]))))
     f.write('z resolution: %f m\n' %(np.sqrt(np.var(recon_total[:,3]-truth_total[:,3]))))
-    f.write('tau bias: %f ns\n' %(np.mean(recon_total[:,5]-tau_real)))
+    f.write('tau bias: %f ns\n' %(np.mean(np.abs(recon_total[:,5]-tau_real))))
     f.write('tau resolution: %f ns\n' %(np.sqrt(np.var(recon_total[:,3]-tau_real))))
 f.close()
 
