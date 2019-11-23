@@ -1,25 +1,25 @@
-Sender: LSF System <lsfadmin@c02b13>
-Subject: Job 15174614: <output/ele13_13.h5> Done
+Sender: LSF System <lsfadmin@c13b09>
+Subject: Job 15186240: <output/ele13_13.h5> Done
 
 Job <output/ele13_13.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
-Job was executed on host(s) <c02b13>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c13b09>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
 </home/wangzhe3> was used as the home directory.
 </home/wangzhe3/work/JP_python> was used as the working directory.
-Started at Fri Nov 22 16:42:12 2019
-Results reported at Fri Nov 22 16:48:05 2019
+Started at Sat Nov 23 18:29:37 2019
+Results reported at Sat Nov 23 18:36:25 2019
 
 Your job looked like:
 
 ------------------------------------------------------------
 # LSBATCH: User input
-python3 Recon_noiter.py output/ele13_13.h5 type1/ele13_13.root
+python3 main_recon.py output/ele13_13.h5 type1/ele13_13.root
 ------------------------------------------------------------
 
 Successfully completed.
 
 Resource usage summary:
 
-    CPU time   :    350.95 sec.
+    CPU time   :    363.89 sec.
     Max Memory :       182 MB
     Max Swap   :       501 MB
 

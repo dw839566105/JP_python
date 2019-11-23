@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@c02b06>
+Subject: Job 15172763: <output/ele12_5.h5> Exited
+
+Job <output/ele12_5.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c02b06>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+</home/wangzhe3> was used as the home directory.
+</home/wangzhe3/work/JP_python> was used as the working directory.
+Started at Fri Nov 22 15:33:46 2019
+Results reported at Fri Nov 22 15:33:46 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 Recon_noiter.py output/ele12_5.h5 type1/ele12_5.root
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time   :      0.05 sec.
+    Max Memory :         3 MB
+    Max Swap   :        26 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <output/ele12_5.h5.err> for stderr output of this job.
+
