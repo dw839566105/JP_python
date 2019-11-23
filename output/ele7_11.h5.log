@@ -1,0 +1,66 @@
+Sender: LSF System <lsfadmin@c02b13>
+Subject: Job 15174498: <output/ele7_11.h5> Done
+
+Job <output/ele7_11.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c02b13>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+</home/wangzhe3> was used as the home directory.
+</home/wangzhe3/work/JP_python> was used as the working directory.
+Started at Fri Nov 22 16:32:51 2019
+Results reported at Fri Nov 22 16:33:07 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 Recon_noiter.py output/ele7_11.h5 type1/ele7_11.root
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      9.73 sec.
+    Max Memory :         3 MB
+    Max Swap   :        26 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+type1/ele7_11.root
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+
+
+PS:
+
+Read file <output/ele7_11.h5.err> for stderr output of this job.
+
