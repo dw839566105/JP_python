@@ -12,11 +12,13 @@ recon_total = np.empty((0,6)) # recon (E,x,y,z,t0,taud)
 truth_total = np.empty((0,4)) # truth (E,x,y,z)
 # read file with .h5
 if len(sys.argv)<2:
-    filepath = r'./output/' # target dir, can be changed!
+    filepath = r'./output' # target dir, can be changed!
     fig_path = './figure'
+    log_path = '.'
 else:
     filepath = sys.argv[1]
     fig_path = sys.argv[1]+'/figure'
+    log_path = filepath
 files = os.listdir(filepath)
 for i in files:                                     # all files
     if os.path.splitext(i)[1] == ".h5":             # choose .h5 file
@@ -31,7 +33,7 @@ recon_total[:,0] = 1/np.mean(recon_total[:,0])*np.mean(truth_total[:,0])*recon_t
 # truth taud
 tau_real = 26*(np.log10(np.floor(10*truth_total[:,0])/10)*0.3+1)
 # output recon result as recon.txt
-with open('Recon.txt','w') as f:
+with open(log_path + '/Recon.txt','w') as f:
     f.write('Energy bias: %f MeV\n' %(np.mean(np.abs(recon_total[:,0]-truth_total[:,0]))))
     f.write('Energy resolution: %f MeV\n' %(np.sqrt(np.var(recon_total[:,0]-truth_total[:,0]))))
     f.write('x bias: %f m\n' %(np.mean(np.abs(recon_total[:,1]-truth_total[:,1]))))
@@ -118,7 +120,7 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('Radius: [m]', size=20)
 plt.ylabel('Energy: [MeV]', size=20)
 plt.title(r'Energy bias: [MeV]', size=20)
-plt.savefig('./figure/Energy_bias.png')
+plt.savefig(figpath + '/Energy_bias.png')
 
 # fig_2 Energy resolution
 fig=plt.figure(num=2,figsize=(15,7))
