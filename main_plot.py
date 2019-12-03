@@ -11,7 +11,12 @@ import pandas as pd
 recon_total = np.empty((0,6)) # recon (E,x,y,z,t0,taud)
 truth_total = np.empty((0,4)) # truth (E,x,y,z)
 # read file with .h5
-filepath = r'./output/' # target dir, can be changed!
+if len(sys.argv)<2:
+    filepath = r'./output/' # target dir, can be changed!
+    fig_path = './figure'
+else:
+    filepath = sys.argv[1]
+    fig_path = sys.argv[1]+'/figure'
 files = os.listdir(filepath)
 for i in files:                                     # all files
     if os.path.splitext(i)[1] == ".h5":             # choose .h5 file
@@ -38,8 +43,8 @@ with open('Recon.txt','w') as f:
     f.write('tau bias: %f ns\n' %(np.mean(np.abs(recon_total[:,5]-tau_real))))
     f.write('tau resolution: %f ns\n' %(np.sqrt(np.var(recon_total[:,3]-tau_real))))
 f.close()
-# plot figure
-fig_path = './figure'
+# plot figure, path definition move to beginning of program
+# fig_path = './figure'
 if not os.path.exists(fig_path): # prevent exist
     os.mkdir(fig_path)
 
@@ -133,7 +138,7 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('Radius: [m]', size=20)
 plt.ylabel('Energy: [MeV]', size=20)
 plt.title(r'Energy resolution: [MeV]', size=20)
-plt.savefig('./figure/Energy_res.png')
+plt.savefig(fig_path + '/Energy_res.png')
 
 # fig_3 x bias
 fig=plt.figure(num=3,figsize=(15,7))
@@ -153,7 +158,7 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('radius: [m]', size=20)
 plt.ylabel('energy: [MeV]', size=20)
 plt.title(r'$x$ bias: [m]', size=20)
-plt.savefig('./figure/x_bias.png')
+plt.savefig(fig_path + '/x_bias.png')
 
 # fig_4 x resolution
 fig=plt.figure(num=4,figsize=(15,7))
@@ -173,7 +178,7 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('Radius: [m]', size=20)
 plt.ylabel('Energy: [MeV]', size=20)
 plt.title(r'$x$ resolution: [m]', size=20)
-plt.savefig('./figure/x_res.png')
+plt.savefig(fig_path + '/x_res.png')
 
 # fig_5 tau bias
 fig=plt.figure(num=5,figsize=(15,7))
@@ -193,7 +198,7 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('Radius: [m]', size=20)
 plt.ylabel('Energy: [MeV]', size=20)
 plt.title(r'$\tau_d$ bias: [ns]', size=20)
-plt.savefig('./figure/tau_bias.png')
+plt.savefig(fig_path + '/tau_bias.png')
 
 # fig_6 tau resolution
 fig=plt.figure(num=6,figsize=(15,7))
@@ -213,4 +218,4 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('Radius: [m]', size=20)
 plt.ylabel('Energy: [MeV]', size=20)
 plt.title(r'$\tau_d$ resolution: [ns]', size=20)
-plt.savefig('./figure/tau_res.png')
+plt.savefig(fig_path + '/tau_res.png')
