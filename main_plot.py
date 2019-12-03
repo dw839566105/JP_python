@@ -120,7 +120,7 @@ plt.yticks(np.arange(len(EE)),np.round(EE,1),color='black',rotation=0, fontsize=
 plt.xlabel('Radius: [m]', size=20)
 plt.ylabel('Energy: [MeV]', size=20)
 plt.title(r'Energy bias: [MeV]', size=20)
-plt.savefig(figpath + '/Energy_bias.png')
+plt.savefig(fig_path + '/Energy_bias.png')
 
 # fig_2 Energy resolution
 fig=plt.figure(num=2,figsize=(15,7))
