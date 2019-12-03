@@ -107,7 +107,7 @@ def recon(fid, fout):
 
     event_count = 0
 
-    rootfile = ROOT.TFile(fid);
+    rootfile = ROOT.TFile(fid)
     TruthChain = rootfile.Get('SimTriggerInfo')
     print(fid)
 
@@ -139,7 +139,7 @@ def recon(fid, fout):
         
         x0 = np.zeros((1,6))
 
-        x0[0][0] = pe_array.sum()/300;
+        x0[0][0] = pe_array.sum()/300
         x0[0][1] = np.sum(pe_array*PMT_pos[:,1])/np.sum(pe_array)
         x0[0][2] = np.sum(pe_array*PMT_pos[:,2])/np.sum(pe_array)
         x0[0][3] = np.sum(pe_array*PMT_pos[:,3])/np.sum(pe_array)
@@ -154,7 +154,6 @@ def recon(fid, fout):
         result = minimize(Recon(), x0, method='SLSQP', constraints=cons)
 
         recon_vertex[0,:] = result.x
-        Likelihood = result.fun
 
         result_truth = np.vstack((result_truth, truth_vertex))
         result_recon = np.vstack((result_recon, recon_vertex))
