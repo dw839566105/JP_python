@@ -10,6 +10,7 @@ import pandas as pd
 # initial recon and truth
 recon_total = np.empty((0,6)) # recon (E,x,y,z,t0,taud)
 truth_total = np.empty((0,4)) # truth (E,x,y,z)
+nanFilter = False
 # read file with .h5
 if len(sys.argv)<2:
     filepath = r'./output' # target dir, can be changed!
@@ -19,6 +20,7 @@ else:
     filepath = sys.argv[1]
     fig_path = sys.argv[1]+'/figure'
     log_path = filepath
+    nanFilter = True
 files = os.listdir(filepath)
 for i in files:                                     # all files
     if os.path.splitext(i)[1] == ".h5":             # choose .h5 file
@@ -28,12 +30,22 @@ for i in files:                                     # all files
         result_truth = h['truth'][...]              # key 'truth'
         recon_total = np.vstack((recon_total, result_recon)) # joint recon
         truth_total = np.vstack((truth_total, result_truth)) # joint truth
+# filter the NAN value
+if nanFilter:
+    truth = pd.DataFrame(truth_total)
+    recon = pd.DataFrame(recon_total)
+    reconSel = recon.dropna(axis = 0, how ='any')
+    dropNum = recon.shape[0]-reconSel.shape[0]
+    truthSel = truth.iloc[np.array(reconSel.index),:]
+    truth_total = truthSel.values
+    recon_total = reconSel.values
 # Energy correct
 recon_total[:,0] = 1/np.mean(recon_total[:,0])*np.mean(truth_total[:,0])*recon_total[:,0]
 # truth taud
 tau_real = 26*(np.log10(np.floor(10*truth_total[:,0])/10)*0.3+1)
 # output recon result as recon.txt
 with open(log_path + '/Recon.txt','w') as f:
+    f.write('recon failed number:{}\n'.format(dropNum))
     f.write('Energy bias: %f MeV\n' %(np.mean(np.abs(recon_total[:,0]-truth_total[:,0]))))
     f.write('Energy resolution: %f MeV\n' %(np.sqrt(np.var(recon_total[:,0]-truth_total[:,0]))))
     f.write('x bias: %f m\n' %(np.mean(np.abs(recon_total[:,1]-truth_total[:,1]))))
@@ -56,7 +68,7 @@ plt.hist2d(recon_total[:, 0], recon_total[:, 5],bins=100)
 plt.colorbar()
 plt.xlabel('Energy: [MeV]', size=20)
 plt.ylabel(r'$\tau_d$: [ns]', size=20)
-plt.savefig('./figure/E_vs_taud.png')
+plt.savefig(fig_path + '/E_vs_taud.png')
 # if need to be showed
 # plt.ion()
 # plt.pause(5)  #显示秒数
@@ -100,7 +112,21 @@ for i in range(len(EE) - 1):
         tau_res_abs[i,j] = np.sqrt(np.var(tau_real[index] - recon_total[index,5]))
 # if nan exist
 # *_rlt[np.isnan(*_rlt)] = 0
+E_bias_rlt=np.nan_to_num(E_bias_rlt)
+E_res_rlt=np.nan_to_num(E_res_rlt)
+x_bias_rlt=np.nan_to_num(x_bias_rlt)
+x_res_rlt= np.nan_to_num(x_res_rlt)
+tau_bias_rlt= np.nan_to_num(tau_bias_rlt) 
+tau_res_rlt= np.nan_to_num(tau_res_rlt) 
+
 # *_abs[np.isnan(*_abs)] = 0
+E_bias_abs= np.nan_to_num(E_bias_abs)
+E_res_abs= np.nan_to_num(E_res_abs)
+x_bias_abs= np.nan_to_num(x_bias_abs)
+x_res_abs= np.nan_to_num(x_res_abs)
+tau_bias_abs= np.nan_to_num(tau_bias_abs) 
+tau_res_abs= np.nan_to_num(tau_res_abs) 
+
 
 # fig_1 Energy bias
 fig=plt.figure(num=1,figsize=(15,7))
