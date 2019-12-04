@@ -138,6 +138,14 @@ def con(args):
     {'type': 'ineq', 'fun': lambda x: (x[4] + 100)*(300-x[4])})
     return cons
 
+def recon_drc(time_array, fired_PMT, recon_vertex):
+    time_corr = time_array - np.sum(PMT_pos[fired_PMT,1:4]-np.tile(recon_vertex[0,1:4],[len(fired_PMT),1]))/(3*10**8)
+    index = np.argsort(time_corr)
+    fired_PMT_sorted = fired_PMT[index]
+    fired_PMT_sorted = fired_PMT_sorted[0:int(np.floor(len(fired_PMT_sorted)/10))]
+    drc = np.sum(PMT_pos[fired_PMT_sorted,1:4],0)/len(fired_PMT_sorted)
+    return drc
+
 def recon(fid, fout):
     '''
     reconstruction
@@ -166,12 +174,16 @@ def recon(fid, fout):
         fired_PMT = np.zeros(TruthChain.PEList.size(), dtype = 'int')
         count = 0
         truth_vertex = np.empty((1,4))
+        truth_px = np.empty((1,3))
         for truth in TruthChain.truthList:
             truth_vertex[0][0] = truth.EkMerged
             truth_vertex[0][1] = truth.x/1000
             truth_vertex[0][2] = truth.y/1000
             truth_vertex[0][3] = truth.z/1000
-
+            for A in truth.PrimaryParticleList:
+                truth_px[0][0] = A.px
+                truth_px[0][1] = A.py
+                truth_px[0][2] = A.pz
         for pe in TruthChain.PEList:
             if(pe.PEType != -1):
                 time_array[count] = pe.PulseTime
@@ -202,6 +214,8 @@ def recon(fid, fout):
 
         result_truth = np.vstack((result_truth, truth_vertex))
         result_recon = np.vstack((result_recon, recon_vertex))
+        result_drc = recon_drc(time_array, fired_PMT, recon_vertex)
+        print(np.sum(result_drc*truth_px)/np.sqrt(np.sum(result_drc**2)*np.sum(truth_px**2)))
         '''
         EE = recon_vertex[0,0]
         xx = recon_vertex[0,1]
