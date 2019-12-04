@@ -14,7 +14,7 @@ np.set_printoptions(suppress=True)
 
 Light_yield = 4285*0.88 # light yield
 Att_LS = 18 # attenuation length of LS
-Att_Wtr = 500 # attenuation length of water
+Att_Wtr = 300 # attenuation length of water
 tau_r = 1.6 # fast time constant
 TTS = 5.5/2.355
 QE = 0.20
@@ -48,20 +48,12 @@ def Likelihood(args):
     d1 = np.tile(np.array([x,y,z]),[len(PMT_pos[:,1]),1])
     d2 = PMT_pos[:,1:4]
     d3 = d2 - d1
-    # print(max(PMT_pos[:,1]))
-    # print(2*np.sum(d3*d1,1))
-    # print(4*np.sum(d3*d1,1)**2)
-    # print(np.sum(d3**2,1))
-    # print(4*np.sum(d3**2,1)*(np.sum(d1**2,1)-shell**2))
-    # print(2*np.sum(d3**2,1))
-    # print(x,y,z)
-    # print(np.array([1,1,1])/np.array([0.2,0.3,0.5]))
+    # cons beyond shell ?
     lmbd = (-2*np.sum(d3*d1,1) \
         + np.sqrt(4*np.sum(d3*d1,1)**2 \
-        - 4*np.sum(d3**2,1)*(np.sum(d1**2,1)-shell**2))) \
+        - 4*np.sum(d3**2,1)*(-np.abs((np.sum(d1**2,1)-shell**2))))) \
         /(2*np.sum(d3**2,1))
-    # expect = Energy*Light_yield*np.exp(-distance*lmbd/Att_LS - distance*(1-lmbd)/Att_Wtr)*SolidAngle(x,y,z,distance)*QE
-    expect = Energy*Light_yield*np.exp(-distance/Att_LS)*SolidAngle(x,y,z,distance)*QE
+    expect = Energy*Light_yield*np.exp(-distance*lmbd/Att_LS - distance*(1-lmbd)/Att_Wtr)*SolidAngle(x,y,z,distance)*QE
     p_pe = - expect + pe_array*np.log(expect) - np.log(special.factorial(pe_array));
     # p_pe = - np.log(stats.poisson.pmf(pe_array, expect))
     Likelihood_pe = - np.nansum(p_pe)
@@ -72,11 +64,46 @@ def Likelihood(args):
     return Likelihood_total
 
 def SolidAngle(x, y, z, distance):
-    theta = ((x - PMT_pos[:,1]) * PMT_pos[:,1] + (y - PMT_pos[:,2]) * PMT_pos[:,2] + (z - PMT_pos[:,3]) * PMT_pos[:,3]) / \
-    np.sqrt((x - PMT_pos[:,1])**2 + (y - PMT_pos[:,2])**2 + (z - PMT_pos[:,3])**2) / \
-    np.sqrt(PMT_pos[:,1]**2 + PMT_pos[:,2]**2 + PMT_pos[:,3]**2)
-    omega = (1- distance/np.sqrt(distance**2+PMT_radius**2*abs(theta)))/2
-    return omega
+    radius_O1 = PMT_radius # PMT bottom surface
+    radius_O2 = 0.315 # PMT sphere surface
+    PMT_vector = - PMT_pos[:,1:4]/np.transpose(np.tile(np.sqrt(np.sum(PMT_pos[:,1:4]**2,1)),[3,1]))
+    O1 = np.tile(np.array([x,y,z]),[len(PMT_pos[:,1]),1])
+    O2 = PMT_pos[:,1:4]
+    d1 = np.sqrt(radius_O2**2 - radius_O1**2)
+    O3 = (O2 + PMT_vector*d1)
+    flight_vector = O2 - O1
+    d2 = np.sqrt(np.sum(flight_vector**2,1))
+    O4 = O2 - flight_vector/ \
+        np.transpose(np.tile(d2*np.sqrt(radius_O2**2*(d2**2 - radius_O2**2)/d2**2),[3,1]))
+    # Helen formula
+    a = np.sqrt(np.sum((O4-O2)**2,1))
+    b = np.sqrt(np.sum((O4-O3)**2,1))
+    c = np.sqrt(np.sum((O3-O2)**2,1))
+    p = (a+b+c)/2
+    d = 2*a*b*c/(4*np.sqrt(p*(p-a)*(p-b)*(p-c)))
+    '''
+    # this part influence the speed!
+    data = np.array([a,b,c])
+    sorted_cols = []
+    for col_no in range(data.shape[1]):
+        sorted_cols.append(data[np.argsort(data[:,col_no])][:,col_no])
+    sorted_data = np.column_stack(sorted_cols)
+
+    a = sorted_data[0,:]
+    b = sorted_data[1,:]
+    c = sorted_data[2,:]
+    d[a+b-c<=1*10**(-10)] = 1 # avoid inf
+    '''
+    d = np.transpose(d)
+    chord = 2*np.sqrt(radius_O2**2 - d[d<radius_O2]**2)
+
+    theta1 = np.sum(PMT_vector*flight_vector,1)/np.sqrt(np.sum(PMT_vector**2,1)*np.sum(flight_vector**2,1))
+    add_area = 1/3* \
+        (radius_O2 - radius_O1*np.abs(theta1[d<radius_O2]) \
+        - np.sqrt(radius_O2**2 - radius_O1**2)*np.abs(np.sin(np.arccos(theta1[d<radius_O2]))))*chord
+    Omega = (1-d2/np.sqrt(d2**2+radius_O1*np.abs(theta1)))/2
+    Omega[d<radius_O2] = Omega[d<radius_O2] + add_area/(4*d2[d<radius_O2]**2)
+    return Omega
 
 def TimeProfile(time_array, distance, tau_d, t):
     time_correct = time_array - distance/(c/n)*1e9 - t
@@ -106,7 +133,7 @@ def con(args):
     = args
 
     cons = ({'type': 'ineq', 'fun': lambda x: x[0] - Emin},\
-    {'type': 'ineq', 'fun': lambda x: radius**2 - (x[1]**1 + x[2]**2+x[3]**2)},\
+    {'type': 'ineq', 'fun': lambda x: radius**2 - (x[1]**2 + x[2]**2+x[3]**2)},\
     {'type': 'ineq', 'fun': lambda x: x[5] - 5},\
     {'type': 'ineq', 'fun': lambda x: (x[4] + 100)*(300-x[4])})
     return cons

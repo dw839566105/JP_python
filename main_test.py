@@ -45,11 +45,13 @@ def Likelihood(args):
     expect = Energy*Light_yield*np.exp(-distance/Att_length)*SolidAngle(x,y,z,distance)*QE
     p_pe = - expect + pe_array*np.log(expect) - np.log(special.factorial(pe_array));
     # p_pe = - np.log(stats.poisson.pmf(pe_array, expect))
+    print(p_pe)
     Likelihood_pe = - np.nansum(p_pe)
     p_time = TimeProfile(time_array, distance[fired_PMT], tau_d, t)
     Likelihood_time = - np.nansum(p_time)
     
-    Likelihood_total = Likelihood_pe + Likelihood_time
+    #Likelihood_total = Likelihood_pe + Likelihood_time
+    Likelihood_total = Likelihood_pe
     return Likelihood_total
 
 def SolidAngle(x, y, z, distance):
@@ -87,9 +89,9 @@ def con(args):
     = args
 
     cons = ({'type': 'ineq', 'fun': lambda x: x[0] - Emin},\
-    {'type': 'ineq', 'fun': lambda x: radius**2 - (x[1]**1 + x[2]**2+x[3]**2)},\
+    {'type': 'ineq', 'fun': lambda x: radius**2 - (x[1]**2 + x[2]**2+x[3]**2)},\
     {'type': 'ineq', 'fun': lambda x: x[5] - 5},\
-    {'type': 'ineq', 'fun': lambda x: (x[4] + 100)*(300-x[4])})
+    {'type': 'ineq', 'fun': lambda x: (x[4] + 300)*(300-x[4])})
     return cons
 
 def recon(fid, fout):
@@ -130,8 +132,8 @@ def recon(fid, fout):
         for pe in TruthChain.PEList:
             if(pe.PEType != -1):
                 time_array[count] = pe.PulseTime
-                #fired_PMT[count] = int(pe.PMTId-1); # PMTId range 1-8607
-                fired_PMT[count] = int(pe.PMTId); # PMTId range 1-8607
+                fired_PMT[count] = int(pe.PMTId-1); # PMTId range 1-8607
+                #fired_PMT[count] = int(pe.PMTId); # PMTId range 1-8607
                 pe_array[pe.PMTId-1] = pe_array[pe.PMTId-1] + 1
                 count = count + 1
 
@@ -145,8 +147,6 @@ def recon(fid, fout):
         x0[0][3] = np.sum(pe_array*PMT_pos[:,3])/np.sum(pe_array)
         x0[0][4] = 15
         x0[0][5] = 6
-        print(PMT_pos[8,:])
-        print(np.sum(pe_array))
         Emin = 0.01
         recon_vertex = np.empty((1,6))
         args = (Emin, np.sqrt(np.sum(PMT_pos[1,:]**2)))
