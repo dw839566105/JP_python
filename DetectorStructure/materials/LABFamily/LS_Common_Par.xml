@@ -1,0 +1,87 @@
+<define>
+
+	<!-- ********** Rayleigh scattering length ********** -->
+	<matrix 
+	    name="RAY" 
+		coldim="2" 
+		values="3.687*eV			73.046*m
+				3.313*eV			121.212*m
+				3.068*eV			176.678*m
+				2.792*eV			291.545*m
+				2.627*eV			366.300*m"
+	/>
+
+	<!-- Refractive index -->
+	<matrix 
+		name="LAB_RINDEX"   coldim="2" 
+		values="5.916*eV		1.73796
+				5.647*eV		1.74065
+				5.522*eV		1.70736
+				5.177*eV		1.62536
+				4.437*eV		1.56068
+				3.882*eV		1.53240
+				3.451*eV		1.51580
+				3.106*eV		1.50493
+				3.067*eV		1.50381
+				2.833*eV		1.49757
+				2.515*eV		1.49015
+				2.268*eV		1.48514
+				2.143*eV		1.48282
+				1.981*eV		1.48003
+				1.941*eV		1.47938
+				1.827*eV		1.47758
+				1.726*eV		1.47605
+				1.635*eV		1.47474"
+	/>
+	<!-- The rindex of LAB -->
+	<matrix 
+		name="LS_Formula_RINDEX" 
+		coldim="2" 
+		values="5.916*eV		1.64007
+				5.647*eV		1.62064
+				5.522*eV		1.61214
+				5.177*eV		1.59049
+				4.437*eV		1.55186
+				3.882*eV		1.52896
+				3.451*eV		1.51424
+				3.106*eV		1.50420
+				3.067*eV		1.50315
+				2.833*eV		1.49727
+				2.515*eV		1.49022
+				2.268*eV		1.48545
+				2.143*eV		1.48325
+				1.981*eV		1.48064
+				1.941*eV		1.48004
+				1.827*eV		1.47838
+				1.726*eV		1.47700
+				1.635*eV		1.47584"
+	/>
+
+
+	<!-- Birks' constant -->
+	<matrix 
+		name="BIRKS" 
+		coldim="1" 
+		values="0.165*mm/MeV"
+	/>
+
+	
+	<!-- Scintillation resolution scale -->
+	<matrix 
+		name="Res" 
+		coldim="1" 
+		values="1.0"
+	/>
+
+
+	<!-- Scintillation slow time constant -->
+	<!--matrix name="SlowTimeConst" coldim="1" values="1000.*ns"/-->
+
+	<!-- Scintillation fast component ratio -->
+	<matrix 
+		name="YieldRatio" 
+		coldim="1" 
+		values="1.0"
+	/>
+
+</define>

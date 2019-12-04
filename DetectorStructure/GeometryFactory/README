@@ -1,0 +1,3 @@
+1. Write PMTs' position infomation into a ascii file PMT_pos.dat
+2. Run Positioner.py to generate a xml file PMT_Position.xml
+3. Embed the PMT_Position.xml into the main gdml file, such as DayaBay.gdml

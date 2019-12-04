@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE gdml_simple_extension [
+
+<!ENTITY Materials SYSTEM "../materials/Material.xml">
+<!ENTITY Acrylic SYSTEM "../materials/Acrylic.xml">
+<!ENTITY LS SYSTEM "../materials/LS.xml">
+<!ENTITY LAB SYSTEM "../materials/LAB.xml">
+<!ENTITY LAB_0.0PPO SYSTEM "../materials/LAB_0.0PPO.xml">
+<!ENTITY LAB_0.01PPO SYSTEM "../materials/LAB_0.01PPO.xml">
+<!ENTITY LAB_0.02PPO SYSTEM "../materials/LAB_0.02PPO.xml">
+<!ENTITY LAB_0.04PPO SYSTEM "../materials/LAB_0.04PPO.xml">
+<!ENTITY LAB_0.07PPO SYSTEM "../materials/LAB_0.07PPO.xml">
+<!ENTITY LAB_0.1PPO SYSTEM "../materials/LAB_0.1PPO.xml">
+<!ENTITY LAB_0.15PPO SYSTEM "../materials/LAB_0.15PPO.xml">
+<!ENTITY LAB_0.2PPO SYSTEM "../materials/LAB_0.2PPO.xml">
+<!ENTITY LAB_0.5PPO SYSTEM "../materials/LAB_0.5PPO.xml">
+<!ENTITY LAB_1.0PPO SYSTEM "../materials/LAB_1.0PPO.xml">
+<!ENTITY LAB_2.0PPO SYSTEM "../materials/LAB_2.0PPO.xml">
+<!ENTITY LAB_3.0PPO SYSTEM "../materials/LAB_3.0PPO.xml">
+<!ENTITY LAB_IDEAL SYSTEM "../materials/LAB_IDEAL.xml">
+<!ENTITY LAB_0.07PPO_13bis SYSTEM "../materials/LAB_0.07PPO_13bis.xml">
+
+<!ENTITY Water SYSTEM "../materials/Water.xml">
+<!ENTITY Mineral_Oil SYSTEM "../materials/Mineral_Oil.xml">
+
+<!ENTITY PMT_Property SYSTEM "../PMTlib/Hamamatsu_R3600_02/Hamamatsu_R3600_02_Elec.xml">
+<!ENTITY PMT_Positions SYSTEM "PMT_Position.xml">
+<!ENTITY PMT_Gain SYSTEM "PMT_Gain.xml">
+<!ENTITY PMT_Material SYSTEM "../materials/PMT_Material.xml">
+<!ENTITY Trigger_Params SYSTEM "Trigger_Params.xml">
+]>
+
+<gdml_simple_extension
+    xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+    xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+
+    <extension>
+        <color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.2"/> 
+        <color name="Steel_color" R="0.5" G="0.5" B="0.5" A="0.2"/> 
+        <color name="Water_color" R="0.0" G="1.0" B="0.8" A="0.4"/> 
+        <color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+        <color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/> 
+        <color name="Acrylic_Black_color" R="0.0" G="0.0" B="0.0" A="0.1"/> 
+
+    </extension>
+
+
+
+
+
+    <!-- QE and others about PMT-->
+    &Trigger_Params;
+    &PMT_Property;
+    &PMT_Gain;
+
+
+
+    <!--materials-->
+    &Materials;
+    &Acrylic;
+    &LAB;
+    &LAB_0.0PPO;
+    &LAB_0.01PPO;
+    &LAB_0.02PPO;
+    &LAB_0.04PPO;
+    &LAB_0.07PPO;
+    &LAB_0.1PPO;
+    &LAB_0.15PPO;
+    &LAB_0.2PPO;
+    &LAB_0.5PPO;
+    &LAB_1.0PPO;
+    &LAB_2.0PPO;
+    &LAB_3.0PPO;
+    &LAB_IDEAL;
+    &LS;
+    &Water;
+    &Mineral_Oil;
+    &PMT_Material;
+	&LAB_0.07PPO_13bis;
+
+    <solids>
+        <box name="WorldBox" x="40" y="40" z="40" lunit="m"/>
+        <orb name="PMTOrb" r="114.3" lunit="mm"/>
+        <eltube name="ShellTube" dx="22.01/2" dy="22.01/2" dz="22.01/2" lunit= "m" />
+        <eltube name="OilTube" dx="22/2" dy="22/2" dz="22/2" lunit= "m" />
+
+        <eltube name="SupportTubeOuter" dx="18.002/2" dy="18.002/2" dz="18.002/2" lunit= "m" />
+        <eltube name="SupportTubeInner" dx="18./2" dy="18./2" dz="18./2" lunit= "m" />
+
+        <eltube name="AcrylicTube" dx="16.01/2" dy="16.01/2" dz="16.01/2" lunit= "m" />
+
+        <eltube name="SciTube" dx="16/2" dy="16/2" dz="16/2" lunit= "m" />
+
+        <!-- Fiduial volume R= 7.3 m Height = 14.6 m -->
+
+        <subtraction name= "Support_Tube">
+            <first       ref = "SupportTubeOuter"/>
+            <second      ref = "SupportTubeInner" />
+            <position x="0." y="0." z="0." unit="m"/>
+        </subtraction>
+
+
+    </solids>
+
+    <structure>
+        <!--volume name="PMTLog">
+            <physvol>
+                <file name="_20inPMT.gdml"/>
+            </physvol>
+        </volume-->
+        <volume name="SciLog">
+            <!--materialref ref="LAB_2.0PPO"/-->
+            <materialref ref="LAB_bis"/>
+            <!--materialref ref="Water"/-->
+            <solidref ref="SciTube"/>
+            <colorref ref="LAB_color"/>
+            <auxiliary auxtype="dEID" auxvalue="1"/>
+        </volume>
+        <volume name="AcrylicLog">
+            <materialref ref="Acrylic"/>
+            <solidref ref="AcrylicTube"/>
+            <colorref ref="Acrylic_color"/>
+            <physvol>
+                <volumeref ref="SciLog"/>
+            </physvol>
+        </volume>
+
+        <volume name="Support_TubeLog">
+            <materialref ref="IronShell"/>
+            <solidref ref="Support_Tube"/>
+            <colorref ref="Steel_color"/>
+        </volume>
+
+
+        <volume name="OilLog">
+            <materialref ref="Water"/>
+            <solidref ref="OilTube"/>
+            <colorref ref="Oil_color"/>
+            <physvol>
+                <volumeref ref="AcrylicLog"/>
+            </physvol>
+
+            <physvol>
+                <volumeref ref="Support_TubeLog"/>
+                <position x="0." y="0" z="0." unit="m"/>
+            </physvol>
+
+             &PMT_Positions; 
+
+        </volume>
+        <volume name="ShellLog">
+            <materialref ref="IronShell"/>
+            <solidref ref="ShellTube"/>
+            <colorref ref="Steel_color"/>
+            <physvol>
+                <volumeref ref="OilLog"/>
+            </physvol>
+        </volume>
+        <volume name="TOP">
+            <materialref ref="Water"/>
+            <solidref ref="WorldBox"/>
+            <physvol>
+                <volumeref ref="ShellLog"/>
+            </physvol>
+        </volume>
+
+    </structure>
+
+    <setup version="1.0" name="Default">
+        <world ref="TOP"/>
+    </setup>
+
+</gdml_simple_extension>

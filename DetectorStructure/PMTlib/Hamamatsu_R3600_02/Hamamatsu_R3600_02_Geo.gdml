@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+<solids>
+	<opticalsurface name="surf12" model="glisur" finish="polished" type="dielectric_metal" value="1.0" reflectivity="0.14"/>
+	<sphere name="window" rmax="250" deltaphi="360" deltatheta="90" aunit="degree" lunit="mm"/>
+	<sphere name="cathode" rmax="249.931" deltaphi="360" deltatheta="90" aunit="degree" lunit="mm"/>
+</solids>
+
+<structure>
+	<volume name="CathodeLog">
+		<materialref ref="CsPMT"/>
+		<solidref ref="cathode"/>
+	</volume>
+	<volume name="WindowLog">
+		<materialref ref="Boro_glass"/>
+		<solidref ref="window"/>
+		<physvol>
+			<volumeref ref="CathodeLog"/>
+		</physvol>
+	</volume>
+	<skinsurface name="skinsrf1" surfaceproperty="surf12" >
+		<volumeref ref="CathodeLog"/>
+	</skinsurface> 
+</structure>
+
+<setup version="1.0" name="Default">
+	<world ref="WindowLog"/>
+</setup>
+
+</gdml>

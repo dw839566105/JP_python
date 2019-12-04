@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE gdml_simple_extension [
+
+<!ENTITY Materials SYSTEM "../materials/Material.xml">
+<!ENTITY Acrylic SYSTEM "../materials/Acrylic.xml">
+<!ENTITY LS SYSTEM "../materials/LS.xml">
+<!ENTITY LAB SYSTEM "../materials/LAB.xml">
+<!ENTITY LAB_0.0PPO SYSTEM "../materials/LAB_0.0PPO.xml">
+<!ENTITY LAB_0.07PPO_13bis SYSTEM "../materials/LS_500t.xml">
+
+<!ENTITY Water SYSTEM "../materials/Water.xml">
+<!ENTITY Mineral_Oil SYSTEM "../materials/Mineral_Oil.xml">
+
+<!ENTITY PMT_Property SYSTEM "../PMTlib/Test_8inch/Test_8inch_Elec.xml">
+<!ENTITY PMT_Positions SYSTEM "PMT_Position.xml">
+<!ENTITY PMT_Gain SYSTEM "PMT_Gain.xml">
+<!ENTITY PMT_Material SYSTEM "../materials/PMT_Material.xml">
+<!ENTITY Trigger_Params SYSTEM "Trigger_Params.xml">
+]>
+
+<gdml_simple_extension
+    xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+    xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+    <extension>
+        <color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.3"/> 
+        <color name="Steel_color" R="0.5" G="0.5" B="0.9" A="0.2"/>
+        <color name="Water_color" R="0.0" G="0.5" B="0.8" A="0.3"/> 
+        <color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+        <color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/>
+        <color name="Acrylic_Black_color" R="0.0" G="0.0" B="0.0" A="0.1"/> 
+        <color name="Rock_color" R="0.33" G="0.33" B="0.5" A="0.3"/> 
+    </extension>
+
+
+
+    <!-- QE and others about PMT-->
+    &Trigger_Params;
+    &PMT_Property;
+    &PMT_Gain;
+
+    <!--materials-->
+    &Materials;
+    &Acrylic;
+    &LAB;
+    &LAB_0.0PPO;
+    &LS;
+    &Water;
+    &Mineral_Oil;
+    &PMT_Material;
+	&LAB_0.07PPO_13bis;
+
+    <solids>
+        <box name="WorldBox" x="30" y="30" z="30" lunit="m"/>
+
+        <orb name="SciOrb" r="5.18" lunit="m"/>
+
+        <orb name="AcrylicOrb" r="5.24" lunit="m"/>
+
+        <orb name="SupportOrb_Inner" r="7.73" lunit="m"/>
+		  <orb name="SupportOrb_Outer" r="7.74" lunit="m"/>
+
+
+        <eltube name="OilBox"  dx="9.74" dy="9.74" dz="9.74" lunit="m"/>
+
+        <eltube name="TankBox" dx="9.75" dy="9.75" dz="9.75" lunit="m"/>
+
+        <eltube name="RockBox" dx="10" dy="10" dz="10" lunit="m"/>
+
+
+        <subtraction name= "Support_Shell">
+            <first       ref = "SupportOrb_Outer"/>
+            <second      ref = "SupportOrb_Inner" />
+            <position x="0." y="0." z="0." unit="m"/>
+        </subtraction>
+    </solids>
+
+    <structure>
+
+        <volume name="SciLog">
+            <materialref ref="LAB_bis"/>
+            <solidref ref="SciOrb"/>
+            <colorref ref="LAB_color"/>
+            <auxiliary auxtype="dEID" auxvalue="1"/>
+        </volume>
+
+        <volume name="AcrylicLog">
+            <materialref ref="Acrylic"/>
+            <solidref ref="AcrylicOrb"/>
+            <colorref ref="Acrylic_color"/>
+            <physvol>
+                <volumeref ref="SciLog"/>
+            </physvol>
+        </volume>
+
+        <volume name="Support_ShellLog">
+            <materialref ref="IronShell"/>
+            <solidref ref="Support_Shell"/>
+            <colorref ref="Steel_color"/>
+        </volume>
+
+        <volume name="OilLog">
+            <materialref ref="Water"/>
+            <solidref ref="OilBox"/>
+            <colorref ref="Oil_color"/>
+            <physvol>
+                <volumeref ref="AcrylicLog"/>
+            </physvol>
+
+            <physvol>
+                <volumeref ref="Support_ShellLog"/>
+                <position x="0." y="0" z="0." unit="m"/>
+            </physvol>
+
+			&PMT_Positions; 
+
+        </volume>
+
+        <volume name="TankLog">
+            <materialref ref="IronShell"/>
+            <solidref ref="TankBox"/>
+            <colorref ref="Steel_color"/>
+            <physvol>
+                <volumeref ref="OilLog"/>
+            </physvol>
+        </volume>
+
+        <volume name="RockLog">
+            <materialref ref="IronShell"/>
+            <solidref ref="RockBox"/>
+            <colorref ref="Rock_color"/>
+            <physvol>
+                <volumeref ref="TankLog"/>
+            </physvol>
+        </volume>
+
+        <volume name="TOP">
+            <materialref ref="Air"/>
+            <solidref ref="WorldBox"/>
+            <physvol>
+                <volumeref ref="RockLog"/>
+            </physvol>
+        </volume>
+
+    </structure>
+
+    <setup version="1.0" name="Default">
+        <world ref="TOP"/>
+    </setup>
+
+</gdml>

@@ -1,0 +1,214 @@
+<extension>
+
+<PMT name="PMT_1">
+	<property name="Gain" value="2.65E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0172"/>
+</PMT>
+
+<PMT name="PMT_2">
+	<property name="Gain" value="2.78E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0004"/>
+</PMT>
+
+<PMT name="PMT_3">
+	<property name="Gain" value="2.81E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0140"/>
+</PMT>
+
+<PMT name="PMT_4">
+	<property name="Gain" value="2.82E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9999"/>
+</PMT>
+
+<PMT name="PMT_5">
+	<property name="Gain" value="2.68E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9858"/>
+</PMT>
+
+<PMT name="PMT_6">
+	<property name="Gain" value="2.51E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9706"/>
+</PMT>
+
+<PMT name="PMT_7">
+	<property name="Gain" value="2.77E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9976"/>
+</PMT>
+
+<PMT name="PMT_8">
+	<property name="Gain" value="2.74E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0117"/>
+</PMT>
+
+<PMT name="PMT_9">
+	<property name="Gain" value="2.48E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0037"/>
+</PMT>
+
+<PMT name="PMT_10">
+	<property name="Gain" value="2.66E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0246"/>
+</PMT>
+
+<PMT name="PMT_11">
+	<property name="Gain" value="2.48E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0159"/>
+</PMT>
+
+<PMT name="PMT_12">
+	<property name="Gain" value="2.41E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9791"/>
+</PMT>
+
+<PMT name="PMT_13">
+	<property name="Gain" value="2.42E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9609"/>
+</PMT>
+
+<PMT name="PMT_14">
+	<property name="Gain" value="2.71E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9922"/>
+</PMT>
+
+<PMT name="PMT_15">
+	<property name="Gain" value="2.50E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9998"/>
+</PMT>
+
+<PMT name="PMT_16">
+	<property name="Gain" value="2.81E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9833"/>
+</PMT>
+
+<PMT name="PMT_17">
+	<property name="Gain" value="2.53E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0044"/>
+</PMT>
+
+<PMT name="PMT_18">
+	<property name="Gain" value="2.79E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9884"/>
+</PMT>
+
+<PMT name="PMT_19">
+	<property name="Gain" value="2.78E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9734"/>
+</PMT>
+
+<PMT name="PMT_20">
+	<property name="Gain" value="2.76E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9790"/>
+</PMT>
+
+<PMT name="PMT_21">
+	<property name="Gain" value="2.76E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0040"/>
+</PMT>
+
+<PMT name="PMT_22">
+	<property name="Gain" value="2.76E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0240"/>
+</PMT>
+
+<PMT name="PMT_23">
+	<property name="Gain" value="2.83E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9744"/>
+</PMT>
+
+<PMT name="PMT_24">
+	<property name="Gain" value="2.59E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0014"/>
+</PMT>
+
+<PMT name="PMT_25">
+	<property name="Gain" value="2.72E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0108"/>
+</PMT>
+
+<PMT name="PMT_26">
+	<property name="Gain" value="2.78E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0094"/>
+</PMT>
+
+<PMT name="PMT_27">
+	<property name="Gain" value="2.46E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0092"/>
+</PMT>
+
+<PMT name="PMT_28">
+	<property name="Gain" value="2.21E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="0.9883"/>
+</PMT>
+
+<PMT name="PMT_29">
+	<property name="Gain" value="2.91E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0136"/>
+</PMT>
+
+<PMT name="PMT_30">
+	<property name="Gain" value="2.40E6"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="HZC_XP1805"/>
+	<property name="QECorrection" value="1.0042"/>
+</PMT>
+
+
+</extension>

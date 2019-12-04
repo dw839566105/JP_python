@@ -1,0 +1,32 @@
+<define>
+
+<!-- Flag -->	
+<variable name="TRIGGER_PROPERTY" value="1"/>
+
+
+<!-- Window period. In ns -->
+<constant name="Time_Window" value="1024"/>
+
+<!-- Trigger position. In ns -->
+<constant name="Trigger_Position" value="175"/>
+
+<!-- ADC dynamic range. In V -->
+<constant name="ADC_DynamicRange" value="1.0"/>
+
+<!-- ADC precision. In bit -->
+<constant name="ADC_Bit" value="10"/>
+
+<!-- ADC DCOffset. In V -->
+<constant name="ADC_DCOffset" value="-0.1"/>
+
+<!--  Logical signal width. In ns -->
+<constant name="Coincidence_Window" value="125"/>
+
+<!-- Trigger threshold. In mV -->
+<constant name="Threshold" value="-5.0"/>
+
+<!-- Trigger condition. How many PMTs over threshold would cause a trigger. -->
+<constant name="Trigger_Condition" value="80"/>
+
+
+</define>

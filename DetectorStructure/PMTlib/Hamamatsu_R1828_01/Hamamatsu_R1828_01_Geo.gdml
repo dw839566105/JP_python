@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+
+
+<solids>
+	<opticalsurface name="surf12" model="glisur" finish="polished" type="dielectric_metal" value="1.0" reflectivity="0.14"/>
+	<eltube name="PMTShell_Tube" dx="50./2" dy="50./2" dz="100./2" lunit="mm"/>
+	<eltube name="window" dx="46./2" dy="46./2" dz="2./2" lunit="mm"/>
+	<eltube name="cathode" dx="46./2" dy="46./2" dz="1./2" lunit="mm"/>
+</solids>
+
+
+<structure>
+
+	<volume name="CathodeLog">
+		<materialref ref="CsPMT"/>
+		<solidref ref="cathode"/>
+	</volume>
+
+	<volume name="WindowLog">
+		<materialref ref="Boro_glass"/>
+		<solidref ref="window"/>
+		<physvol>
+			<volumeref ref="CathodeLog"/>
+			<position x="0." y="0." z="0.0" unit="mm"/>
+		</physvol>
+	</volume>
+
+	<skinsurface name="skinsrf1" surfaceproperty="surf12" >
+		<volumeref ref="CathodeLog"/>
+	</skinsurface>
+
+	<volume name="BodyLog">
+		<materialref ref="PMTShell"/>
+		<solidref ref="PMTShell_Tube"/>
+		<physvol>
+			<volumeref ref="WindowLog"/>
+			<position x="0." y="0." z="49" unit="mm"/>
+		</physvol>
+
+	</volume>
+
+
+</structure>
+
+<setup version="1.0" name="Default">
+	<world ref="BodyLog"/>
+</setup>
+
+</gdml_simple_extension>

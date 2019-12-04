@@ -1,0 +1,113 @@
+		<loop for="i1" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i1)" y="12.5/2*sin(360*degree/36*i1)" z="-11./2-11./16/2+11./16*1" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i2" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i2)" y="12.5/2*sin(360*degree/36*i2)" z="-11./2-11./16/2+11./16*2" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i3" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i3)" y="12.5/2*sin(360*degree/36*i3)" z="-11./2-11./16/2+11./16*3" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i4" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i4)" y="12.5/2*sin(360*degree/36*i4)" z="-11./2-11./16/2+11./16*4" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i5" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i5)" y="12.5/2*sin(360*degree/36*i5)" z="-11./2-11./16/2+11./16*5" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i6" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i6)" y="12.5/2*sin(360*degree/36*i6)" z="-11./2-11./16/2+11./16*6" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i7" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i7)" y="12.5/2*sin(360*degree/36*i7)" z="-11./2-11./16/2+11./16*7" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i8" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i8)" y="12.5/2*sin(360*degree/36*i8)" z="-11./2-11./16/2+11./16*8" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i9" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i9)" y="12.5/2*sin(360*degree/36*i9)" z="-11./2-11./16/2+11./16*9" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i10" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i10)" y="12.5/2*sin(360*degree/36*i10)" z="-11./2-11./16/2+11./16*10" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i11" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i11)" y="12.5/2*sin(360*degree/36*i11)" z="-11./2-11./16/2+11./16*11" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i12" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i12)" y="12.5/2*sin(360*degree/36*i12)" z="-11./2-11./16/2+11./16*12" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i13" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i13)" y="12.5/2*sin(360*degree/36*i13)" z="-11./2-11./16/2+11./16*13" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i14" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i14)" y="12.5/2*sin(360*degree/36*i14)" z="-11./2-11./16/2+11./16*14" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i15" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i15)" y="12.5/2*sin(360*degree/36*i15)" z="-11./2-11./16/2+11./16*15" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i16" to="36" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="12.5/2*cos(360*degree/36*i16)" y="12.5/2*sin(360*degree/36*i16)" z="-11./2-11./16/2+11./16*16" unit="m"/>
+			</physvol>
+		</loop>
+
+

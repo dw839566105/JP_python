@@ -1,0 +1,214 @@
+<extension>
+
+<PMT name="PMT_0">
+	<property name="Gain" value="164.80"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9813"/>
+</PMT>
+
+<PMT name="PMT_1">
+	<property name="Gain" value="147.06"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9968"/>
+</PMT>
+
+<PMT name="PMT_2">
+	<property name="Gain" value="152.46"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9930"/>
+</PMT>
+
+<PMT name="PMT_3">
+	<property name="Gain" value="149.13"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0245"/>
+</PMT>
+
+<PMT name="PMT_4">
+	<property name="Gain" value="158.16"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0208"/>
+</PMT>
+
+<PMT name="PMT_5">
+	<property name="Gain" value="165.09"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0237"/>
+</PMT>
+
+<PMT name="PMT_6">
+	<property name="Gain" value="150.58"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0407"/>
+</PMT>
+
+<PMT name="PMT_7">
+	<property name="Gain" value="160.57"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0117"/>
+</PMT>
+
+<PMT name="PMT_8">
+	<property name="Gain" value="154.78"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0032"/>
+</PMT>
+
+<PMT name="PMT_9">
+	<property name="Gain" value="158.64"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9982"/>
+</PMT>
+
+<PMT name="PMT_10">
+	<property name="Gain" value="162.18"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0044"/>
+</PMT>
+
+<PMT name="PMT_11">
+	<property name="Gain" value="157.18"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9958"/>
+</PMT>
+
+<PMT name="PMT_12">
+	<property name="Gain" value="153.02"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0146"/>
+</PMT>
+
+<PMT name="PMT_13">
+	<property name="Gain" value="149.48"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9999"/>
+</PMT>
+
+<PMT name="PMT_14">
+	<property name="Gain" value="145.48"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9806"/>
+</PMT>
+
+<PMT name="PMT_15">
+	<property name="Gain" value="144.93"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9905"/>
+</PMT>
+
+<PMT name="PMT_16">
+	<property name="Gain" value="161.53"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9959"/>
+</PMT>
+
+<PMT name="PMT_17">
+	<property name="Gain" value="150.15"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0103"/>
+</PMT>
+
+<PMT name="PMT_18">
+	<property name="Gain" value="158.74"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9741"/>
+</PMT>
+
+<PMT name="PMT_19">
+	<property name="Gain" value="154.97"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0049"/>
+</PMT>
+
+<PMT name="PMT_20">
+	<property name="Gain" value="161.38"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0143"/>
+</PMT>
+
+<PMT name="PMT_21">
+	<property name="Gain" value="156.01"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9810"/>
+</PMT>
+
+<PMT name="PMT_22">
+	<property name="Gain" value="155.50"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9905"/>
+</PMT>
+
+<PMT name="PMT_23">
+	<property name="Gain" value="153.89"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0160"/>
+</PMT>
+
+<PMT name="PMT_24">
+	<property name="Gain" value="150.42"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0168"/>
+</PMT>
+
+<PMT name="PMT_25">
+	<property name="Gain" value="147.61"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9775"/>
+</PMT>
+
+<PMT name="PMT_26">
+	<property name="Gain" value="161.89"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9980"/>
+</PMT>
+
+<PMT name="PMT_27">
+	<property name="Gain" value="149.40"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9850"/>
+</PMT>
+
+<PMT name="PMT_28">
+	<property name="Gain" value="154.31"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="0.9924"/>
+</PMT>
+
+<PMT name="PMT_29">
+	<property name="Gain" value="164.56"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R5912"/>
+	<property name="QECorrection" value="1.0207"/>
+</PMT>
+
+
+</extension>

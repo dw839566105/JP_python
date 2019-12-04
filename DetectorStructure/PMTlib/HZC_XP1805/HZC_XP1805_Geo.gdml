@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+
+<solids>
+	<opticalsurface name="surf12" model="glisur" finish="polished" type="dielectric_metal" value="1.0" reflectivity="0.14"/>
+  <!-- Define Nylon Shape -->
+	<tube name="Rubber_Tube" rmin="44" rmax="44.5" z="25" deltaphi="360" startphi="0" aunit="deg" lunit= "mm"/>
+
+	<tube name="Rubber_Solid_Tube" rmin="20" rmax="44.5" z="60" deltaphi="360" startphi="0" aunit="deg" lunit= "mm"/>
+
+	<tube name="Rubber_Top_Tube" rmin="0" rmax="52.5" z="24" deltaphi="360" startphi="0" aunit="deg" lunit= "mm"/>
+
+	<tube name="Rubber_Slide_Tube" rmin="59" rmax="61.5" z="35" deltaphi="360" startphi="0" aunit="deg" lunit= "mm"/>
+
+    <!-- PMT Shape Define-->
+	<sphere name = "thesphere1" rmin="129" rmax="133" deltaphi="360" deltatheta="50.75" aunit="degree" lunit= "mm"/>
+
+	<sphere name = "cathode" rmin="129.5" rmax="131" deltaphi="360" deltatheta="49" aunit="degree" lunit= "mm"/>
+
+	<box name="PMTBox" x="400" y="400" z="400" lunit="mm"/>
+
+	<cone name="PMTCone" rmin1="60" rmax1="61" rmin2="125" rmax2="126" z="200"
+startphi="0" deltaphi="360" aunit="deg" lunit= "mm" />
+	
+	<genericPolycone name="thepolycone" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+		<rzpoint r="0.01" z="84.143"/>
+
+		<rzpoint r="103" z="84.143"/>
+		<rzpoint r="104" z="82.651"/>
+		<rzpoint r="105" z="81.058"/>
+		<rzpoint r="106" z="79.350"/>
+		<rzpoint r="107" z="77.505"/>
+		<rzpoint r="108" z="75.495"/>
+		<rzpoint r="109" z="73.280"/>
+		<rzpoint r="110" z="70.796"/>
+		<rzpoint r="111" z="67.940"/>
+		<rzpoint r="112" z="64.507"/>
+		<rzpoint r="113" z="59.978"/>
+		<rzpoint r="114" z="48.887"/>
+		<rzpoint r="114" z="38.946"/>
+		<rzpoint r="113" z="26.336"/>
+		<rzpoint r="112" z="21.170"/>
+		<rzpoint r="111" z="17.243"/>
+
+		<rzpoint r="110" z="13.966"/>
+		<rzpoint r="109" z="11.107"/>
+		<rzpoint r="108" z="8.549"/>
+		<rzpoint r="107" z="6.210"/>
+		<rzpoint r="106" z="4.075"/>
+		<rzpoint r="105" z="2.081"/>
+		<rzpoint r="104" z="0.216"/>
+
+		<rzpoint r="103.880" z="0"/>
+
+		<rzpoint r="98" z="-9.054"/>
+		<rzpoint r="93" z="-15.082"/>
+		<rzpoint r="88" z="-20.078"/>
+		<rzpoint r="83" z="-24.292"/>
+		<rzpoint r="78" z="-27.867"/>
+		<rzpoint r="73" z="-30.903"/>
+		<rzpoint r="68" z="-33.470"/>
+		<rzpoint r="63" z="-35.613"/>
+		<rzpoint r="58" z="-37.369"/>
+		<rzpoint r="53" z="-38.765"/>
+		<rzpoint r="52.889" z="-38.792"/>
+		<rzpoint r="49.5" z="-39.847"/>
+		<rzpoint r="46.5" z="-41.200"/>
+		<rzpoint r="43.5" z="-43.022"/>
+		<rzpoint r="40.5" z="-45.433"/>
+		<rzpoint r="37.5" z="-48.679"/>
+		<rzpoint r="34.5" z="-53.390"/>
+		<rzpoint r="31.5" z="-66"/>
+        <rzpoint r="0.01" z="-66"/>
+	</genericPolycone>
+  
+     <!-- PMT Geometry subtraction and Union -->
+
+	<subtraction name="window">
+		<first ref="thesphere1"/>
+		<second ref="thepolycone"/>
+	</subtraction>
+
+	<union name="_9PMT">
+		<first ref="thesphere1"/>
+		<second ref="thepolycone"/>
+	</union>
+
+	<union name="RubberU_1">
+		<first ref="thepolycone"/>
+        <second ref="Rubber_Tube"/>
+	    <position x="0" y="0" z="-60.5" unit="mm"/>
+	</union>
+
+	<union name="RubberU_2">
+		<first ref="RubberU_1"/>
+        <second ref="Rubber_Solid_Tube"/>
+	    <position x="0" y="0" z="-103" unit="mm"/>
+	</union>
+
+	<union name="RubberU_3">
+		<first ref="RubberU_2"/>
+        <second ref="Rubber_Top_Tube"/>
+	    <position x="0" y="0" z="-145" unit="mm"/>
+	</union>
+
+	<union name="RubberU_4">
+		<first ref="RubberU_3"/>
+        <second ref="Rubber_Slide_Tube"/>
+	    <position x="0" y="0" z="-78" unit="mm"/>
+	</union>
+
+</solids>
+
+
+<structure>
+	<volume name="CathodeLog">
+		<materialref ref="CsPMT"/>
+		<solidref ref="cathode"/>
+		<!--colorref ref="Cs_color"/-->
+	</volume>
+
+
+	<volume name="WindowLog">
+		<materialref ref="Boro_glass"/>
+		<solidref ref="window"/>
+		<!--colorref ref="Boro_color"/-->
+		<physvol>
+			<volumeref ref="CathodeLog"/>
+		</physvol>
+	</volume>
+
+	<skinsurface name="skinsrf1" surfaceproperty="surf12" >
+		<volumeref ref="CathodeLog"/>
+	</skinsurface> 
+
+
+	<!--volume name="BodyLog">
+		<materialref ref="PMTShell"/>
+		<solidref ref="thepolycone"/>
+	</volume-->
+
+	<volume name="RubberLog">
+		<materialref ref="PMTShell"/>
+		<solidref ref="RubberU_4"/>
+	</volume>
+
+	<volume name="_9inPMT_s">
+		<materialref ref="Water"/>
+	<solidref ref="_9PMT"/>
+		<physvol>
+			<volumeref ref="WindowLog"/>
+		</physvol>
+		<!--physvol>
+			<volumeref ref="BodyLog"/>
+		</physvol-->
+    	<physvol>
+			<volumeref ref="RubberLog"/>
+	    <!--position x="0" y="0" z="-58.5" unit="mm"/-->
+		</physvol>
+
+
+	</volume>
+
+</structure>
+
+<setup version="1.0" name="Default">
+	<world ref="_9inPMT_s"/>
+</setup>
+
+</gdml_simple_extension>

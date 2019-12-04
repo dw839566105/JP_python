@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE gdml_simple_extension [
+
+<!ENTITY Common_Material SYSTEM "../materials/Common_Material.xml">
+<!ENTITY Acrylic SYSTEM "../materials/Acrylic.xml">
+<!ENTITY LS_Common_Par SYSTEM "../materials/LABFamily/LS_Common_Par.xml">
+<!ENTITY LAB SYSTEM "../materials/LABFamily/LAB_0.04PPO_0.13bis.xml">
+
+<!ENTITY Water SYSTEM "../materials/Water.xml">
+<!ENTITY Mineral_Oil SYSTEM "../materials/Mineral_Oil.xml">
+
+<!ENTITY PMT_Property SYSTEM "../PMTlib/Hamamatsu_R1828_01/Hamamatsu_R1828_01_Elec.xml">
+<!ENTITY PMT_Positions SYSTEM "PMT_Position.xml">
+<!ENTITY PMT_Gain SYSTEM "PMT_Gain.xml">
+<!ENTITY PMT_Material SYSTEM "../materials/PMT_Material.xml">
+<!ENTITY Trigger_Params SYSTEM "Trigger_Params.xml">
+]>
+
+<gdml_simple_extension
+    xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+    xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+    <extension>
+        <color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.3"/> 
+        <color name="Steel_color" R="0.5" G="0.5" B="0.9" A="0.2"/>
+        <color name="Water_color" R="0.0" G="0.5" B="0.8" A="0.3"/> 
+        <color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+        <color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/>
+        <color name="Acrylic_Black_color" R="0.0" G="0.0" B="0.0" A="0.1"/> 
+        <color name="Rock_color" R="0.33" G="0.33" B="0.5" A="0.3"/> 
+    </extension>
+
+    <!-- QE and others about PMT-->
+    &Trigger_Params;
+    &PMT_Property;
+    &PMT_Gain;
+
+    <!--materials-->
+    &Common_Material;
+    &Acrylic;
+    &LS_Common_Par;
+    &LAB;
+    &Water;
+    &Mineral_Oil;
+    &PMT_Material;
+
+    <solids>
+        <box name="WorldBox" x="30" y="30" z="30" lunit="m"/>
+		<box name="AcrylicBox" x="15.8" y="30.8" z="37.8" lunit="cm"/>
+		<box name="LSBox" x="14.4" y="29.4" z="36.4" lunit="cm"/>
+
+		<opticalsurface name="surfAcr" model="glisur" finish="polished" type="dielectric_metal" value="0.5" reflectivity="0.1"/>
+
+    </solids>
+
+    <structure>
+        <volume name="SciLog">
+            <materialref ref="LAB_0.04PPO_0.13bis"/>
+            <solidref ref="LSBox"/>
+            <colorref ref="LAB_color"/>
+            <auxiliary auxtype="dEID" auxvalue="1"/>
+            &PMT_Positions; 
+        </volume>
+
+        <volume name="AcrylicLog">
+            <materialref ref="Acrylic"/>
+            <solidref ref="AcrylicBox"/>
+            <colorref ref="Acrylic_color"/>
+            <physvol>
+                <volumeref ref="SciLog"/>
+            </physvol>
+        </volume>
+
+		<skinsurface name="skinsrfa" surfaceproperty="surfAcr" >
+			<volumeref ref="AcrylicLog"/>
+		</skinsurface>
+
+        <volume name="TOP">
+            <materialref ref="Air"/>
+            <solidref ref="WorldBox"/>
+            <physvol>
+                <volumeref ref="AcrylicLog"/>
+            </physvol>
+        </volume>
+
+    </structure>
+
+    <setup version="1.0" name="Default">
+        <world ref="TOP"/>
+    </setup>
+
+</gdml>

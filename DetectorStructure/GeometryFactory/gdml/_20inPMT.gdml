@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<gdml_simple_extension
+	xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+	xs:noNamespaceSchemaLocation="SimpleExtension.xsd">
+
+
+<extension>
+	<color name="Cs_color" R="1.0" G="0.8" B="0.0" A="1.0"/> 
+	<color name="Boro_color" R="1.0" G="1.0" B="1.0" A="0.1"/> 
+	<color name="Shell_color" R="0.6" G="0.6" B="0.7" A="1.0"/> 
+
+</extension>
+
+<define>
+	<quantity name="OuterRadius" type="r" value="1" unit="m"/>
+	<quantity name="InnerRadius" type="r" value="0.95" unit="m"/>
+	<position name="union_position" x="0" y="0" z="-8.5*cm"/>
+	<matrix name="Boro_RINDEX" coldim="2" values="2.96*eV 1.48"/>
+</define>
+
+<materials>
+	<element Z="6" formula="C" name="Carbon">
+		<atom value="12.011"/>
+	</element>
+	<element Z="8" formula="O" name="Oxygen">
+		<atom value="15.9994"/>
+	</element>
+	<element Z="7" formula="N" name="Nitrogen">
+		<atom value="14.0067"/>
+	</element>
+	<element Z="1" formula="H" name="Hydrogen">
+		<atom value="1.00794"/>
+	</element>
+	<element Z="14" formula="Si" name="Silicon">
+		<atom value="28.0855"/>
+	</element>
+	<element Z="55" formula="Cs" name="Cesium">
+		<atom value="135.9054"/>
+	</element>
+	<element Z="26" formula="Fe" name="Iron">
+		<atom value="55.847"/>
+	</element>
+
+	<material formula="Fe" name="PMTShell">
+		<D value="7.9"/>
+		<composite n="1" ref="Iron"/>
+	</material>
+	<material formula="Cs" name="CsPMT">
+		<D value="1.8785"/>
+		<composite n="1" ref="Cesium"/>
+	</material>
+	<material formula="SiO2" name="Boro_glass">
+		<property name="RINDEX" ref="Boro_RINDEX"/>
+		<D value="2.23"/>
+		<composite n="1" ref="Silicon"/>
+		<composite n="2" ref="Oxygen"/>
+	</material>
+</materials>
+
+<solids>
+
+	<genericPolycone name = "thesphere" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+
+		<rzpoint r="0" z="380"/>
+		<rzpoint r="87.8564" z="367.5"/>
+		<rzpoint r="122.984" z="355"/>
+		<rzpoint r="149.06" z="342.5"/>
+		<rzpoint r="170.294" z="330"/>
+		<rzpoint r="188.331" z="317.5"/>
+		<rzpoint r="204.022" z="305"/>
+		<rzpoint r="218.854" z="292.5"/>
+		<rzpoint r="228.974" z="280"/>
+		<rzpoint r="237.114" z="267.5"/>
+		<rzpoint r="243.629" z="255"/>
+		<rzpoint r="248.744" z="242.5"/>
+		<rzpoint r="252.607" z="230"/>
+		<rzpoint r="255.317" z="217.5"/>
+		<rzpoint r="256.936" z="205"/>
+		<rzpoint r="257.499" z="192.5"/>
+		<rzpoint r="257.019" z="180"/>
+		<rzpoint r="255.486" z="167.5"/>
+		<rzpoint r="252.865" z="155"/>
+		<rzpoint r="249.097" z="142.5"/>
+		<rzpoint r="244.087" z="130"/>
+		<rzpoint r="237.691" z="117.5"/>
+		<rzpoint r="229.692" z="105"/>
+		<rzpoint r="219.749" z="92.5"/>
+		<rzpoint r="207.28" z="80"/>
+		<rzpoint r="191.165" z="67.5"/>
+		<rzpoint r="165.976" z="55"/>
+		<rzpoint r="148.51" z="42.5"/>
+		<rzpoint r="138.392" z="30"/>
+		<rzpoint r="132.117" z="17.5"/>
+		<rzpoint r="128.625" z="5"/>
+
+		<rzpoint r="127" z="0"/>
+		<rzpoint r="0" z="0"/>
+	</genericPolycone>
+
+	<genericPolycone name = "cathode" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+
+		<rzpoint r="0" z="375"/>
+		<rzpoint r="87.1421" z="362.5"/>
+		<rzpoint r="121.963" z="350"/>
+		<rzpoint r="147.796" z="337.5"/>
+		<rzpoint r="168.819" z="325"/>
+		<rzpoint r="186.665" z="312.5"/>
+		<rzpoint r="202.176" z="300"/>
+		<rzpoint r="214.91" z="287.5"/>
+		<rzpoint r="224.431" z="275"/>
+		<rzpoint r="232.061" z="262.5"/>
+		<rzpoint r="238.118" z="250"/>
+		<rzpoint r="242.807" z="237.5"/>
+		<rzpoint r="246.261" z="225"/>
+		<rzpoint r="248.568" z="212.5"/>
+		<rzpoint r="249.783" z="200"/>
+		<rzpoint r="249.931" z="187.5"/>
+		<rzpoint r="249.017" z="175"/>
+		<rzpoint r="247.02" z="162.5"/>
+		<rzpoint r="243.894" z="150"/>
+		<rzpoint r="239.562" z="137.5"/>
+		<rzpoint r="233.905" z="125"/>
+		<rzpoint r="226.742" z="112.5"/>
+		<rzpoint r="217.792" z="100"/>
+		<rzpoint r="206.596" z="87.5"/>
+		<rzpoint r="192.318" z="75"/>
+		<rzpoint r="173.112" z="62.5"/>
+		<rzpoint r="149.199" z="50"/>
+		<rzpoint r="136.879" z="37.5"/>
+		<rzpoint r="129.254" z="25"/>
+		<rzpoint r="124.723" z="12.5"/>
+		<rzpoint r="122.679" z="0"/>
+		<rzpoint r="0" z="0"/>
+
+	</genericPolycone>
+
+
+	<genericPolycone name="thepolycone" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+
+		<rzpoint r="0" z="0"/>
+		<rzpoint r="127" z="0"/>
+		<rzpoint r="127" z="-10"/>
+		<rzpoint r="127" z="-20"/>
+		<rzpoint r="127" z="-30"/>
+		<rzpoint r="126.417" z="-40"/>
+		<rzpoint r="124.642" z="-50"/>
+		<rzpoint r="121.598" z="-60"/>
+		<rzpoint r="117.131" z="-70"/>
+		<rzpoint r="110.971" z="-80"/>
+		<rzpoint r="102.612" z="-90"/>
+		<rzpoint r="90.96" z="-100"/>
+		<rzpoint r="72.5595" z="-110"/>
+		<rzpoint r="51.5198" z="-120"/>
+		<rzpoint r="41" z="-130"/>
+		<rzpoint r="41" z="-140"/>
+		<rzpoint r="41" z="-150"/>
+		<rzpoint r="40.8901" z="-160"/>
+		<rzpoint r="38.8844" z="-170"/>
+		<rzpoint r="33.9411" z="-180"/>
+		<rzpoint r="24.3311" z="-190"/>
+
+		<rzpoint r="0" z="-190"/>
+
+	</genericPolycone>
+
+	<subtraction name="window">
+		<first ref="thesphere"/>
+		<second ref="thepolycone"/>
+	</subtraction>
+
+	<union name="_9PMT">
+		<first ref="thesphere"/>
+		<second ref="thepolycone"/>
+	</union>
+
+
+
+</solids>
+
+<structure>
+
+	<volume name="CathodeLog">
+		<materialref ref="CsPMT"/>
+		<solidref ref="cathode"/>
+		<colorref ref="Cs_color"/>
+	</volume>
+
+	<volume name="WindowLog">
+		<materialref ref="Boro_glass"/>
+		<solidref ref="window"/>
+		<colorref ref="Boro_color"/>
+		<physvol>
+			<volumeref ref="CathodeLog"/>
+		</physvol>
+	</volume>
+
+	<volume name="BodyLog">
+		<materialref ref="PMTShell"/>
+		<solidref ref="thepolycone"/>
+		<colorref ref="Shell_color"/>
+	</volume>
+
+	<volume name="_9inPMT">
+		<materialref ref="PMTShell"/>
+		<solidref ref="_9PMT"/>
+		<physvol>
+			<volumeref ref="WindowLog"/>
+		</physvol>
+		<physvol>
+			<volumeref ref="BodyLog"/>
+		</physvol>
+	</volume>
+
+
+</structure>
+
+<setup version="1.0" name="Default">
+	<world ref="_9inPMT"/>
+</setup>
+
+</gdml_simple_extension>

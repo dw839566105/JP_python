@@ -1,0 +1,10 @@
+<physvol name = "PMT_1">
+<file name = "../DetectorStructure/PMTlib/Hamamatsu_R1828_01/Hamamatsu_R1828_01_Geo.gdml"/>
+<position x="0" y="7.5" z="-23" unit="cm"/>
+<rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+<physvol name = "PMT_2">
+<file name = "../DetectorStructure/PMTlib/Hamamatsu_R1828_01/Hamamatsu_R1828_01_Geo.gdml"/>
+<position x="0" y="7.5" z="23" unit="cm"/>
+<rotation x="0" y="180" z="0" unit="deg"/>
+</physvol>

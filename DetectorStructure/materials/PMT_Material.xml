@@ -1,0 +1,43 @@
+<define>
+	<matrix name="Boro_RINDEX" coldim="2" values="2.96*eV 1.48"/>
+	<matrix 
+		name="Boro_ABS" 
+		coldim="2" 
+		values="3.687*eV			526.316*m
+				3.313*eV			689.655*m
+				3.068*eV			359.712*m
+				2.792*eV			146.843*m
+				2.627*eV			109.769*m"
+	/>
+</define>
+
+<materials>
+
+	<element Z="14" formula="Si" name="Silicon">
+		<atom value="28.0855"/>
+	</element>
+
+	<element Z="55" formula="Cs" name="Cesium">
+		<atom value="135.9054"/>
+	</element>
+
+	<material formula="Fe" name="PMTShell">
+		<D value="7.9"/>
+		<composite n="1" ref="Iron"/>
+	</material>
+
+	<material formula="Cs" name="CsPMT">
+		<D value="1.8785"/>
+		<composite n="1" ref="Cesium"/>
+	</material>
+
+
+	<material formula="SiO2" name="Boro_glass">
+		<property name="RINDEX" ref="Boro_RINDEX"/>
+		<property name="ABSLENGTH" ref="Boro_ABS"/>
+		<D value="2.23"/>
+		<composite n="1" ref="Silicon"/>
+		<composite n="2" ref="Oxygen"/>
+	</material>
+</materials>
+

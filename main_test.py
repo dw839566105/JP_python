@@ -13,8 +13,7 @@ from scipy import special
 np.set_printoptions(suppress=True)
 
 Light_yield = 4285*0.88 # light yield
-Att_LS = 18 # attenuation length of LS
-Att_Wtr = 500 # attenuation length of water
+Att_length = 18 # attenuation length
 tau_r = 1.6 # fast time constant
 TTS = 5.5/2.355
 QE = 0.20
@@ -28,7 +27,7 @@ yy = 0
 zz = 0
 iterNo = 0
 event_count = 0
-shell = 12.2 # Acrylic
+flag_break = 0
 
 def Recon():
     fun = lambda x: Likelihood(x)
@@ -42,26 +41,8 @@ def Likelihood(args):
     t,\
     tau_d\
     = args
-    global shell
     distance = np.sqrt((PMT_pos[:,1] - x)**2 + (PMT_pos[:,2] - y)**2 + (PMT_pos[:,3] - z)**2)
-    # LS distance
-    d1 = np.tile(np.array([x,y,z]),[len(PMT_pos[:,1]),1])
-    d2 = PMT_pos[:,1:4]
-    d3 = d2 - d1
-    # print(max(PMT_pos[:,1]))
-    # print(2*np.sum(d3*d1,1))
-    # print(4*np.sum(d3*d1,1)**2)
-    # print(np.sum(d3**2,1))
-    # print(4*np.sum(d3**2,1)*(np.sum(d1**2,1)-shell**2))
-    # print(2*np.sum(d3**2,1))
-    # print(x,y,z)
-    # print(np.array([1,1,1])/np.array([0.2,0.3,0.5]))
-    lmbd = (-2*np.sum(d3*d1,1) \
-        + np.sqrt(4*np.sum(d3*d1,1)**2 \
-        - 4*np.sum(d3**2,1)*(np.sum(d1**2,1)-shell**2))) \
-        /(2*np.sum(d3**2,1))
-    # expect = Energy*Light_yield*np.exp(-distance*lmbd/Att_LS - distance*(1-lmbd)/Att_Wtr)*SolidAngle(x,y,z,distance)*QE
-    expect = Energy*Light_yield*np.exp(-distance/Att_LS)*SolidAngle(x,y,z,distance)*QE
+    expect = Energy*Light_yield*np.exp(-distance/Att_length)*SolidAngle(x,y,z,distance)*QE
     p_pe = - expect + pe_array*np.log(expect) - np.log(special.factorial(pe_array));
     # p_pe = - np.log(stats.poisson.pmf(pe_array, expect))
     Likelihood_pe = - np.nansum(p_pe)
@@ -119,6 +100,7 @@ def recon(fid, fout):
     fout: output file in this step
     '''
     global event_count
+    global flag_break
     
     result_recon = np.empty((0,6))
     result_truth = np.empty((0,4))
@@ -148,22 +130,23 @@ def recon(fid, fout):
         for pe in TruthChain.PEList:
             if(pe.PEType != -1):
                 time_array[count] = pe.PulseTime
-                fired_PMT[count] = int(pe.PMTId-1); # PMTId range 1-8607
+                #fired_PMT[count] = int(pe.PMTId-1); # PMTId range 1-8607
+                fired_PMT[count] = int(pe.PMTId); # PMTId range 1-8607
                 pe_array[pe.PMTId-1] = pe_array[pe.PMTId-1] + 1
                 count = count + 1
 
         time_array = time_array[0:count]
         fired_PMT = fired_PMT[0:count]
-        
         x0 = np.zeros((1,6))
 
         x0[0][0] = pe_array.sum()/300
         x0[0][1] = np.sum(pe_array*PMT_pos[:,1])/np.sum(pe_array)
         x0[0][2] = np.sum(pe_array*PMT_pos[:,2])/np.sum(pe_array)
         x0[0][3] = np.sum(pe_array*PMT_pos[:,3])/np.sum(pe_array)
-        x0[0][4] = 95
-        x0[0][5] = 26
-
+        x0[0][4] = 15
+        x0[0][5] = 6
+        print(PMT_pos[8,:])
+        print(np.sum(pe_array))
         Emin = 0.01
         recon_vertex = np.empty((1,6))
         args = (Emin, np.sqrt(np.sum(PMT_pos[1,:]**2)))
@@ -172,7 +155,8 @@ def recon(fid, fout):
         result = minimize(Recon(), x0, method='SLSQP', constraints=cons)
 
         recon_vertex[0,:] = result.x
-
+        print(truth_vertex)
+        print(recon_vertex)
         result_truth = np.vstack((result_truth, truth_vertex))
         result_recon = np.vstack((result_recon, recon_vertex))
         '''
@@ -184,9 +168,9 @@ def recon(fid, fout):
         taud = recon_vertex[0,5]
         '''
         event_count = event_count + 1
-        print(event_count)
-        print(truth_vertex)
-        print(recon_vertex)
+        if(event_count == 5):
+            break
+        
     with h5py.File(fout,'w') as out:
         out.create_dataset("truth", data=result_truth)
         out.create_dataset("recon", data=result_recon)
@@ -194,8 +178,8 @@ def recon(fid, fout):
 fid = sys.argv[2]
 
 # Load PMT positions
-f = open(r"./PMT_5kt_sphere.txt")
-#f = open(r"./PMT_1t_sphere.txt")
+#f = open(r"./PMT_5kt_sphere.txt")
+f = open(r"./PMT_1t_sphere.txt")
 
 line = f.readline()
 data_list = []

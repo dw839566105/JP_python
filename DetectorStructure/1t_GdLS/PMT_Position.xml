@@ -1,0 +1,179 @@
+<physvol name="PMT_0">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.428" y="0.139" z="0.700" unit="m"/>
+    <rotation x="-168.757" y=" 30.9399 " z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_8">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0." y="0.451" z="0.700" unit="m"/>
+        <rotation x="-146.229" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_16">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.428" y="0.139" z="0.700" unit="m"/>
+    <rotation x="-160.757" y="-30.9399" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_24">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.265" y="-0.364" z="0.700" unit="m"/>
+        <rotation x="-207.469" y="-18.5107" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_1">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.265" y="-0.364" z="0.700" unit="m"/>
+        <rotation x="-207.469" y="18.5" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_9">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.796" y="0." z="0.245" unit="m"/>
+        <rotation x="180" y="72.88" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_17">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.644" y="0.467" z="0.245" unit="m"/>
+        <rotation x="241.95" y="50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_25">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.245" y="0.756" z="0.245" unit="m"/>
+        <rotation x="245.78" y="17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_2">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.245" y="0.756" z="0.245" unit="m"/>
+        <rotation x="245.78" y="-17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_10">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.644" y="0.467" z="0.245" unit="m"/>
+        <rotation x="241.95" y="-50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_18">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.796" y="0." z="0.245" unit="m"/>
+        <rotation x="180" y="-72.88" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_26">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.644" y="-0.467" z="0.245" unit="m"/>
+        <rotation x="118.05" y="-50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_3">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.245" y="-0.756" z="0.245" unit="m"/>
+        <rotation x="114.22" y="-17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_11">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.245" y="-0.756" z="0.245" unit="m"/>
+        <rotation x="114.22" y="17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_19">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.644" y="-0.467" z="0.245" unit="m"/>
+        <rotation x="118.05" y="50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_27">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.796" y="0." z="-0.245" unit="m"/>
+        <rotation x="0" y="72.88" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_4">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.644" y="0.467" z="-0.245" unit="m"/>
+        <rotation x="-61.95" y="50.58" z="0" unit="deg"/>
+</physvol>
+    
+<physvol name="PMT_12">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.245" y="0.756" z="-0.245" unit="m"/>
+        <rotation x="-65.78" y="17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_20">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.245" y="0.756" z="-0.245" unit="m"/>
+        <rotation x="-65.78" y="-17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_28">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.644" y="0.467" z="-0.245" unit="m"/>
+        <rotation x="-61.95" y="-50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_5">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.796" y="0." z="-0.245" unit="m"/>
+        <rotation x="0" y="-72.88" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_13">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.644" y="-0.467" z="-0.245" unit="m"/>
+        <rotation x="61.95" y="-50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_21">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.245" y="-0.756" z="-0.245" unit="m"/>
+        <rotation x="65.78" y="-17.12" z="0" unit="deg"/>
+</physvol>
+    
+<physvol name="PMT_29">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.245" y="-0.756" z="-0.245" unit="m"/>
+        <rotation x="65.78" y="17.12" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_6">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.644" y="-0.467" z="-0.245" unit="m"/>
+        <rotation x="61.95" y="50.58" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_14">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.428" y="0.139" z="-0.700" unit="m"/>
+        <rotation x="-14.57" y="30.94" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_22">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.0" y="0.451" z="-0.700" unit="m"/>
+        <rotation x="-32.7" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_23">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.428" y="0.139" z="-0.700" unit="m"/>
+        <rotation x="-11.24" y="-30.94" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_7">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="-0.265" y="-0.364" z="-0.700" unit="m"/>
+        <rotation x="27.467" y="-18.51" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_15">
+        <file name="../DetectorStructure/PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Geo.gdml"/>
+        <position x="0.265" y="-0.364" z="-0.700" unit="m"/>
+        <rotation x="27.47" y="18.5" z="0" unit="deg"/>
+</physvol>
