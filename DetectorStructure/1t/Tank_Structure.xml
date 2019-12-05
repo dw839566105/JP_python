@@ -1,0 +1,325 @@
+        <!-- Tank Shape Define-->
+		<eltube name="Tank_Tube" dx="2./2" dy="2./2" dz="2./2" lunit="m"/>
+
+        <!-- Tank Flange Define-->
+		<tube name="Tank_Flange" rmin="0" rmax="120" z="160" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+		<tube name="Tank_Flange_Tube" rmin="115" rmax="120" z="160" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+		<tube name="Tank_Flange_Top" rmin="0" rmax="125" z="10" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+		<tube name="Tank_Flange_Inner" rmin="0" rmax="115" z="160" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+		<eltube name="Tank_Flange_Hole" dx="115" dy="115" dz="20" lunit="mm"/>
+
+
+        <!-- Tank Top and Slide Shape Define-->
+		<tube name="Tank_Seal" rmin="1000" rmax="1040" z="40" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+		<tube name="Tank_Top" rmin="300" rmax="360" z="40" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+		<box name="Tank_Topbox" x="640" y="40" z="35" lunit="mm"/>
+        
+		<box name="Tank_Sidebox" x="40" y="40" z="2000" lunit="mm"/>
+
+        <!-- Tank bottom box Define-->
+		<box name="Tank_Bottombox_H1" x="2000" y="30" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_H2" x="1920" y="30" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_H3" x="1730" y="30" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_H4" x="1320" y="30" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_P1" x="30" y="2000" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_P2" x="30" y="1920" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_P3" x="30" y="1730" z="30" lunit="mm"/>
+
+		<box name="Tank_Bottombox_P4" x="30" y="1320" z="30" lunit="mm"/>
+
+        <!-- Tank Geometry subtraction and union -->  
+     	<subtraction name= "Tank_1">
+			<first       ref = "Tank_Tube"/>
+			<second      ref = "Tank_Flange_Hole" />
+			<position x="0." y="0." z="1000" unit="mm"/>
+		</subtraction>
+
+        <union name= "TankU_1">
+			<first       ref = "Tank_1"/>
+			<second      ref = "Tank_Flange_Tube" />
+			<position x="0." y="0." z="1080" unit="mm"/>
+		</union>
+
+        <union name= "TankU_1_1">
+			<first       ref = "TankU_1"/>
+			<second      ref = "Tank_Flange_Top" />
+			<position x="0." y="0." z="1165" unit="mm"/>
+		</union>
+
+          <union name= "TankU_2">
+			<first       ref = "TankU_1_1"/>
+			<second      ref = "Tank_Flange" />
+			<position x="0.73" y="0." z="1.08" unit="m"/>
+		</union>
+
+     	<subtraction name= "Tank_2">
+			<first       ref = "TankU_2"/>
+			<second      ref = "Tank_Flange_Inner" />
+			<position x="0.73" y="0." z="1.07" unit="m"/>
+		</subtraction>
+
+         <union name= "TankU_3">
+			<first       ref = "Tank_2"/>
+			<second      ref = "Tank_Flange" />
+			<position x="-0.73" y="0." z="1.08" unit="m"/>
+		</union>
+
+     	<subtraction name= "Tank_3">
+			<first       ref = "TankU_3"/>
+			<second      ref = "Tank_Flange_Inner" />
+			<position x="-0.73" y="0." z="1.07" unit="m"/>
+		</subtraction>
+        
+         <union name= "TankU_4">
+			<first       ref = "Tank_3"/>
+			<second      ref = "Tank_Flange" />
+			<position x="0." y="0.73" z="1.08" unit="m"/>
+		</union>
+
+     	<subtraction name= "Tank_4">
+			<first       ref = "TankU_4"/>
+			<second      ref = "Tank_Flange_Inner" />
+			<position x="0." y="0.73" z="1.07" unit="m"/>
+		</subtraction>
+
+          <union name= "TankU_5">
+			<first       ref = "Tank_4"/>
+			<second      ref = "Tank_Flange" />
+			<position x="0." y="-0.73" z="1.08" unit="m"/>
+		</union>
+
+	    <subtraction name= "Tank_5">
+			<first       ref = "TankU_5"/>
+			<second      ref = "Tank_Flange_Inner" />
+			<position x="0." y="-0.73" z="1.07" unit="m"/>
+		</subtraction>
+
+         <union name= "TankU_6">
+			<first       ref = "Tank_5"/>
+			<second      ref = "Tank_Seal" />
+			<position x="0." y="0." z="0.55" unit="m"/>
+		</union>
+
+         <union name= "TankU_7">
+			<first       ref = "TankU_6"/>
+			<second      ref = "Tank_Seal" />
+			<position x="0." y="0." z="-0.21" unit="m"/>
+		</union>
+
+        <union name= "TankU_8">
+			<first       ref = "TankU_7"/>
+			<second      ref = "Tank_Top" />
+			<position x="0." y="0." z="1.02" unit="m"/>
+		</union>
+
+        <union name= "TankU_9">
+			<first       ref = "TankU_8"/>
+			<second      ref = "Tank_Sidebox" />
+			<position x="1.03" y="0." z="0." unit="m"/>
+		</union>
+
+          <union name= "TankU_10">
+			<first       ref = "TankU_9"/>
+			<second      ref = "Tank_Sidebox" />
+			<position x="-0.98" y="0.315" z="0." unit="m"/>
+		</union>
+
+        <union name= "TankU_11">
+			<first       ref = "TankU_10"/>
+			<second      ref = "Tank_Sidebox" />
+			<position x="0.315" y="0.98" z="0." unit="m"/>
+		</union>
+
+      <union name= "TankU_12">
+			<first       ref = "TankU_11"/>
+			<second      ref = "Tank_Sidebox" />
+			<position x="-0.315" y="-0.98" z="0." unit="m"/>
+		</union>
+
+        <union name= "TankU_13">
+			<first       ref = "TankU_12"/>
+			<second      ref = "Tank_Sidebox" />
+			<position x="0.315" y="-0.9" z="0." unit="m"/>
+		</union>
+     
+          <union name= "TankU_14">
+			<first       ref = "TankU_13"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="0.657" y="0.176" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="15" unit="deg"/>
+		</union>
+
+
+        <union name= "TankU_15">
+			<first       ref = "TankU_14"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="0.481" y="0.481" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="45" unit="deg"/>
+		</union>
+
+        <union name= "TankU_16">
+			<first       ref = "TankU_15"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="0.176" y="0.656" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="75" unit="deg"/>
+		</union>
+
+
+        <union name= "TankU_17">
+			<first       ref = "TankU_16"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="-0.176" y="0.657" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="105" unit="deg"/>
+		</union>
+
+          <union name= "TankU_18">
+			<first       ref = "TankU_17"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="-0.481" y="0.481" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="135" unit="deg"/>
+		</union>
+
+     <union name= "TankU_19">
+			<first       ref = "TankU_18"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="-0.657" y="0.176" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="165" unit="deg"/>
+		</union>
+
+     <union name= "TankU_20">
+			<first       ref = "TankU_19"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="-0.657" y="-0.176" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="195" unit="deg"/>
+		</union>
+
+     <union name= "TankU_21">
+			<first       ref = "TankU_20"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="-0.481" y="-0.481" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="225" unit="deg"/>
+		</union>
+
+     <union name= "TankU_22">
+			<first       ref = "TankU_21"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="-0.176" y="-0.657" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="255" unit="deg"/>
+		</union>
+
+     <union name= "TankU_23">
+			<first       ref = "TankU_22"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="0.175" y="-0.657" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="285" unit="deg"/>
+		</union>
+
+     <union name= "TankU_24">
+			<first       ref = "TankU_23"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="0.481" y="-0.481" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="315" unit="deg"/>
+		</union>
+
+    <union name= "TankU_25">
+			<first       ref = "TankU_24"/>
+			<second      ref = "Tank_Topbox" />
+			<position x="0.657" y="-0.176" z="1.02" unit="m"/>
+            <rotation x="0" y="0" z="345" unit="deg"/>
+		</union>
+
+        <union name= "TankU_26">
+			<first       ref = "TankU_25"/>
+			<second      ref = "Tank_Bottombox_H1" />
+			<position x="0." y="0." z="-1.02" unit="m"/>
+		</union>
+        <union name= "TankU_27">
+			<first       ref = "TankU_26"/>
+			<second      ref = "Tank_Bottombox_H2" />
+			<position x="0." y="0.25" z="-1.02" unit="m"/>
+		</union>
+
+        <union name= "TankU_28">
+			<first       ref = "TankU_27"/>
+			<second      ref = "Tank_Bottombox_H2" />
+			<position x="0." y="-0.25" z="-1.02" unit="m"/>
+		</union>
+
+        <union name= "TankU_29">
+			<first       ref = "TankU_28"/>
+			<second      ref = "Tank_Bottombox_H3" />
+			<position x="0." y="0.5" z="-1.02" unit="m"/>
+		</union>
+
+       <union name= "TankU_30">
+			<first       ref = "TankU_29"/>
+			<second      ref = "Tank_Bottombox_H3" />
+			<position x="0." y="-0.5" z="-1.02" unit="m"/>
+		</union>
+
+        <union name= "TankU_31">
+			<first       ref = "TankU_30"/>
+			<second      ref = "Tank_Bottombox_H4" />
+			<position x="0." y="0.75" z="-1.02" unit="m"/>
+		</union>
+
+        <union name= "TankU_32">
+			<first       ref = "TankU_31"/>
+			<second      ref = "Tank_Bottombox_H4" />
+			<position x="0." y="-0.75" z="-1.02" unit="m"/>
+		</union>
+
+        <union name= "TankU_33">
+			<first       ref = "TankU_32"/>
+			<second      ref = "Tank_Bottombox_P1" />
+			<position x="0." y="0." z="-1.03" unit="m"/>
+		</union>
+
+        <union name= "TankU_34">
+			<first       ref = "TankU_33"/>
+			<second      ref = "Tank_Bottombox_P2" />
+			<position x="0.25" y="0." z="-1.03" unit="m"/>
+		</union>
+
+        <union name= "TankU_35">
+			<first       ref = "TankU_34"/>
+			<second      ref = "Tank_Bottombox_P3" />
+			<position x="0.5" y="0." z="-1.03" unit="m"/>
+		</union>
+
+       <union name= "TankU_36">
+			<first       ref = "TankU_35"/>
+			<second      ref = "Tank_Bottombox_P4" />
+			<position x="0.75" y="0." z="-1.03" unit="m"/>
+		</union>
+
+       <union name= "TankU_37">
+			<first       ref = "TankU_36"/>
+			<second      ref = "Tank_Bottombox_P2" />
+			<position x="-0.25" y="0." z="-1.03" unit="m"/>
+		</union>
+
+       <union name= "TankU_38">
+			<first       ref = "TankU_37"/>
+			<second      ref = "Tank_Bottombox_P3" />
+			<position x="-0.5" y="0." z="-1.03" unit="m"/>
+		</union>
+
+    <union name= "Tank">
+			<first       ref = "TankU_38"/>
+			<second      ref = "Tank_Bottombox_P4" />
+			<position x="-0.75" y="0." z="-1.03" unit="m"/>
+		</union>
+

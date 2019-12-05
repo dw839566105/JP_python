@@ -1,0 +1,148 @@
+<define>
+
+	<!-- ********** Refractive index ********** -->
+	<matrix 
+		name="LAB_0.1PPO_130bis_SciYield" 
+		coldim="1" 
+		values="5450/MeV"
+	/>
+
+	<!-- LAB scintillation fast time constant -->
+	<matrix 
+		name="LAB_0.1PPO_130bis_FastTimeConst" 
+		coldim="1" 
+		values="20.94*ns"
+	/>
+
+	<!-- LAB scintillation fast rising constant -->
+	<matrix 
+		name="LAB_0.1PPO_130bis_RisingConst" 
+		coldim="1" 
+		values="1.07*ns"
+	/>
+
+	<!-- LAB scintillation spectrum -->
+	<matrix 
+		name="LAB_0.1PPO_130bis_SciComp" 
+		coldim="2"
+		values="3.548*eV	8093.535686
+		3.428*eV	5765.658407
+		3.312*eV	5867.886393
+		3.274*eV	8330.120454
+		3.234*eV	18076.82871
+		3.207*eV	37520.59164
+		3.181*eV	86090.56815
+		3.157*eV	173492.5753
+		3.134*eV	280312.0582
+		3.114*eV	423536.3873
+		3.089*eV	588611.2182
+		3.073*eV	651735.5391
+		3.045*eV	719725.9122
+		2.998*eV	814438.6807
+		2.964*eV	870301.8938
+		2.939*eV	877612.6552
+		2.909*eV	802404.9864
+		2.889*eV	719904.0809
+		2.868*eV	637406.0963
+		2.849*eV	569468.2976
+		2.816*eV	503975.2083
+		2.771*eV	465198.6728
+		2.736*eV	402138.6095
+		2.703*eV	329366.8875
+		2.68*eV     266292.2202
+		2.649*eV	208083.605
+		2.599*eV	162040.1201
+		2.555*eV	123272.347
+		2.517*eV	94204.54944
+		2.478*eV	62715.40897
+		2.412*eV	36127.37023
+		2.351*eV	24099.51748
+		2.272*eV	16966.92487
+		2.219*eV	12217.70472"/>
+
+
+    <!-- ********** Absorption length ********** -->
+        <matrix name="LAB_0.1PPO_130bis_ABS" coldim="2" 
+			values="4.14125*eV	2.19e-08*m
+			4.07336*eV	9.97892e-08*m
+			4.00766*eV	5.17305e-07*m
+			3.94405*eV	1.01888e-06*m
+			3.88242*eV	1.31208e-06*m
+			3.82269*eV	3.42759e-06*m
+			3.76477*eV	5.77358e-06*m
+			3.70858*eV	8.09866e-06*m
+			3.65404*eV	1.03655e-05*m
+			3.60109*eV	0.000120519*m
+			3.54964*eV	0.000219712*m
+			3.49965*eV	0.000213391*m
+			3.45104*eV	0.00022983*m
+			3.40377*eV	0.000255965*m
+			3.35777*eV	0.000304869*m
+			3.313*eV	0.000370942*m
+			3.26941*eV	0.000478641*m
+			3.22695*eV	0.000653881*m
+			3.18558*eV	0.00115224*m
+			3.14525*eV	0.00277598*m
+			3.10594*eV	0.00832545*m
+			3.06759*eV	0.037586*m
+			3.03018*eV	0.178233*m
+			2.99367*eV	0.594873*m
+			2.95804*eV	1.45606*m
+			2.92324*eV	2.90567*m
+			2.88924*eV	4.91079*m
+			2.85603*eV	8.03154*m
+			2.82358*eV	10.8978*m
+			2.79185*eV	14.0829*m
+			2.76083*eV	18.6539*m
+			2.73049*eV	22.7164*m
+			2.70082*eV	26.288*m
+			2.67177*eV	29.1458*m
+			2.64335*eV	31.1793*m
+			2.61553*eV	33.0095*m
+			2.58828*eV	34.6656*m
+			2.5616*eV	36.1713*m
+			2.53546*eV	37.5463*m
+			2.50985*eV	38.8069*m
+			2.48475*eV	39.9669*m
+			2.46015*eV	41.0379*m
+			2.43603*eV	42.0298*m
+			2.41238*eV	42.951*m
+			2.38918*eV	43.809*m
+			2.36643*eV	44.61*m
+			2.3441*eV	45.3596*m
+			2.3222*eV	46.0625*m
+			2.30069*eV	46.7231*m
+			2.27959*eV	47.345*m
+			2.25886*eV	47.9316*m
+			2.23851*eV	48.4858*m
+			2.21853*eV	49.0103*m
+			2.19889*eV	49.5074*m
+			2.17961*eV	49.9793*m
+			2.16065*eV	50.4277*m
+			2.14203*eV	50.8544*m
+			2.12372*eV	51.2611*m
+			2.10572*eV	51.649*m
+			2.08803*eV	52.0194*m"/>
+			
+</define>
+
+<materials>
+
+	<material formula="C18H30" name="LAB_0.1PPO_130bis">
+		<property name="RINDEX" ref="LS_Formula_RINDEX"/>
+		<property name="SCINTILLATIONYIELD" ref="LAB_0.1PPO_130bis_SciYield"/>
+		<property name="FASTCOMPONENT" ref="LAB_0.1PPO_130bis_SciComp"/>
+		<property name="RESOLUTIONSCALE" ref="Res"/>
+		<property name="FASTTIMECONSTANT" ref="LAB_0.1PPO_130bis_FastTimeConst"/>
+		<property name="FASTSCINTILLATIONRISETIME" ref="LAB_0.1PPO_130bis_RisingConst"/>
+		<property name="YIELDRATIO" ref="YieldRatio"/>
+		<property name="ABSLENGTH" ref="LAB_0.1PPO_130bis_ABS"/>
+		<property name="RAYLEIGH" ref="RAY"/>
+		<ionisation name="BirksConstant" ref="BIRKS"/>
+
+		<D value="0.85"/>
+		<composite n="18" ref="Carbon"/>
+		<composite n="30" ref="Hydrogen"/>
+	</material>
+
+</materials>

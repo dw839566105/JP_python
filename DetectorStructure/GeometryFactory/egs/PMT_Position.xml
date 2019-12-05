@@ -1,0 +1,30 @@
+<physvol name="PMT_1">
+	<volumeref ref="PMTLog"/>
+	<position x="2.2" y="0.0" z="0.0" unit="m"/>
+	<rotation x="0.0" y="0.0" z="0.0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_2">
+	<volumeref ref="PMTLog"/>
+	<position x="0.0" y="2.2" z="0.0" unit="m"/>
+	<rotation x="0.0" y="0.0" z="0.0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_3">
+	<volumeref ref="PMTLog"/>
+	<position x="-2.2" y="0.0" z="0.0" unit="m"/>
+	<rotation x="0.0" y="0.0" z="0.0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_4">
+	<volumeref ref="PMTLog"/>
+	<position x="0.0" y="-2.2" z="0.0" unit="m"/>
+	<rotation x="0.0" y="0.0" z="0.0" unit="deg"/>
+</physvol>
+
+<physvol name="PMT_5">
+	<volumeref ref="PMTLog"/>
+	<position x="0.0" y="-2.2" z="1.0" unit="m"/>
+	<rotation x="0.0" y="0.0" z="1.0" unit="deg"/>
+</physvol>
+

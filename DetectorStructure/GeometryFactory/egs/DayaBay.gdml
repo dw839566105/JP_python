@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE gdml_simple_extension [
+<!ENTITY materials SYSTEM "Material.xml">
+<!ENTITY PMT_positions SYSTEM "PMT_Position.xml">
+]>
+<gdml_simple_extension
+	xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+	xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+
+<extension>
+	<color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.2"/> 
+	<color name="Steel_color" R="0.5" G="0.5" B="0.5" A="0.2"/> 
+	<color name="Water_color" R="0.0" G="1.0" B="0.8" A="0.2"/> 
+	<color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+	<color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/> 
+	<color name="Acrylic_Black_color" R="0.0" G="0.0" B="0.0" A="0.1"/> 
+
+</extension>
+
+
+<define>
+	<!--quantity name="OuterRadius" value="1.0" lunit="m"/-->
+	<variable name="nPMT" value="192"/>
+	<quantity name="OuterRadius" type="r" value="1" unit="m"/>
+	<quantity name="InnerRadius" type="r" value="0.95" unit="m"/>
+	<variable name="i1" value="1"/>
+	<variable name="i2" value="1"/>
+	<variable name="i3" value="1"/>
+	<variable name="i4" value="1"/>
+	<variable name="i5" value="1"/>
+	<variable name="i6" value="1"/>
+	<variable name="i7" value="1"/>
+	<variable name="i8" value="1"/>
+</define>
+
+&materials;
+
+<solids>
+	<box name="WorldBox" x="10" y="10" z="10" lunit="m"/>
+	<orb name="PMTOrb" r="10.*cm"/>
+	<eltube name="ShellTube" dx="5./2" dy="5./2" dz="5./2" lunit= "m" />
+	<eltube name="OilTube" dx="4.98/2" dy="4.98/2" dz="4.98/2" lunit= "m" />
+	<eltube name="AcrylicTube" dx="4./2" dy="4./2" dz="4./2" lunit= "m" />
+	<eltube name="SciTube" dx="3.96/2" dy="3.96/2" dz="3.96/2" lunit= "m" />
+</solids>
+
+<structure>
+	<volume name="PMTLog">
+		<materialref ref="Water"/>
+		<solidref ref="PMTOrb"/>
+	</volume>
+	<volume name="SciLog">
+		<materialref ref="Water"/>
+		<solidref ref="SciTube"/>
+		<colorref ref="LAB_color"/>
+	</volume>
+	<volume name="AcrylicLog">
+		<materialref ref="Water"/>
+		<solidref ref="AcrylicTube"/>
+		<colorref ref="Acrylic_color"/>
+		<physvol>
+			<volumeref ref="SciLog"/>
+		</physvol>
+	</volume>
+	<volume name="OilLog">
+		<materialref ref="Water"/>
+		<solidref ref="OilTube"/>
+		<colorref ref="Oil_color"/>
+		<physvol>
+			<volumeref ref="AcrylicLog"/>
+		</physvol>
+
+		&PMT_positions;
+
+		<!--loop for="i1" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i1)" y="4.5/2*sin(360*degree/24*i1)" z="-2-4./8/2+4./8*1" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i2" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i2)" y="4.5/2*sin(360*degree/24*i2)" z="-2-4./8/2+4./8*2" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i3" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i3)" y="4.5/2*sin(360*degree/24*i3)" z="-2-4./8/2+4./8*3" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i4" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i4)" y="4.5/2*sin(360*degree/24*i4)" z="-2-4./8/2+4./8*4" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i5" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i5)" y="4.5/2*sin(360*degree/24*i5)" z="-2-4./8/2+4./8*5" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i6" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i6)" y="4.5/2*sin(360*degree/24*i6)" z="-2-4./8/2+4./8*6" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i7" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i7)" y="4.5/2*sin(360*degree/24*i7)" z="-2-4./8/2+4./8*7" unit="m"/>
+			</physvol>
+		</loop>
+
+		<loop for="i8" to="24" step="1">
+			<physvol>
+				<volumeref ref="PMTLog"/>
+				<position x="4.5/2*cos(360*degree/24*i8)" y="4.5/2*sin(360*degree/24*i8)" z="-2-4./8/2+4./8*8" unit="m"/>
+			</physvol>
+		</loop-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</volume>
+	<volume name="ShellLog">
+		<materialref ref="IronShell"/>
+		<solidref ref="ShellTube"/>
+		<colorref ref="Steel_color"/>
+		<physvol>
+			<volumeref ref="OilLog"/>
+		</physvol>
+	</volume>
+	<volume name="TOP">
+		<materialref ref="Air"/>
+		<solidref ref="WorldBox"/>
+		<physvol>
+			<volumeref ref="ShellLog"/>
+		</physvol>
+	</volume>
+
+</structure>
+
+<setup version="1.0" name="Default">
+	<world ref="TOP"/>
+</setup>
+
+</gdml_simple_extension>

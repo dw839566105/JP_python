@@ -1,0 +1,244 @@
+<extension>
+
+<PMT name="PMT_1">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00281078591"
+</PMT>
+
+<PMT name="PMT_2">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.984399024967"
+</PMT>
+
+<PMT name="PMT_3">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.988029354685"
+</PMT>
+
+<PMT name="PMT_4">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00670435968"
+</PMT>
+
+<PMT name="PMT_5">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00734524018"
+</PMT>
+
+<PMT name="PMT_6">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.978741498708"
+</PMT>
+
+<PMT name="PMT_7">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.989317915129"
+</PMT>
+
+<PMT name="PMT_8">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00707760346"
+</PMT>
+
+<PMT name="PMT_9">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00704256468"
+</PMT>
+
+<PMT name="PMT_10">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.02346383865"
+</PMT>
+
+<PMT name="PMT_11">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.977591524727"
+</PMT>
+
+<PMT name="PMT_12">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.01312814587"
+</PMT>
+
+<PMT name="PMT_13">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.993617992534"
+</PMT>
+
+<PMT name="PMT_14">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.03132807623"
+</PMT>
+
+<PMT name="PMT_15">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.01722127488"
+</PMT>
+
+<PMT name="PMT_16">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00374610257"
+</PMT>
+
+<PMT name="PMT_17">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.01572323616"
+</PMT>
+
+<PMT name="PMT_18">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.01921248955"
+</PMT>
+
+<PMT name="PMT_19">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.996870717941"
+</PMT>
+
+<PMT name="PMT_20">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00385846799"
+</PMT>
+
+<PMT name="PMT_21">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.980714419084"
+</PMT>
+
+<PMT name="PMT_22">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.03813494066"
+</PMT>
+
+<PMT name="PMT_23">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00174180672"
+</PMT>
+
+<PMT name="PMT_24">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.976921842666"
+</PMT>
+
+<PMT name="PMT_25">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.01071909439"
+</PMT>
+
+<PMT name="PMT_26">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.96782063796"
+</PMT>
+
+<PMT name="PMT_27">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.01732547394"
+</PMT>
+
+<PMT name="PMT_28">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="1.00002161173"
+</PMT>
+
+<PMT name="PMT_29">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.987040981308"
+</PMT>
+
+<PMT name="PMT_30">
+	<property name="Gain" value="1700"/>
+	<property name="CollectionEff" value="0.8"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="QE" ref="QE_R1828"
+	<property name="QECorrection" value="0.987579212398"
+</PMT>
+
+
+</extension>

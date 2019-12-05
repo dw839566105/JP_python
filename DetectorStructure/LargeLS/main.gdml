@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE gdml_simple_extension [
+<!ENTITY Materials SYSTEM "../materials/Material.xml">
+<!ENTITY LS SYSTEM "../materials/LS.xml">
+<!ENTITY GdLS SYSTEM "../materials/GdLS.xml">
+]>
+
+<gdml_simple_extension
+    xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+    xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+    <extension>
+        <color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.3"/> 
+    </extension>
+
+    <!--materials-->
+    &Materials;
+    &LS;
+    &GdLS;
+
+    <solids>
+        <box name="WorldBox" x="100" y="100" z="100" lunit="m"/>
+        <orb name="SciOrb" r="20" lunit="m"/>
+    </solids>
+
+    <structure>
+
+        <volume name="SciLog">
+            <materialref ref="GdLS"/>
+            <solidref ref="SciOrb"/>
+            <colorref ref="LAB_color"/>
+            <auxiliary auxtype="dEID" auxvalue="1"/>
+        </volume>
+
+        <volume name="TOP">
+            <materialref ref="Air"/>
+            <solidref ref="WorldBox"/>
+            <physvol>
+                <volumeref ref="SciLog"/>
+            </physvol>
+        </volume>
+
+    </structure>
+
+    <setup version="1.0" name="Default">
+        <world ref="TOP"/>
+    </setup>
+
+</gdml>

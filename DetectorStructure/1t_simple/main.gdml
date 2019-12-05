@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE gdml_simple_extension [
+
+<!ENTITY Materials SYSTEM "../materials/Material.xml">
+<!ENTITY Acrylic SYSTEM "../materials/Acrylic.xml">
+<!ENTITY LS SYSTEM "../materials/LS.xml">
+<!ENTITY LAB_0PPO SYSTEM "../materials/LABSpe_0PPO.xml">
+<!ENTITY LAB SYSTEM "../materials/LAB.xml">
+<!ENTITY Water SYSTEM "../materials/Water.xml">
+<!ENTITY Mineral_Oil SYSTEM "../materials/Mineral_Oil.xml">
+
+<!ENTITY PMT_Property SYSTEM "../PMTlib/HZC_XP1805/HZC_XP1805_Elec.xml">
+<!ENTITY PMT_Positions SYSTEM "PMT_Position.xml">
+<!ENTITY PMT_Gain SYSTEM "PMT_Gain.xml">
+<!ENTITY PMT_Material SYSTEM "../materials/PMT_Material.xml">
+<!ENTITY Trigger_Params SYSTEM "../Trigger_Params.xml">
+
+]>
+
+<gdml_simple_extension
+	xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+	xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+	
+	
+	<extension>
+		<color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.2"/> 
+		<color name="Steel_color" R="0.5" G="0.5" B="0.5" A="0.5"/> 
+		<color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+		<color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/>
+	</extension>
+
+    <!--electronics-->
+	&Trigger_Params;
+	&PMT_Property;
+	&PMT_Gain;
+	
+	<!--materials-->
+	&Materials;
+	&Acrylic;
+	&LAB_0PPO;
+	&LAB;
+	&LS;
+	&Water;
+	&Mineral_Oil;
+	&PMT_Material;
+
+
+	<solids>
+        <box name="WorldBox" x="10" y="10" z="10" lunit="m"/>
+	    <eltube name="TankTube" dx="2./2" dy="2./2" dz="2./2" lunit="m"/>
+	    <eltube name="OilOrb" dx="1.99/2" dy="1.99/2" dz="1.99/2" lunit="m"/>
+	    <orb name="AcrylicOrb" r="1.26/2" lunit="m"/>
+	    <orb name="LABOrb" r="1.23/2" lunit="m"/>
+	</solids>
+
+	<structure>
+		<volume name="SciLog">
+			<materialref ref="LAB"/>
+			<solidref ref="LABOrb"/>
+			<colorref ref="LAB_color"/>
+			<auxiliary auxtype="dEID" auxvalue="1"/>
+		</volume>
+		<volume name="AcrylicLog">
+			<materialref ref="Acrylic"/>
+			<solidref ref="AcrylicOrb"/>
+			<colorref ref="Acrylic_color"/>
+			<physvol>
+				<volumeref ref="SciLog"/>
+			</physvol>
+		</volume>
+
+		<volume name="OilLog">
+			<materialref ref="Water"/>
+			<solidref ref="OilOrb"/>
+			<colorref ref="Oil_color"/>
+			<physvol>
+				<volumeref ref="AcrylicLog"/>
+			</physvol>
+
+		    &PMT_Positions;
+
+		</volume>
+		
+		<volume name="tankLog">
+			<materialref ref="IronShell"/>
+			<solidref ref="TankTube"/>
+			<colorref ref="Steel_color"/>
+			<physvol>
+				<volumeref ref="OilLog"/>
+			</physvol>
+		</volume>
+
+		<volume name="TOP">
+			<materialref ref="Air"/>
+			<solidref ref="WorldBox"/>
+			<physvol>
+				<volumeref ref="tankLog"/>
+			</physvol>
+		</volume>
+
+	</structure>
+
+	<setup version="1.0" name="Default">
+		<world ref="TOP"/>
+	</setup>
+
+</gdml_simple_extension>

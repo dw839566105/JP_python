@@ -1,0 +1,17 @@
+<extension>
+
+<PMT name="PMT_1">
+	<property name="Gain" value="155"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R1828_01"/>
+	<property name="QECorrection" value="0.70"/>
+</PMT>
+
+<PMT name="PMT_2">
+	<property name="Gain" value="155"/>
+	<property name="DarkNoiseRate" value="10000"/>
+	<property name="Model" model="Hamamatsu_R1828_01"/>
+	<property name="QECorrection" value="0.70"/>
+</PMT>
+
+</extension>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE gdml_simple_extension [
+<!ENTITY materials SYSTEM "Material.xml">
+<!ENTITY PMT_positions SYSTEM "PMT_Position.xml">
+]>
+
+<gdml_simple_extension
+	xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+	xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+	<extension>
+		<color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.3"/> 
+		<color name="Steel_color" R="0.5" G="0.5" B="0.5" A="0.2"/>
+		<color name="Water_color" R="0.0" G="0.5" B="0.8" A="0.3"/> 
+		<color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+		<color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/>
+		<color name="Acrylic_Black_color" R="0.0" G="0.0" B="0.0" A="0.1"/> 
+
+	</extension>
+
+
+	<define>
+		<!--quantity name="OuterRadius" value="1.0" lunit="m"/-->
+
+	</define>
+
+	&materials;
+
+	<solids>
+		<box name="WorldBox" x="20" y="20" z="20" lunit="m"/>
+		<orb name="PMTOrb" r="114.3" lunit="mm"/>
+		<orb name="TankOrb" r="18./2" lunit="m"/>
+		<orb name="OilOrb" r="17.4/2" lunit="m"/>
+		<orb name="AcrylicOrb" r="11.4/2" lunit="m"/>
+		<orb name="LABOrb" r="11.0/2" lunit="m"/>
+
+	</solids>
+
+	<structure>
+		<volume name="PMTLog">
+			<materialref ref="Water"/>
+			<solidref ref="PMTOrb"/>
+			<colorref ref="Water_color"/>
+			<physvol ref="PMT_1">
+				<file name="_20inPMT.gdml"/>
+			</physvol>
+		</volume>
+
+		<volume name="LABLog">
+			<materialref ref="LAB"/>
+			<solidref ref="LABOrb"/>
+			<colorref ref="LAB_color"/>
+		</volume>
+
+		<volume name="AcrylicLog">
+			<materialref ref="Water"/>
+			<solidref ref="AcrylicOrb"/>
+			<colorref ref="Acrylic_color"/>
+			<physvol>
+				<volumeref ref="LABLog"/>
+			</physvol>
+		</volume>
+
+		<volume name="OilLog">
+			<materialref ref="Water"/>
+			<solidref ref="OilOrb"/>
+			<colorref ref="Oil_color"/>
+			<physvol>
+				<volumeref ref="AcrylicLog"/>
+			</physvol>
+
+			&PMT_positions;
+
+
+
+		</volume>
+
+		<volume name="tankLog">
+			<materialref ref="Water"/>
+			<solidref ref="TankOrb"/>
+			<colorref ref="Steel_color"/>
+			<physvol>
+				<volumeref ref="OilLog"/>
+			</physvol>
+		</volume>
+		<volume name="TOP">
+			<materialref ref="Air"/>
+			<solidref ref="WorldBox"/>
+			<physvol>
+				<volumeref ref="tankLog"/>
+			</physvol>
+		</volume>
+
+	</structure>
+
+	<setup version="1.0" name="Default">
+		<world ref="TOP"/>
+	</setup>
+
+</gdml>

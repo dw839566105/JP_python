@@ -1,0 +1,102 @@
+<define>
+	<matrix name="Air_RINDEX" coldim="2" values="1.65*eV 1.00 4.14*eV 1.00"/>
+	<matrix name="Water_RINDEX" coldim="2" values="1.65*eV 1.33 4.14*eV 1.33"/>
+	<matrix name="LAB_RINDEX" coldim="2" values="1.65*eV 1.4824 4.14*eV 1.4824"/>
+	<matrix name="Acrylic_RINDEX" coldim="2" values="1.65*eV 1.49 4.14*eV 1.49"/>
+	<matrix name="Acrylic_Black_ABS" coldim="2" values="1.65*eV 0.1*mm 4.14*eV 0.1*mm"/>
+	
+	<matrix name="LAB_SciYield" coldim="1" values="1000./MeV"/>
+	<matrix name="LAB_SciComp" coldim="2" values="1.65*eV 1.00"/>
+	<matrix name="LAB_Res" coldim="1" values="1.0"/>
+	<matrix name="LAB_FastTimeConst" coldim="1" values="31.50*ns"/>
+	<matrix name="LAB_SlowTimeConst" coldim="1" values="1000.*ns"/>
+	<matrix name="LAB_RisingConst" coldim="1" values="19.82*ns"/>
+	<matrix name="LAB_YieldRatio" coldim="1" values="1.0"/>
+	
+
+</define>
+
+
+<materials>
+
+	<!-- Element -->
+	<element Z="6" formula="C" name="Carbon">
+		<atom value="12.011"/>
+	</element>
+	<element Z="8" formula="O" name="Oxygen">
+		<atom value="15.9994"/>
+	</element>
+	<element Z="7" formula="N" name="Nitrogen">
+		<atom value="14.0067"/>
+	</element>
+	<element Z="1" formula="H" name="Hydrogen">
+		<atom value="1.00794"/>
+	</element>
+	<element Z="26" formula="Fe" name="Iron">
+		<atom value="55.847"/>
+	</element>
+
+
+
+	<!-- Material -->
+
+	<material formula="air" name="Air">
+		<property name="RINDEX" ref="Air_RINDEX"/>
+		<D value="0.00129"/>
+		<fraction n="0.7" ref="Nitrogen"/>
+		<fraction n="0.3" ref="Oxygen"/>
+	</material>
+
+	<material formula="H2O" name="Water">
+		<property name="RINDEX" ref="Water_RINDEX"/>
+		<property name="SCINTILLATIONYIELD" ref="LAB_SciYield"/>
+		<property name="FASTCOMPONENT" ref="LAB_SciComp"/>
+		<property name="RESOLUTIONSCALE" ref="LAB_Res"/>
+		<property name="FASTTIMECONSTANT" ref="LAB_FastTimeConst"/>
+		<property name="FASTSCINTILLATIONRISETIME" ref="LAB_RisingConst"/>
+		<property name="SLOWTIMECONSTANT" ref="LAB_SlowTimeConst"/>
+		<property name="YIELDRATIO" ref="LAB_YieldRatio"/>
+		<D value="1.0"/>
+		<composite n="2" ref="Hydrogen"/>
+		<composite n="1" ref="Oxygen"/>
+	</material>
+	
+	<material formula="C18H30" name="LAB">
+		<property name="RINDEX" ref="LAB_RINDEX"/>
+		<property name="SCINTILLATIONYIELD" ref="LAB_SciYield"/>
+		<property name="FASTCOMPONENT" ref="LAB_SciComp"/>
+		<property name="RESOLUTIONSCALE" ref="LAB_Res"/>
+		<property name="FASTTIMECONSTANT" ref="LAB_FastTimeConst"/>
+		<property name="FASTSCINTILLATIONRISETIME" ref="LAB_RisingConst"/>
+		<property name="SLOWTIMECONSTANT" ref="LAB_SlowTimeConst"/>
+		<property name="YIELDRATIO" ref="LAB_YieldRatio"/>
+		<D value="0.85"/>
+		<composite n="18" ref="Carbon"/>
+		<composite n="30" ref="Hydrogen"/>
+	</material>
+
+	<material formula="C5H8O2" name="Acrylic">
+		<property name="RINDEX" ref="Acrylic_RINDEX"/>
+		<D value="1.19"/>
+		<composite n="5" ref="Carbon"/>
+		<composite n="8" ref="Hydrogen"/>
+		<composite n="2" ref="Oxygen"/>
+	</material>
+
+	<material formula="C5H8O2" name="Acrylic_Black">
+		<property name="RINDEX" ref="Acrylic_RINDEX"/>
+		<property name="ABSLENGTH" ref="Acrylic_Black_ABS"/>
+		<D value="1.19"/>
+		<composite n="5" ref="Carbon"/>
+		<composite n="8" ref="Hydrogen"/>
+		<composite n="2" ref="Oxygen"/>
+	</material>
+	<material formula="Fe" name="IronShell">
+		<D value="7.9"/>
+		<composite n="1" ref="Iron"/>
+	</material>
+
+
+
+</materials>
+

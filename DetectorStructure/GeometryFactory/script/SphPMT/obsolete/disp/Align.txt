@@ -1,0 +1,4332 @@
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="78.8964" y="0" z="826.242" unit="cm"/>
+<rotation x="-3.14159" y="0.0951997" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.4483" y="68.3263" z="826.242" unit="cm"/>
+<rotation x="-3.05908" y="0.047546" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.4481" y="68.3264" z="826.242" unit="cm"/>
+<rotation x="-3.05908" y="-0.0475457" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-78.8964" y="0.000209359" z="826.242" unit="cm"/>
+<rotation x="-3.14159" y="-0.0951997" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="157.078" y="0" z="815.001" unit="cm"/>
+<rotation x="-3.14159" y="0.190399" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="136.034" y="78.5391" z="815.001" unit="cm"/>
+<rotation x="-3.04552" y="0.164639" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="78.5393" y="136.034" z="815.001" unit="cm"/>
+<rotation x="-2.9762" y="0.0947675" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.000208411" y="157.078" z="815.001" unit="cm"/>
+<rotation x="-2.95119" y="2.51097e-07" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-78.539" y="136.034" z="815.001" unit="cm"/>
+<rotation x="-2.9762" y="-0.094767" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-136.034" y="78.5395" z="815.001" unit="cm"/>
+<rotation x="-3.04552" y="-0.164639" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-157.078" y="0.000416822" z="815.001" unit="cm"/>
+<rotation x="-3.14159" y="-0.190399" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="233.838" y="0" z="796.379" unit="cm"/>
+<rotation x="-3.14159" y="0.285599" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="219.736" y="79.9772" z="796.379" unit="cm"/>
+<rotation x="-3.0415" y="0.267936" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="179.13" y="150.308" z="796.379" unit="cm"/>
+<rotation x="-2.95505" y="0.217531" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="116.919" y="202.509" z="796.379" unit="cm"/>
+<rotation x="-2.89258" y="0.141336" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="40.6058" y="230.285" z="796.379" unit="cm"/>
+<rotation x="-2.8601" y="0.0489422" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-40.6052" y="230.285" z="796.379" unit="cm"/>
+<rotation x="-2.8601" y="-0.0489414" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-116.919" y="202.51" z="796.379" unit="cm"/>
+<rotation x="-2.89258" y="-0.141336" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-179.13" y="150.308" z="796.379" unit="cm"/>
+<rotation x="-2.95504" y="-0.217531" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-219.735" y="79.9778" z="796.379" unit="cm"/>
+<rotation x="-3.0415" y="-0.267936" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-233.838" y="0.00062051" z="796.379" unit="cm"/>
+<rotation x="-3.14159" y="-0.285599" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="308.48" y="0" z="770.545" unit="cm"/>
+<rotation x="-3.14159" y="0.380799" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="297.968" y="79.8403" z="770.545" unit="cm"/>
+<rotation x="-3.03834" y="0.367194" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="267.151" y="154.24" z="770.545" unit="cm"/>
+<rotation x="-2.94403" y="0.327703" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="218.128" y="218.128" z="770.545" unit="cm"/>
+<rotation x="-2.86573" y="0.265928" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="154.24" y="267.151" z="770.545" unit="cm"/>
+<rotation x="-2.80785" y="0.186918" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="79.8407" y="297.968" z="770.545" unit="cm"/>
+<rotation x="-2.7726" y="0.0963426" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.000409289" y="308.48" z="770.545" unit="cm"/>
+<rotation x="-2.76079" y="4.93119e-07" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-79.8399" y="297.969" z="770.545" unit="cm"/>
+<rotation x="-2.7726" y="-0.0963417" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-154.239" y="267.151" z="770.545" unit="cm"/>
+<rotation x="-2.80785" y="-0.186917" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-218.128" y="218.128" z="770.545" unit="cm"/>
+<rotation x="-2.86572" y="-0.265928" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-267.151" y="154.24" z="770.545" unit="cm"/>
+<rotation x="-2.94403" y="-0.327702" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-297.968" y="79.8411" z="770.545" unit="cm"/>
+<rotation x="-3.03834" y="-0.367194" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-308.48" y="0.000818578" z="770.545" unit="cm"/>
+<rotation x="-3.14159" y="-0.380799" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="380.328" y="0" z="737.734" unit="cm"/>
+<rotation x="-3.14159" y="0.475998" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="372.017" y="79.0745" z="737.734" unit="cm"/>
+<rotation x="-3.03481" y="0.464765" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="347.447" y="154.693" z="737.734" unit="cm"/>
+<rotation x="-2.9349" y="0.431915" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="307.692" y="223.551" z="737.734" unit="cm"/>
+<rotation x="-2.84736" y="0.379776" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="254.489" y="282.638" z="737.734" unit="cm"/>
+<rotation x="-2.77572" y="0.311633" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="190.164" y="329.373" z="737.734" unit="cm"/>
+<rotation x="-2.72168" y="0.231167" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.528" y="361.713" z="737.734" unit="cm"/>
+<rotation x="-2.68573" y="0.142078" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.7555" y="378.244" z="737.734" unit="cm"/>
+<rotation x="-2.66783" y="0.0479166" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.7545" y="378.244" z="737.734" unit="cm"/>
+<rotation x="-2.66783" y="-0.0479154" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.527" y="361.713" z="737.734" unit="cm"/>
+<rotation x="-2.68573" y="-0.142076" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-190.163" y="329.374" z="737.734" unit="cm"/>
+<rotation x="-2.72168" y="-0.231166" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-254.488" y="282.639" z="737.734" unit="cm"/>
+<rotation x="-2.77572" y="-0.311632" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-307.691" y="223.552" z="737.734" unit="cm"/>
+<rotation x="-2.84736" y="-0.379776" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-347.446" y="154.694" z="737.734" unit="cm"/>
+<rotation x="-2.9349" y="-0.431914" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-372.016" y="79.0755" z="737.734" unit="cm"/>
+<rotation x="-3.03481" y="-0.464765" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-380.328" y="0.00100923" z="737.734" unit="cm"/>
+<rotation x="-3.14159" y="-0.475998" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="448.732" y="0" z="698.241" unit="cm"/>
+<rotation x="-3.14159" y="0.571198" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="441.914" y="77.9213" z="698.241" unit="cm"/>
+<rotation x="-3.03045" y="0.561465" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="421.67" y="153.475" z="698.241" unit="cm"/>
+<rotation x="-2.92523" y="0.532903" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="388.613" y="224.366" z="698.241" unit="cm"/>
+<rotation x="-2.83068" y="0.487262" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="343.748" y="288.439" z="698.241" unit="cm"/>
+<rotation x="-2.74985" y="0.427014" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="288.439" y="343.748" z="698.241" unit="cm"/>
+<rotation x="-2.68412" y="0.354922" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="224.366" y="388.613" z="698.241" unit="cm"/>
+<rotation x="-2.63372" y="0.273726" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="153.476" y="421.67" z="698.241" unit="cm"/>
+<rotation x="-2.59831" y="0.185981" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="77.9219" y="441.914" z="698.241" unit="cm"/>
+<rotation x="-2.57733" y="0.0940203" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.000595375" y="448.732" z="698.241" unit="cm"/>
+<rotation x="-2.57039" y="7.17319e-07" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-77.9208" y="441.914" z="698.241" unit="cm"/>
+<rotation x="-2.57733" y="-0.0940189" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-153.475" y="421.67" z="698.241" unit="cm"/>
+<rotation x="-2.59831" y="-0.185979" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-224.365" y="388.613" z="698.241" unit="cm"/>
+<rotation x="-2.63372" y="-0.273725" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-288.438" y="343.749" z="698.241" unit="cm"/>
+<rotation x="-2.68412" y="-0.354921" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-343.748" y="288.44" z="698.241" unit="cm"/>
+<rotation x="-2.74985" y="-0.427013" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-388.612" y="224.367" z="698.241" unit="cm"/>
+<rotation x="-2.83068" y="-0.487261" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-421.669" y="153.476" z="698.241" unit="cm"/>
+<rotation x="-2.92523" y="-0.532902" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-441.914" y="77.9225" z="698.241" unit="cm"/>
+<rotation x="-3.03045" y="-0.561465" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-448.732" y="0.00119075" z="698.241" unit="cm"/>
+<rotation x="-3.14159" y="-0.571198" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="513.072" y="0" z="652.424" unit="cm"/>
+<rotation x="-3.14159" y="0.666398" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="507.059" y="78.3199" z="652.424" unit="cm"/>
+<rotation x="-3.02212" y="0.657215" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="489.161" y="154.804" z="652.424" unit="cm"/>
+<rotation x="-2.90862" y="0.630254" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="459.797" y="227.66" z="652.424" unit="cm"/>
+<rotation x="-2.80586" y="0.587128" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="419.656" y="295.179" z="652.424" unit="cm"/>
+<rotation x="-2.71671" y="0.530089" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="369.679" y="355.78" z="652.424" unit="cm"/>
+<rotation x="-2.64235" y="0.461617" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="311.037" y="408.042" z="652.424" unit="cm"/>
+<rotation x="-2.58269" y="0.38412" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="245.105" y="450.739" z="652.424" unit="cm"/>
+<rotation x="-2.53702" y="0.299777" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="173.427" y="482.872" z="652.424" unit="cm"/>
+<rotation x="-2.50444" y="0.2105" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="97.6849" y="503.687" z="652.424" unit="cm"/>
+<rotation x="-2.48414" y="0.117966" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="19.6527" y="512.695" z="652.424" unit="cm"/>
+<rotation x="-2.47555" y="0.0236802" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-58.8401" y="509.686" z="652.424" unit="cm"/>
+<rotation x="-2.47841" y="-0.0709512" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-135.954" y="494.731" z="652.424" unit="cm"/>
+<rotation x="-2.4928" y="-0.164541" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-209.881" y="468.18" z="652.424" unit="cm"/>
+<rotation x="-2.51915" y="-0.255644" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-278.888" y="430.655" z="652.424" unit="cm"/>
+<rotation x="-2.55816" y="-0.342677" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-341.359" y="383.036" z="652.424" unit="cm"/>
+<rotation x="-2.61071" y="-0.423853" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-395.829" y="326.439" z="652.424" unit="cm"/>
+<rotation x="-2.67766" y="-0.497126" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-441.02" y="262.19" z="652.424" unit="cm"/>
+<rotation x="-2.75947" y="-0.560193" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-475.875" y="191.796" z="652.424" unit="cm"/>
+<rotation x="-2.85567" y="-0.61058" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-499.575" y="116.906" z="652.424" unit="cm"/>
+<rotation x="-2.96428" y="-0.645875" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-511.566" y="39.2766" z="652.424" unit="cm"/>
+<rotation x="-3.08146" y="-0.664092" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="572.765" y="0" z="600.7" unit="cm"/>
+<rotation x="-3.14159" y="0.761598" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="567.43" y="77.9915" z="600.7" unit="cm"/>
+<rotation x="-3.01248" y="0.752754" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="551.526" y="154.53" z="600.7" unit="cm"/>
+<rotation x="-2.8898" y="0.726809" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="525.347" y="228.19" z="600.7" unit="cm"/>
+<rotation x="-2.77855" y="0.685355" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="489.382" y="297.599" z="600.7" unit="cm"/>
+<rotation x="-2.68161" y="0.630584" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="444.301" y="361.465" z="600.7" unit="cm"/>
+<rotation x="-2.59989" y="0.564865" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="390.943" y="418.597" z="600.7" unit="cm"/>
+<rotation x="-2.53298" y="0.490442" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="330.303" y="467.932" z="600.7" unit="cm"/>
+<rotation x="-2.4798" y="0.409287" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="263.51" y="508.55" z="600.7" unit="cm"/>
+<rotation x="-2.43908" y="0.323072" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="191.808" y="539.694" z="600.7" unit="cm"/>
+<rotation x="-2.40964" y="0.233202" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="116.533" y="560.785" z="600.7" unit="cm"/>
+<rotation x="-2.39054" y="0.140867" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.0876" y="571.43" z="600.7" unit="cm"/>
+<rotation x="-2.38116" y="0.0471109" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.0861" y="571.43" z="600.7" unit="cm"/>
+<rotation x="-2.38116" y="-0.0471091" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-116.532" y="560.785" z="600.7" unit="cm"/>
+<rotation x="-2.39054" y="-0.140865" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-191.807" y="539.695" z="600.7" unit="cm"/>
+<rotation x="-2.40964" y="-0.2332" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-263.508" y="508.55" z="600.7" unit="cm"/>
+<rotation x="-2.43908" y="-0.323071" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-330.302" y="467.933" z="600.7" unit="cm"/>
+<rotation x="-2.4798" y="-0.409285" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-390.942" y="418.598" z="600.7" unit="cm"/>
+<rotation x="-2.53298" y="-0.49044" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-444.3" y="361.466" z="600.7" unit="cm"/>
+<rotation x="-2.59989" y="-0.564864" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-489.381" y="297.601" z="600.7" unit="cm"/>
+<rotation x="-2.68161" y="-0.630583" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-525.346" y="228.191" z="600.7" unit="cm"/>
+<rotation x="-2.77855" y="-0.685354" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-551.525" y="154.532" z="600.7" unit="cm"/>
+<rotation x="-2.8898" y="-0.726809" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-567.43" y="77.993" z="600.7" unit="cm"/>
+<rotation x="-3.01248" y="-0.752753" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-572.765" y="0.00151988" z="600.7" unit="cm"/>
+<rotation x="-3.14159" y="-0.761598" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="627.272" y="0" z="543.535" unit="cm"/>
+<rotation x="-3.14159" y="0.856797" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="622.326" y="78.6179" z="543.535" unit="cm"/>
+<rotation x="-2.99794" y="0.847744" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="607.565" y="155.996" z="543.535" unit="cm"/>
+<rotation x="-2.8621" y="0.821262" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="583.223" y="230.914" z="543.535" unit="cm"/>
+<rotation x="-2.73986" y="0.779154" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="549.683" y="302.19" z="543.535" unit="cm"/>
+<rotation x="-2.63417" y="0.723842" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="507.474" y="368.701" z="543.535" unit="cm"/>
+<rotation x="-2.54555" y="0.657846" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="457.262" y="429.397" z="543.535" unit="cm"/>
+<rotation x="-2.47297" y="0.583463" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="399.838" y="483.321" z="543.535" unit="cm"/>
+<rotation x="-2.41476" y="0.502631" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="336.109" y="529.623" z="543.535" unit="cm"/>
+<rotation x="-2.36915" y="0.416925" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="267.08" y="567.572" z="543.535" unit="cm"/>
+<rotation x="-2.33456" y="0.327612" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="193.838" y="596.571" z="543.535" unit="cm"/>
+<rotation x="-2.30971" y="0.235717" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.54" y="616.161" z="543.535" unit="cm"/>
+<rotation x="-2.29365" y="0.142092" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.3875" y="626.034" z="543.535" unit="cm"/>
+<rotation x="-2.28577" y="0.0474727" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.3859" y="626.034" z="543.535" unit="cm"/>
+<rotation x="-2.28577" y="-0.0474707" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.538" y="616.161" z="543.535" unit="cm"/>
+<rotation x="-2.29365" y="-0.14209" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-193.837" y="596.571" z="543.535" unit="cm"/>
+<rotation x="-2.30971" y="-0.235715" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-267.078" y="567.573" z="543.535" unit="cm"/>
+<rotation x="-2.33456" y="-0.32761" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-336.108" y="529.624" z="543.535" unit="cm"/>
+<rotation x="-2.36915" y="-0.416924" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-399.837" y="483.322" z="543.535" unit="cm"/>
+<rotation x="-2.41476" y="-0.50263" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-457.261" y="429.398" z="543.535" unit="cm"/>
+<rotation x="-2.47297" y="-0.583462" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-507.473" y="368.702" z="543.535" unit="cm"/>
+<rotation x="-2.54555" y="-0.657845" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-549.682" y="302.192" z="543.535" unit="cm"/>
+<rotation x="-2.63417" y="-0.723841" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-583.222" y="230.915" z="543.535" unit="cm"/>
+<rotation x="-2.73985" y="-0.779153" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-607.564" y="155.998" z="543.535" unit="cm"/>
+<rotation x="-2.8621" y="-0.821261" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-622.325" y="78.6196" z="543.535" unit="cm"/>
+<rotation x="-2.99794" y="-0.847744" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-627.272" y="0.00166452" z="543.535" unit="cm"/>
+<rotation x="-3.14159" y="-0.856797" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="676.098" y="0" z="481.448" unit="cm"/>
+<rotation x="-3.14159" y="0.951997" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="671.526" y="78.4901" z="481.448" unit="cm"/>
+<rotation x="-2.97998" y="0.942564" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="657.873" y="155.919" z="481.448" unit="cm"/>
+<rotation x="-2.8284" y="0.915092" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="635.324" y="231.239" z="481.448" unit="cm"/>
+<rotation x="-2.69383" y="0.871741" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="604.183" y="303.432" z="481.448" unit="cm"/>
+<rotation x="-2.57923" y="0.8153" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="564.872" y="371.521" z="481.448" unit="cm"/>
+<rotation x="-2.48436" y="0.748538" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="517.921" y="434.587" z="481.448" unit="cm"/>
+<rotation x="-2.4073" y="0.673853" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="463.967" y="491.775" z="481.448" unit="cm"/>
+<rotation x="-2.34558" y="0.593174" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="403.738" y="542.313" z="481.448" unit="cm"/>
+<rotation x="-2.29681" y="0.508001" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="338.049" y="585.517" z="481.448" unit="cm"/>
+<rotation x="-2.25896" y="0.419483" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="267.789" y="620.803" z="481.448" unit="cm"/>
+<rotation x="-2.23043" y="0.328515" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="193.908" y="647.694" z="481.448" unit="cm"/>
+<rotation x="-2.21001" y="0.235803" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.404" y="665.826" z="481.448" unit="cm"/>
+<rotation x="-2.19684" y="0.141926" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.3124" y="674.954" z="481.448" unit="cm"/>
+<rotation x="-2.19039" y="0.0473821" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.3107" y="674.954" z="481.448" unit="cm"/>
+<rotation x="-2.19039" y="-0.04738" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.402" y="665.826" z="481.448" unit="cm"/>
+<rotation x="-2.19684" y="-0.141924" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-193.906" y="647.695" z="481.448" unit="cm"/>
+<rotation x="-2.21001" y="-0.235801" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-267.788" y="620.804" z="481.448" unit="cm"/>
+<rotation x="-2.23043" y="-0.328513" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-338.048" y="585.518" z="481.448" unit="cm"/>
+<rotation x="-2.25896" y="-0.419481" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-403.737" y="542.314" z="481.448" unit="cm"/>
+<rotation x="-2.29681" y="-0.507999" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-463.965" y="491.777" z="481.448" unit="cm"/>
+<rotation x="-2.34558" y="-0.593173" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-517.92" y="434.588" z="481.448" unit="cm"/>
+<rotation x="-2.4073" y="-0.673851" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-564.871" y="371.523" z="481.448" unit="cm"/>
+<rotation x="-2.48436" y="-0.748536" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-604.182" y="303.433" z="481.448" unit="cm"/>
+<rotation x="-2.57922" y="-0.815299" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-635.323" y="231.241" z="481.448" unit="cm"/>
+<rotation x="-2.69382" y="-0.87174" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-657.873" y="155.92" z="481.448" unit="cm"/>
+<rotation x="-2.82839" y="-0.915091" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-671.526" y="78.4919" z="481.448" unit="cm"/>
+<rotation x="-2.97998" y="-0.942564" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-676.098" y="0.00179409" z="481.448" unit="cm"/>
+<rotation x="-3.14159" y="-0.951997" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="718.801" y="0" z="415.001" unit="cm"/>
+<rotation x="-3.14159" y="1.0472" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="714.438" y="79.0739" z="415.001" unit="cm"/>
+<rotation x="-2.95331" y="1.03678" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="701.403" y="157.188" z="415.001" unit="cm"/>
+<rotation x="-2.77952" y="1.00668" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="679.854" y="233.394" z="415.001" unit="cm"/>
+<rotation x="-2.62928" y="0.959843" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="650.053" y="306.767" z="415.001" unit="cm"/>
+<rotation x="-2.50504" y="0.899789" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="612.36" y="376.416" z="415.001" unit="cm"/>
+<rotation x="-2.40491" y="0.829781" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="567.235" y="441.496" z="415.001" unit="cm"/>
+<rotation x="-2.32527" y="0.752431" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="515.224" y="501.217" z="415.001" unit="cm"/>
+<rotation x="-2.26237" y="0.669701" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="456.959" y="554.854" z="415.001" unit="cm"/>
+<rotation x="-2.21298" y="0.583027" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="393.147" y="601.756" z="415.001" unit="cm"/>
+<rotation x="-2.17454" y="0.493455" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="324.563" y="641.353" z="415.001" unit="cm"/>
+<rotation x="-2.14511" y="0.401761" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="252.039" y="673.165" z="415.001" unit="cm"/>
+<rotation x="-2.12325" y="0.308533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="176.456" y="696.805" z="415.001" unit="cm"/>
+<rotation x="-2.10795" y="0.214232" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="98.7307" y="711.988" z="415.001" unit="cm"/>
+<rotation x="-2.09853" y="0.119235" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="19.807" y="718.528" z="415.001" unit="cm"/>
+<rotation x="-2.09456" y="0.0238661" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-59.3571" y="716.346" z="415.001" unit="cm"/>
+<rotation x="-2.09588" y="-0.0715757" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-137.801" y="705.468" z="415.001" unit="cm"/>
+<rotation x="-2.10254" y="-0.166797" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-214.572" y="686.027" z="415.001" unit="cm"/>
+<rotation x="-2.11483" y="-0.26149" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-288.738" y="658.259" z="415.001" unit="cm"/>
+<rotation x="-2.1333" y="-0.355306" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-359.399" y="622.5" z="415.001" unit="cm"/>
+<rotation x="-2.1588" y="-0.447831" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-425.698" y="579.185" z="415.001" unit="cm"/>
+<rotation x="-2.19252" y="-0.538547" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-486.829" y="528.84" z="415.001" unit="cm"/>
+<rotation x="-2.23616" y="-0.626782" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-542.051" y="472.075" z="415.001" unit="cm"/>
+<rotation x="-2.29194" y="-0.711637" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-590.694" y="409.58" z="415.001" unit="cm"/>
+<rotation x="-2.36277" y="-0.791885" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-632.166" y="342.113" z="415.001" unit="cm"/>
+<rotation x="-2.45217" y="-0.865848" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-665.964" y="270.493" z="415.001" unit="cm"/>
+<rotation x="-2.56396" y="-0.931249" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-691.678" y="195.59" z="415.001" unit="cm"/>
+<rotation x="-2.70116" y="-0.985136" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-708.997" y="118.312" z="415.001" unit="cm"/>
+<rotation x="-2.86387" y="-1.02404" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-717.709" y="39.599" z="415.001" unit="cm"/>
+<rotation x="-3.04646" y="-1.04457" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="754.994" y="0" z="344.795" unit="cm"/>
+<rotation x="-3.14159" y="1.1424" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="750.858" y="78.9183" z="344.795" unit="cm"/>
+<rotation x="-2.91658" y="1.13055" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="738.496" y="156.972" z="344.795" unit="cm"/>
+<rotation x="-2.71437" y="1.09681" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="718.042" y="233.306" z="344.795" unit="cm"/>
+<rotation x="-2.54671" y="1.04537" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="689.722" y="307.084" z="344.795" unit="cm"/>
+<rotation x="-2.41398" y="0.980885" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="653.844" y="377.497" z="344.795" unit="cm"/>
+<rotation x="-2.31095" y="0.907171" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="610.803" y="443.774" z="344.795" unit="cm"/>
+<rotation x="-2.23133" y="0.827006" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="561.07" y="505.189" z="344.795" unit="cm"/>
+<rotation x="-2.16968" y="0.742305" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="505.19" y="561.07" z="344.795" unit="cm"/>
+<rotation x="-2.12183" y="0.654374" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="443.775" y="610.803" z="344.795" unit="cm"/>
+<rotation x="-2.0847" y="0.564116" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="377.498" y="653.844" z="344.795" unit="cm"/>
+<rotation x="-2.05607" y="0.472166" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="307.084" y="689.721" z="344.795" unit="cm"/>
+<rotation x="-2.03437" y="0.378989" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="233.307" y="718.042" z="344.795" unit="cm"/>
+<rotation x="-2.01847" y="0.284932" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="156.973" y="738.496" z="344.795" unit="cm"/>
+<rotation x="-2.0076" y="0.19027" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="78.9193" y="750.858" z="344.795" unit="cm"/>
+<rotation x="-2.00127" y="0.0952274" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.00100172" y="754.994" z="344.795" unit="cm"/>
+<rotation x="-1.99919" y="1.20689e-06" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-78.9173" y="750.858" z="344.795" unit="cm"/>
+<rotation x="-2.00127" y="-0.095225" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-156.971" y="738.496" z="344.795" unit="cm"/>
+<rotation x="-2.0076" y="-0.190268" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-233.305" y="718.043" z="344.795" unit="cm"/>
+<rotation x="-2.01847" y="-0.28493" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-307.083" y="689.722" z="344.795" unit="cm"/>
+<rotation x="-2.03436" y="-0.378987" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-377.496" y="653.845" z="344.795" unit="cm"/>
+<rotation x="-2.05607" y="-0.472164" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-443.773" y="610.804" z="344.795" unit="cm"/>
+<rotation x="-2.0847" y="-0.564113" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-505.189" y="561.071" z="344.795" unit="cm"/>
+<rotation x="-2.12183" y="-0.654372" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-561.069" y="505.191" z="344.795" unit="cm"/>
+<rotation x="-2.16968" y="-0.742303" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-610.802" y="443.776" z="344.795" unit="cm"/>
+<rotation x="-2.23133" y="-0.827004" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-653.843" y="377.499" z="344.795" unit="cm"/>
+<rotation x="-2.31095" y="-0.907169" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-689.721" y="307.085" z="344.795" unit="cm"/>
+<rotation x="-2.41398" y="-0.980883" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-718.042" y="233.308" z="344.795" unit="cm"/>
+<rotation x="-2.5467" y="-1.04537" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-738.495" y="156.974" z="344.795" unit="cm"/>
+<rotation x="-2.71436" y="-1.0968" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-750.858" y="78.9203" z="344.795" unit="cm"/>
+<rotation x="-2.91658" y="-1.13055" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-754.994" y="0.00200344" z="344.795" unit="cm"/>
+<rotation x="-3.14158" y="-1.1424" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="784.35" y="0" z="271.467" unit="cm"/>
+<rotation x="-3.14159" y="1.2376" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="780.453" y="78.096" z="271.467" unit="cm"/>
+<rotation x="-2.86147" y="1.22352" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="768.799" y="155.416" z="271.467" unit="cm"/>
+<rotation x="-2.62163" y="1.18437" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="749.504" y="231.191" z="271.467" unit="cm"/>
+<rotation x="-2.43615" y="1.12674" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="722.76" y="304.669" z="271.467" unit="cm"/>
+<rotation x="-2.29863" y="1.05682" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="688.834" y="375.118" z="271.467" unit="cm"/>
+<rotation x="-2.19724" y="0.978964" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="648.061" y="441.84" z="271.467" unit="cm"/>
+<rotation x="-2.12174" y="0.895939" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="600.848" y="504.17" z="271.467" unit="cm"/>
+<rotation x="-2.06472" y="0.809457" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="547.663" y="561.49" z="271.467" unit="cm"/>
+<rotation x="-2.02114" y="0.720599" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="489.035" y="613.229" z="271.467" unit="cm"/>
+<rotation x="-1.98755" y="0.630067" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="425.547" y="658.874" z="271.467" unit="cm"/>
+<rotation x="-1.96162" y="0.538335" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="357.83" y="697.971" z="271.467" unit="cm"/>
+<rotation x="-1.94173" y="0.445734" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="286.556" y="730.131" z="271.467" unit="cm"/>
+<rotation x="-1.92676" y="0.352503" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="212.435" y="755.034" z="271.467" unit="cm"/>
+<rotation x="-1.91594" y="0.258826" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="136.202" y="772.434" z="271.467" unit="cm"/>
+<rotation x="-1.90875" y="0.164844" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="58.6156" y="782.157" z="271.467" unit="cm"/>
+<rotation x="-1.90486" y="0.07068" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-19.5533" y="784.107" z="271.467" unit="cm"/>
+<rotation x="-1.90409" y="-0.0235604" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-97.5279" y="778.263" z="271.467" unit="cm"/>
+<rotation x="-1.90641" y="-0.117776" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-174.533" y="764.685" z="271.467" unit="cm"/>
+<rotation x="-1.91192" y="-0.211862" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-249.804" y="743.508" z="271.467" unit="cm"/>
+<rotation x="-1.92087" y="-0.305708" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-322.592" y="714.941" z="271.467" unit="cm"/>
+<rotation x="-1.93368" y="-0.399182" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-392.174" y="679.268" z="271.467" unit="cm"/>
+<rotation x="-1.951" y="-0.492124" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-457.858" y="636.845" z="271.467" unit="cm"/>
+<rotation x="-1.97374" y="-0.584325" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-518.992" y="588.092" z="271.467" unit="cm"/>
+<rotation x="-2.00326" y="-0.675506" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-574.968" y="533.495" z="271.467" unit="cm"/>
+<rotation x="-2.04149" y="-0.765272" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-625.23" y="473.596" z="271.467" unit="cm"/>
+<rotation x="-2.09128" y="-0.853049" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-669.278" y="408.989" z="271.467" unit="cm"/>
+<rotation x="-2.15678" y="-0.93797" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-706.675" y="340.318" z="271.467" unit="cm"/>
+<rotation x="-2.24412" y="-1.01868" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-737.048" y="268.265" z="271.467" unit="cm"/>
+<rotation x="-2.36212" y="-1.093" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-760.096" y="193.546" z="271.467" unit="cm"/>
+<rotation x="-2.52222" y="-1.15744" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-775.59" y="116.903" z="271.467" unit="cm"/>
+<rotation x="-2.73496" y="-1.2067" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-783.375" y="39.0987" z="271.467" unit="cm"/>
+<rotation x="-2.99855" y="-1.23402" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="806.603" y="0" z="195.681" unit="cm"/>
+<rotation x="-3.14159" y="1.3328" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="802.838" y="77.8484" z="195.681" unit="cm"/>
+<rotation x="-2.76295" y="1.31426" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="791.576" y="154.97" z="195.681" unit="cm"/>
+<rotation x="-2.47178" y="1.26533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="772.924" y="230.645" z="195.681" unit="cm"/>
+<rotation x="-2.27436" y="1.19779" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="747.056" y="304.166" z="195.681" unit="cm"/>
+<rotation x="-2.14247" y="1.11992" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="714.212" y="374.847" z="195.681" unit="cm"/>
+<rotation x="-2.05191" y="1.03624" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="674.7" y="442.028" z="195.681" unit="cm"/>
+<rotation x="-1.98755" y="0.9491" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="628.888" y="505.083" z="195.681" unit="cm"/>
+<rotation x="-1.94041" y="0.859776" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="577.205" y="563.421" z="195.681" unit="cm"/>
+<rotation x="-1.90507" y="0.769015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="520.132" y="616.499" z="195.681" unit="cm"/>
+<rotation x="-1.87814" y="0.677267" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="458.203" y="663.821" z="195.681" unit="cm"/>
+<rotation x="-1.85745" y="0.584824" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="391.996" y="704.945" z="195.681" unit="cm"/>
+<rotation x="-1.84156" y="0.491881" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="322.13" y="739.487" z="195.681" unit="cm"/>
+<rotation x="-1.82948" y="0.398578" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="249.255" y="767.125" z="195.681" unit="cm"/>
+<rotation x="-1.82055" y="0.305015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="174.053" y="787.6" z="195.681" unit="cm"/>
+<rotation x="-1.81431" y="0.211271" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="97.2263" y="800.722" z="195.681" unit="cm"/>
+<rotation x="-1.81048" y="0.11741" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="19.4916" y="806.368" z="195.681" unit="cm"/>
+<rotation x="-1.80886" y="0.023486" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-58.425" y="804.485" z="195.681" unit="cm"/>
+<rotation x="-1.8094" y="-0.0704499" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-135.796" y="795.09" z="195.681" unit="cm"/>
+<rotation x="-1.81211" y="-0.164349" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-211.899" y="778.272" z="195.681" unit="cm"/>
+<rotation x="-1.81712" y="-0.258159" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-286.024" y="754.188" z="195.681" unit="cm"/>
+<rotation x="-1.82465" y="-0.351821" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-357.479" y="723.062" z="195.681" unit="cm"/>
+<rotation x="-1.83509" y="-0.445265" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-425.595" y="685.184" z="195.681" unit="cm"/>
+<rotation x="-1.84898" y="-0.538403" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-489.738" y="640.91" z="195.681" unit="cm"/>
+<rotation x="-1.86712" y="-0.631116" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-549.309" y="590.651" z="195.681" unit="cm"/>
+<rotation x="-1.89071" y="-0.723241" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-603.75" y="534.878" z="195.681" unit="cm"/>
+<rotation x="-1.92151" y="-0.81454" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-652.555" y="474.111" z="195.681" unit="cm"/>
+<rotation x="-1.96223" y="-0.904653" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-695.267" y="408.917" z="195.681" unit="cm"/>
+<rotation x="-2.01712" y="-0.993005" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-731.487" y="339.905" z="195.681" unit="cm"/>
+<rotation x="-2.09315" y="-1.07863" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-760.878" y="267.72" z="195.681" unit="cm"/>
+<rotation x="-2.20197" y="-1.15979" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-783.164" y="193.035" z="195.681" unit="cm"/>
+<rotation x="-2.363" y="-1.23325" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-798.139" y="116.547" z="195.681" unit="cm"/>
+<rotation x="-2.60441" y="-1.29282" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-805.661" y="38.9718" z="195.681" unit="cm"/>
+<rotation x="-2.945" y="-1.32803" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="821.552" y="0" z="118.122" unit="cm"/>
+<rotation x="-3.14159" y="1.428" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="817.832" y="78.0934" z="118.122" unit="cm"/>
+<rotation x="-2.55744" y="1.39935" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="806.705" y="155.48" z="118.122" unit="cm"/>
+<rotation x="-2.22049" y="1.33332" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="788.273" y="231.458" z="118.122" unit="cm"/>
+<rotation x="-2.04268" y="1.25236" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="762.702" y="305.34" z="118.122" unit="cm"/>
+<rotation x="-1.93992" y="1.16533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="730.224" y="376.456" z="118.122" unit="cm"/>
+<rotation x="-1.87484" y="1.07542" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="691.133" y="444.164" z="118.122" unit="cm"/>
+<rotation x="-1.83072" y="0.98395" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="645.784" y="507.849" z="118.122" unit="cm"/>
+<rotation x="-1.79932" y="0.89156" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="594.585" y="566.935" z="118.122" unit="cm"/>
+<rotation x="-1.77621" y="0.798582" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="538.002" y="620.887" z="118.122" unit="cm"/>
+<rotation x="-1.75879" y="0.705212" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="476.547" y="669.216" z="118.122" unit="cm"/>
+<rotation x="-1.7455" y="0.61157" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="410.776" y="711.484" z="118.122" unit="cm"/>
+<rotation x="-1.73532" y="0.517733" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="341.286" y="747.309" z="118.122" unit="cm"/>
+<rotation x="-1.72756" y="0.423756" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="268.704" y="776.367" z="118.122" unit="cm"/>
+<rotation x="-1.72178" y="0.329679" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="193.689" y="798.393" z="118.122" unit="cm"/>
+<rotation x="-1.71768" y="0.235532" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="116.92" y="813.189" z="118.122" unit="cm"/>
+<rotation x="-1.71504" y="0.141338" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.0921" y="820.621" z="118.122" unit="cm"/>
+<rotation x="-1.71375" y="0.0471163" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.0899" y="820.621" z="118.122" unit="cm"/>
+<rotation x="-1.71375" y="-0.0471137" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-116.918" y="813.19" z="118.122" unit="cm"/>
+<rotation x="-1.71504" y="-0.141335" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-193.687" y="798.394" z="118.122" unit="cm"/>
+<rotation x="-1.71768" y="-0.235529" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-268.702" y="776.367" z="118.122" unit="cm"/>
+<rotation x="-1.72178" y="-0.329677" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-341.284" y="747.31" z="118.122" unit="cm"/>
+<rotation x="-1.72756" y="-0.423754" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-410.775" y="711.485" z="118.122" unit="cm"/>
+<rotation x="-1.73532" y="-0.51773" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-476.545" y="669.217" z="118.122" unit="cm"/>
+<rotation x="-1.7455" y="-0.611567" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-538.001" y="620.888" z="118.122" unit="cm"/>
+<rotation x="-1.75879" y="-0.70521" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-594.584" y="566.937" z="118.122" unit="cm"/>
+<rotation x="-1.77621" y="-0.79858" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-645.782" y="507.851" z="118.122" unit="cm"/>
+<rotation x="-1.79932" y="-0.891557" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-691.132" y="444.166" z="118.122" unit="cm"/>
+<rotation x="-1.83072" y="-0.983947" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-730.223" y="376.458" z="118.122" unit="cm"/>
+<rotation x="-1.87484" y="-1.07541" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-762.701" y="305.342" z="118.122" unit="cm"/>
+<rotation x="-1.93992" y="-1.16533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-788.272" y="231.46" z="118.122" unit="cm"/>
+<rotation x="-2.04268" y="-1.25236" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-806.705" y="155.482" z="118.122" unit="cm"/>
+<rotation x="-2.22049" y="-1.33331" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-817.831" y="78.0956" z="118.122" unit="cm"/>
+<rotation x="-2.55742" y="-1.39935" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-821.552" y="0.00218006" z="118.122" unit="cm"/>
+<rotation x="-3.14157" y="-1.428" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="829.06" y="0" z="39.4941" unit="cm"/>
+<rotation x="-3.14159" y="1.5232" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="825.306" y="78.8071" z="39.4941" unit="cm"/>
+<rotation x="-2.03536" y="1.46439" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="814.078" y="156.9" z="39.4941" unit="cm"/>
+<rotation x="-1.81738" y="1.37461" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="795.477" y="233.573" z="39.4941" unit="cm"/>
+<rotation x="-1.7383" y="1.28136" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="769.673" y="308.13" z="39.4941" unit="cm"/>
+<rotation x="-1.69827" y="1.18718" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="736.898" y="379.897" z="39.4941" unit="cm"/>
+<rotation x="-1.67438" y="1.09261" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="697.45" y="448.223" z="39.4941" unit="cm"/>
+<rotation x="-1.65868" y="0.997838" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="651.685" y="512.49" z="39.4941" unit="cm"/>
+<rotation x="-1.6477" y="0.902959" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="600.019" y="572.116" z="39.4941" unit="cm"/>
+<rotation x="-1.63972" y="0.808012" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="542.919" y="626.561" z="39.4941" unit="cm"/>
+<rotation x="-1.63374" y="0.713018" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="480.902" y="675.332" z="39.4941" unit="cm"/>
+<rotation x="-1.62921" y="0.617993" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="414.531" y="717.987" z="39.4941" unit="cm"/>
+<rotation x="-1.62574" y="0.522946" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="344.405" y="754.139" z="39.4941" unit="cm"/>
+<rotation x="-1.62312" y="0.427883" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="271.16" y="783.462" z="39.4941" unit="cm"/>
+<rotation x="-1.62116" y="0.332808" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="195.459" y="805.69" z="39.4941" unit="cm"/>
+<rotation x="-1.61977" y="0.237726" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.989" y="820.621" z="39.4941" unit="cm"/>
+<rotation x="-1.61888" y="0.142638" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.4493" y="828.121" z="39.4941" unit="cm"/>
+<rotation x="-1.61845" y="0.0475472" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.4471" y="828.121" z="39.4941" unit="cm"/>
+<rotation x="-1.61845" y="-0.0475446" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.986" y="820.621" z="39.4941" unit="cm"/>
+<rotation x="-1.61888" y="-0.142635" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-195.457" y="805.69" z="39.4941" unit="cm"/>
+<rotation x="-1.61977" y="-0.237723" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-271.158" y="783.463" z="39.4941" unit="cm"/>
+<rotation x="-1.62116" y="-0.332806" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-344.403" y="754.14" z="39.4941" unit="cm"/>
+<rotation x="-1.62312" y="-0.42788" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-414.529" y="717.988" z="39.4941" unit="cm"/>
+<rotation x="-1.62574" y="-0.522943" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-480.901" y="675.333" z="39.4941" unit="cm"/>
+<rotation x="-1.62921" y="-0.61799" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-542.918" y="626.563" z="39.4941" unit="cm"/>
+<rotation x="-1.63374" y="-0.713015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-600.018" y="572.118" z="39.4941" unit="cm"/>
+<rotation x="-1.63972" y="-0.808009" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-651.684" y="512.492" z="39.4941" unit="cm"/>
+<rotation x="-1.6477" y="-0.902957" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-697.449" y="448.225" z="39.4941" unit="cm"/>
+<rotation x="-1.65868" y="-0.997835" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-736.897" y="379.899" z="39.4941" unit="cm"/>
+<rotation x="-1.67438" y="-1.0926" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-769.672" y="308.132" z="39.4941" unit="cm"/>
+<rotation x="-1.69827" y="-1.18718" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-795.477" y="233.575" z="39.4941" unit="cm"/>
+<rotation x="-1.73829" y="-1.28136" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-814.077" y="156.903" z="39.4941" unit="cm"/>
+<rotation x="-1.81738" y="-1.3746" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-825.306" y="78.8093" z="39.4941" unit="cm"/>
+<rotation x="-2.03535" y="-1.46439" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-829.06" y="0.00219998" z="39.4941" unit="cm"/>
+<rotation x="-3.14153" y="-1.5232" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="829.06" y="0" z="-39.4919" unit="cm"/>
+<rotation x="-0" y="1.5232" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="825.306" y="78.8071" z="-39.4919" unit="cm"/>
+<rotation x="-1.10625" y="1.46439" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="814.078" y="156.9" z="-39.4919" unit="cm"/>
+<rotation x="-1.32422" y="1.37461" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="795.477" y="233.573" z="-39.4919" unit="cm"/>
+<rotation x="-1.4033" y="1.28136" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="769.673" y="308.13" z="-39.4919" unit="cm"/>
+<rotation x="-1.44333" y="1.18718" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="736.898" y="379.897" z="-39.4919" unit="cm"/>
+<rotation x="-1.46721" y="1.09261" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="697.45" y="448.223" z="-39.4919" unit="cm"/>
+<rotation x="-1.48292" y="0.997838" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="651.685" y="512.49" z="-39.4919" unit="cm"/>
+<rotation x="-1.49389" y="0.90296" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="600.019" y="572.116" z="-39.4919" unit="cm"/>
+<rotation x="-1.50188" y="0.808012" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="542.919" y="626.561" z="-39.4919" unit="cm"/>
+<rotation x="-1.50785" y="0.713018" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="480.902" y="675.332" z="-39.4919" unit="cm"/>
+<rotation x="-1.51239" y="0.617993" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="414.531" y="717.987" z="-39.4919" unit="cm"/>
+<rotation x="-1.51585" y="0.522946" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="344.405" y="754.139" z="-39.4919" unit="cm"/>
+<rotation x="-1.51848" y="0.427883" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="271.16" y="783.462" z="-39.4919" unit="cm"/>
+<rotation x="-1.52043" y="0.332808" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="195.459" y="805.69" z="-39.4919" unit="cm"/>
+<rotation x="-1.52182" y="0.237726" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.989" y="820.621" z="-39.4919" unit="cm"/>
+<rotation x="-1.52271" y="0.142638" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.4493" y="828.121" z="-39.4919" unit="cm"/>
+<rotation x="-1.52314" y="0.0475472" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.4471" y="828.121" z="-39.4919" unit="cm"/>
+<rotation x="-1.52314" y="-0.0475446" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.986" y="820.621" z="-39.4919" unit="cm"/>
+<rotation x="-1.52271" y="-0.142635" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-195.457" y="805.69" z="-39.4919" unit="cm"/>
+<rotation x="-1.52182" y="-0.237723" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-271.158" y="783.463" z="-39.4919" unit="cm"/>
+<rotation x="-1.52043" y="-0.332806" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-344.403" y="754.14" z="-39.4919" unit="cm"/>
+<rotation x="-1.51848" y="-0.42788" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-414.529" y="717.988" z="-39.4919" unit="cm"/>
+<rotation x="-1.51585" y="-0.522943" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-480.901" y="675.333" z="-39.4919" unit="cm"/>
+<rotation x="-1.51239" y="-0.61799" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-542.918" y="626.563" z="-39.4919" unit="cm"/>
+<rotation x="-1.50785" y="-0.713015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-600.018" y="572.118" z="-39.4919" unit="cm"/>
+<rotation x="-1.50188" y="-0.808009" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-651.684" y="512.492" z="-39.4919" unit="cm"/>
+<rotation x="-1.49389" y="-0.902957" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-697.449" y="448.225" z="-39.4919" unit="cm"/>
+<rotation x="-1.48292" y="-0.997836" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-736.897" y="379.899" z="-39.4919" unit="cm"/>
+<rotation x="-1.46721" y="-1.0926" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-769.672" y="308.132" z="-39.4919" unit="cm"/>
+<rotation x="-1.44333" y="-1.18718" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-795.477" y="233.575" z="-39.4919" unit="cm"/>
+<rotation x="-1.4033" y="-1.28136" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-814.077" y="156.903" z="-39.4919" unit="cm"/>
+<rotation x="-1.32422" y="-1.3746" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-825.306" y="78.8093" z="-39.4919" unit="cm"/>
+<rotation x="-1.10626" y="-1.46439" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-829.06" y="0.00219999" z="-39.4919" unit="cm"/>
+<rotation x="-5.57073e-05" y="-1.5232" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="821.552" y="0" z="-118.12" unit="cm"/>
+<rotation x="-0" y="1.428" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="817.832" y="78.0934" z="-118.12" unit="cm"/>
+<rotation x="-0.584164" y="1.39935" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="806.705" y="155.48" z="-118.12" unit="cm"/>
+<rotation x="-0.921107" y="1.33332" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="788.273" y="231.458" z="-118.12" unit="cm"/>
+<rotation x="-1.09892" y="1.25236" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="762.703" y="305.34" z="-118.12" unit="cm"/>
+<rotation x="-1.20168" y="1.16533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="730.225" y="376.457" z="-118.12" unit="cm"/>
+<rotation x="-1.26676" y="1.07542" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="691.134" y="444.164" z="-118.12" unit="cm"/>
+<rotation x="-1.31087" y="0.98395" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="645.784" y="507.849" z="-118.12" unit="cm"/>
+<rotation x="-1.34227" y="0.89156" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="594.585" y="566.935" z="-118.12" unit="cm"/>
+<rotation x="-1.36539" y="0.798583" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="538.003" y="620.887" z="-118.12" unit="cm"/>
+<rotation x="-1.3828" y="0.705213" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="476.547" y="669.216" z="-118.12" unit="cm"/>
+<rotation x="-1.39609" y="0.61157" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="410.777" y="711.485" z="-118.12" unit="cm"/>
+<rotation x="-1.40628" y="0.517733" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="341.286" y="747.31" z="-118.12" unit="cm"/>
+<rotation x="-1.41403" y="0.423757" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="268.704" y="776.367" z="-118.12" unit="cm"/>
+<rotation x="-1.41981" y="0.32968" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="193.689" y="798.393" z="-118.12" unit="cm"/>
+<rotation x="-1.42391" y="0.235532" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="116.92" y="813.19" z="-118.12" unit="cm"/>
+<rotation x="-1.42655" y="0.141338" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.0921" y="820.621" z="-118.12" unit="cm"/>
+<rotation x="-1.42784" y="0.0471163" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.0899" y="820.621" z="-118.12" unit="cm"/>
+<rotation x="-1.42784" y="-0.0471137" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-116.918" y="813.19" z="-118.12" unit="cm"/>
+<rotation x="-1.42655" y="-0.141335" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-193.687" y="798.394" z="-118.12" unit="cm"/>
+<rotation x="-1.42391" y="-0.235529" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-268.702" y="776.368" z="-118.12" unit="cm"/>
+<rotation x="-1.41981" y="-0.329677" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-341.284" y="747.311" z="-118.12" unit="cm"/>
+<rotation x="-1.41403" y="-0.423754" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-410.775" y="711.486" z="-118.12" unit="cm"/>
+<rotation x="-1.40628" y="-0.51773" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-476.546" y="669.217" z="-118.12" unit="cm"/>
+<rotation x="-1.39609" y="-0.611567" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-538.001" y="620.889" z="-118.12" unit="cm"/>
+<rotation x="-1.3828" y="-0.70521" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-594.584" y="566.937" z="-118.12" unit="cm"/>
+<rotation x="-1.36539" y="-0.79858" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-645.782" y="507.851" z="-118.12" unit="cm"/>
+<rotation x="-1.34227" y="-0.891557" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-691.133" y="444.166" z="-118.12" unit="cm"/>
+<rotation x="-1.31088" y="-0.983948" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-730.224" y="376.459" z="-118.12" unit="cm"/>
+<rotation x="-1.26676" y="-1.07542" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-762.702" y="305.342" z="-118.12" unit="cm"/>
+<rotation x="-1.20168" y="-1.16533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-788.273" y="231.46" z="-118.12" unit="cm"/>
+<rotation x="-1.09892" y="-1.25236" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-806.705" y="155.482" z="-118.12" unit="cm"/>
+<rotation x="-0.921113" y="-1.33332" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-817.832" y="78.0956" z="-118.12" unit="cm"/>
+<rotation x="-0.584176" y="-1.39935" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-821.552" y="0.00218006" z="-118.12" unit="cm"/>
+<rotation x="-1.84563e-05" y="-1.428" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="806.604" y="0" z="-195.679" unit="cm"/>
+<rotation x="-0" y="1.3328" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="802.838" y="77.8484" z="-195.679" unit="cm"/>
+<rotation x="-0.378641" y="1.31426" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="791.577" y="154.97" z="-195.679" unit="cm"/>
+<rotation x="-0.66982" y="1.26533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="772.925" y="230.645" z="-195.679" unit="cm"/>
+<rotation x="-0.867233" y="1.19779" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="747.056" y="304.166" z="-195.679" unit="cm"/>
+<rotation x="-0.999125" y="1.11992" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="714.212" y="374.847" z="-195.679" unit="cm"/>
+<rotation x="-1.08969" y="1.03624" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="674.7" y="442.029" z="-195.679" unit="cm"/>
+<rotation x="-1.15404" y="0.9491" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="628.889" y="505.083" z="-195.679" unit="cm"/>
+<rotation x="-1.20118" y="0.859777" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="577.205" y="563.422" z="-195.679" unit="cm"/>
+<rotation x="-1.23653" y="0.769015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="520.133" y="616.5" z="-195.679" unit="cm"/>
+<rotation x="-1.26345" y="0.677267" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="458.204" y="663.822" z="-195.679" unit="cm"/>
+<rotation x="-1.28414" y="0.584824" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="391.997" y="704.946" z="-195.679" unit="cm"/>
+<rotation x="-1.30003" y="0.491882" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="322.13" y="739.488" z="-195.679" unit="cm"/>
+<rotation x="-1.31211" y="0.398578" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="249.255" y="767.126" z="-195.679" unit="cm"/>
+<rotation x="-1.32104" y="0.305015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="174.053" y="787.601" z="-195.679" unit="cm"/>
+<rotation x="-1.32728" y="0.211271" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="97.2263" y="800.723" z="-195.679" unit="cm"/>
+<rotation x="-1.33112" y="0.11741" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="19.4916" y="806.368" z="-195.679" unit="cm"/>
+<rotation x="-1.33273" y="0.023486" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-58.4251" y="804.485" z="-195.679" unit="cm"/>
+<rotation x="-1.3322" y="-0.0704499" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-135.796" y="795.091" z="-195.679" unit="cm"/>
+<rotation x="-1.32948" y="-0.164349" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-211.9" y="778.273" z="-195.679" unit="cm"/>
+<rotation x="-1.32448" y="-0.258159" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-286.024" y="754.188" z="-195.679" unit="cm"/>
+<rotation x="-1.31694" y="-0.351821" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-357.479" y="723.062" z="-195.679" unit="cm"/>
+<rotation x="-1.3065" y="-0.445265" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-425.595" y="685.185" z="-195.679" unit="cm"/>
+<rotation x="-1.29262" y="-0.538403" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-489.738" y="640.91" z="-195.679" unit="cm"/>
+<rotation x="-1.27447" y="-0.631116" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-549.309" y="590.652" z="-195.679" unit="cm"/>
+<rotation x="-1.25088" y="-0.723241" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-603.751" y="534.879" z="-195.679" unit="cm"/>
+<rotation x="-1.22008" y="-0.81454" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-652.555" y="474.111" z="-195.679" unit="cm"/>
+<rotation x="-1.17937" y="-0.904654" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-695.267" y="408.917" z="-195.679" unit="cm"/>
+<rotation x="-1.12447" y="-0.993006" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-731.488" y="339.905" z="-195.679" unit="cm"/>
+<rotation x="-1.04845" y="-1.07863" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-760.878" y="267.72" z="-195.679" unit="cm"/>
+<rotation x="-0.939626" y="-1.15979" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-783.165" y="193.035" z="-195.679" unit="cm"/>
+<rotation x="-0.778597" y="-1.23326" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-798.139" y="116.547" z="-195.679" unit="cm"/>
+<rotation x="-0.537183" y="-1.29282" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-805.662" y="38.9719" z="-195.679" unit="cm"/>
+<rotation x="-0.19659" y="-1.32803" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="784.351" y="0" z="-271.465" unit="cm"/>
+<rotation x="-0" y="1.2376" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="780.454" y="78.0961" z="-271.465" unit="cm"/>
+<rotation x="-0.280119" y="1.22353" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="768.799" y="155.416" z="-271.465" unit="cm"/>
+<rotation x="-0.51996" y="1.18438" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="749.505" y="231.191" z="-271.465" unit="cm"/>
+<rotation x="-0.705447" y="1.12674" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="722.761" y="304.669" z="-271.465" unit="cm"/>
+<rotation x="-0.842967" y="1.05682" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="688.834" y="375.119" z="-271.465" unit="cm"/>
+<rotation x="-0.944355" y="0.978966" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="648.062" y="441.84" z="-271.465" unit="cm"/>
+<rotation x="-1.01986" y="0.89594" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="600.848" y="504.171" z="-271.465" unit="cm"/>
+<rotation x="-1.07687" y="0.809458" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="547.663" y="561.491" z="-271.465" unit="cm"/>
+<rotation x="-1.12046" y="0.720599" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="489.035" y="613.23" z="-271.465" unit="cm"/>
+<rotation x="-1.15405" y="0.630067" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="425.547" y="658.875" z="-271.465" unit="cm"/>
+<rotation x="-1.17998" y="0.538335" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="357.83" y="697.972" z="-271.465" unit="cm"/>
+<rotation x="-1.19987" y="0.445734" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="286.556" y="730.132" z="-271.465" unit="cm"/>
+<rotation x="-1.21483" y="0.352504" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="212.435" y="755.035" z="-271.465" unit="cm"/>
+<rotation x="-1.22565" y="0.258826" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="136.202" y="772.435" z="-271.465" unit="cm"/>
+<rotation x="-1.23284" y="0.164844" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="58.6156" y="782.158" z="-271.465" unit="cm"/>
+<rotation x="-1.23673" y="0.0706801" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-19.5534" y="784.107" z="-271.465" unit="cm"/>
+<rotation x="-1.2375" y="-0.0235604" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-97.528" y="778.264" z="-271.465" unit="cm"/>
+<rotation x="-1.23518" y="-0.117776" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-174.533" y="764.686" z="-271.465" unit="cm"/>
+<rotation x="-1.22967" y="-0.211863" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-249.804" y="743.508" z="-271.465" unit="cm"/>
+<rotation x="-1.22072" y="-0.305708" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-322.592" y="714.941" z="-271.465" unit="cm"/>
+<rotation x="-1.20791" y="-0.399183" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-392.174" y="679.269" z="-271.465" unit="cm"/>
+<rotation x="-1.1906" y="-0.492124" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-457.859" y="636.845" z="-271.465" unit="cm"/>
+<rotation x="-1.16785" y="-0.584326" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-518.993" y="588.093" z="-271.465" unit="cm"/>
+<rotation x="-1.13834" y="-0.675506" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-574.969" y="533.495" z="-271.465" unit="cm"/>
+<rotation x="-1.1001" y="-0.765273" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-625.231" y="473.596" z="-271.465" unit="cm"/>
+<rotation x="-1.05032" y="-0.85305" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-669.279" y="408.99" z="-271.465" unit="cm"/>
+<rotation x="-0.984819" y="-0.937971" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-706.675" y="340.319" z="-271.465" unit="cm"/>
+<rotation x="-0.897472" y="-1.01868" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-737.048" y="268.266" z="-271.465" unit="cm"/>
+<rotation x="-0.77947" y="-1.093" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-760.096" y="193.546" z="-271.465" unit="cm"/>
+<rotation x="-0.619377" y="-1.15744" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-775.59" y="116.903" z="-271.465" unit="cm"/>
+<rotation x="-0.406637" y="-1.2067" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-783.376" y="39.0987" z="-271.465" unit="cm"/>
+<rotation x="-0.143045" y="-1.23403" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="754.995" y="0" z="-344.793" unit="cm"/>
+<rotation x="-0" y="1.1424" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="750.859" y="78.9184" z="-344.793" unit="cm"/>
+<rotation x="-0.22501" y="1.13056" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="738.497" y="156.972" z="-344.793" unit="cm"/>
+<rotation x="-0.427223" y="1.09681" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="718.043" y="233.306" z="-344.793" unit="cm"/>
+<rotation x="-0.594886" y="1.04537" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="689.722" y="307.084" z="-344.793" unit="cm"/>
+<rotation x="-0.727615" y="0.980887" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="653.845" y="377.497" z="-344.793" unit="cm"/>
+<rotation x="-0.830646" y="0.907173" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="610.804" y="443.775" z="-344.793" unit="cm"/>
+<rotation x="-0.910266" y="0.827008" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="561.071" y="505.19" z="-344.793" unit="cm"/>
+<rotation x="-0.971911" y="0.742306" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="505.191" y="561.07" z="-344.793" unit="cm"/>
+<rotation x="-1.01976" y="0.654375" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="443.775" y="610.804" z="-344.793" unit="cm"/>
+<rotation x="-1.0569" y="0.564116" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="377.498" y="653.845" z="-344.793" unit="cm"/>
+<rotation x="-1.08552" y="0.472167" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="307.085" y="689.722" z="-344.793" unit="cm"/>
+<rotation x="-1.10723" y="0.378989" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="233.307" y="718.043" z="-344.793" unit="cm"/>
+<rotation x="-1.12313" y="0.284933" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="156.973" y="738.497" z="-344.793" unit="cm"/>
+<rotation x="-1.13399" y="0.19027" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="78.9194" y="750.859" z="-344.793" unit="cm"/>
+<rotation x="-1.14032" y="0.0952275" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.00100172" y="754.995" z="-344.793" unit="cm"/>
+<rotation x="-1.1424" y="1.2069e-06" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-78.9174" y="750.859" z="-344.793" unit="cm"/>
+<rotation x="-1.14032" y="-0.0952251" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-156.971" y="738.497" z="-344.793" unit="cm"/>
+<rotation x="-1.13399" y="-0.190268" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-233.305" y="718.043" z="-344.793" unit="cm"/>
+<rotation x="-1.12313" y="-0.28493" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-307.083" y="689.723" z="-344.793" unit="cm"/>
+<rotation x="-1.10723" y="-0.378987" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-377.496" y="653.846" z="-344.793" unit="cm"/>
+<rotation x="-1.08552" y="-0.472164" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-443.774" y="610.805" z="-344.793" unit="cm"/>
+<rotation x="-1.0569" y="-0.564114" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-505.189" y="561.072" z="-344.793" unit="cm"/>
+<rotation x="-1.01976" y="-0.654373" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-561.07" y="505.191" z="-344.793" unit="cm"/>
+<rotation x="-0.971912" y="-0.742304" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-610.803" y="443.776" z="-344.793" unit="cm"/>
+<rotation x="-0.910267" y="-0.827006" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-653.844" y="377.499" z="-344.793" unit="cm"/>
+<rotation x="-0.830648" y="-0.907171" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-689.722" y="307.086" z="-344.793" unit="cm"/>
+<rotation x="-0.727618" y="-0.980885" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-718.042" y="233.308" z="-344.793" unit="cm"/>
+<rotation x="-0.59489" y="-1.04537" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-738.496" y="156.974" z="-344.793" unit="cm"/>
+<rotation x="-0.427228" y="-1.09681" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-750.859" y="78.9204" z="-344.793" unit="cm"/>
+<rotation x="-0.225016" y="-1.13056" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-754.995" y="0.00200345" z="-344.793" unit="cm"/>
+<rotation x="-5.81058e-06" y="-1.1424" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="718.802" y="0" z="-414.999" unit="cm"/>
+<rotation x="-0" y="1.0472" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="714.439" y="79.074" z="-414.999" unit="cm"/>
+<rotation x="-0.188284" y="1.03678" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="701.404" y="157.188" z="-414.999" unit="cm"/>
+<rotation x="-0.36207" y="1.00669" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="679.855" y="233.394" z="-414.999" unit="cm"/>
+<rotation x="-0.512312" y="0.959845" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="650.054" y="306.767" z="-414.999" unit="cm"/>
+<rotation x="-0.636554" y="0.899791" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="612.361" y="376.417" z="-414.999" unit="cm"/>
+<rotation x="-0.736686" y="0.829783" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="567.236" y="441.497" z="-414.999" unit="cm"/>
+<rotation x="-0.816326" y="0.752433" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="515.225" y="501.218" z="-414.999" unit="cm"/>
+<rotation x="-0.879225" y="0.669703" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="456.96" y="554.855" z="-414.999" unit="cm"/>
+<rotation x="-0.928614" y="0.583028" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="393.148" y="601.756" z="-414.999" unit="cm"/>
+<rotation x="-0.967053" y="0.493456" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="324.564" y="641.354" z="-414.999" unit="cm"/>
+<rotation x="-0.996486" y="0.401762" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="252.04" y="673.166" z="-414.999" unit="cm"/>
+<rotation x="-1.01834" y="0.308534" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="176.456" y="696.806" z="-414.999" unit="cm"/>
+<rotation x="-1.03364" y="0.214233" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="98.7308" y="711.989" z="-414.999" unit="cm"/>
+<rotation x="-1.04307" y="0.119235" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="19.807" y="718.529" z="-414.999" unit="cm"/>
+<rotation x="-1.04703" y="0.0238662" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-59.3572" y="716.347" z="-414.999" unit="cm"/>
+<rotation x="-1.04572" y="-0.0715758" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-137.801" y="705.469" z="-414.999" unit="cm"/>
+<rotation x="-1.03905" y="-0.166798" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-214.572" y="686.028" z="-414.999" unit="cm"/>
+<rotation x="-1.02676" y="-0.26149" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-288.738" y="658.26" z="-414.999" unit="cm"/>
+<rotation x="-1.00829" y="-0.355306" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-359.4" y="622.501" z="-414.999" unit="cm"/>
+<rotation x="-0.982796" y="-0.447831" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-425.699" y="579.186" z="-414.999" unit="cm"/>
+<rotation x="-0.949069" y="-0.538548" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-486.83" y="528.841" z="-414.999" unit="cm"/>
+<rotation x="-0.905434" y="-0.626783" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-542.052" y="472.076" z="-414.999" unit="cm"/>
+<rotation x="-0.849652" y="-0.711638" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-590.695" y="409.58" z="-414.999" unit="cm"/>
+<rotation x="-0.778827" y="-0.791887" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-632.167" y="342.113" z="-414.999" unit="cm"/>
+<rotation x="-0.689426" y="-0.86585" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-665.965" y="270.493" z="-414.999" unit="cm"/>
+<rotation x="-0.577635" y="-0.931251" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-691.68" y="195.59" z="-414.999" unit="cm"/>
+<rotation x="-0.440428" y="-0.985139" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-708.998" y="118.313" z="-414.999" unit="cm"/>
+<rotation x="-0.277724" y="-1.02404" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-717.71" y="39.5991" z="-414.999" unit="cm"/>
+<rotation x="-0.0951317" y="-1.04457" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="676.099" y="0" z="-481.446" unit="cm"/>
+<rotation x="-0" y="0.952" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="671.527" y="78.4902" z="-481.446" unit="cm"/>
+<rotation x="-0.161608" y="0.942567" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="657.875" y="155.919" z="-481.446" unit="cm"/>
+<rotation x="-0.313197" y="0.915094" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="635.325" y="231.239" z="-481.446" unit="cm"/>
+<rotation x="-0.447765" y="0.871744" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="604.184" y="303.432" z="-481.446" unit="cm"/>
+<rotation x="-0.562367" y="0.815302" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="564.873" y="371.522" z="-481.446" unit="cm"/>
+<rotation x="-0.657232" y="0.748539" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="517.922" y="434.588" z="-481.446" unit="cm"/>
+<rotation x="-0.734289" y="0.673854" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="463.968" y="491.776" z="-481.446" unit="cm"/>
+<rotation x="-0.796012" y="0.593176" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="403.739" y="542.314" z="-481.446" unit="cm"/>
+<rotation x="-0.844784" y="0.508002" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="338.05" y="585.519" z="-481.446" unit="cm"/>
+<rotation x="-0.882631" y="0.419484" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="267.79" y="620.805" z="-481.446" unit="cm"/>
+<rotation x="-0.911162" y="0.328515" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="193.908" y="647.695" z="-481.446" unit="cm"/>
+<rotation x="-0.931583" y="0.235803" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.404" y="665.827" z="-481.446" unit="cm"/>
+<rotation x="-0.944748" y="0.141927" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.3125" y="674.955" z="-481.446" unit="cm"/>
+<rotation x="-0.951199" y="0.0473822" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.3107" y="674.955" z="-481.446" unit="cm"/>
+<rotation x="-0.951199" y="-0.04738" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.402" y="665.828" z="-481.446" unit="cm"/>
+<rotation x="-0.944748" y="-0.141925" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-193.906" y="647.696" z="-481.446" unit="cm"/>
+<rotation x="-0.931584" y="-0.235801" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-267.788" y="620.805" z="-481.446" unit="cm"/>
+<rotation x="-0.911162" y="-0.328513" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-338.048" y="585.519" z="-481.446" unit="cm"/>
+<rotation x="-0.882632" y="-0.419482" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-403.737" y="542.315" z="-481.446" unit="cm"/>
+<rotation x="-0.844785" y="-0.508" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-463.966" y="491.777" z="-481.446" unit="cm"/>
+<rotation x="-0.796013" y="-0.593174" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-517.921" y="434.589" z="-481.446" unit="cm"/>
+<rotation x="-0.734291" y="-0.673853" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-564.872" y="371.524" z="-481.446" unit="cm"/>
+<rotation x="-0.657234" y="-0.748538" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-604.183" y="303.434" z="-481.446" unit="cm"/>
+<rotation x="-0.56237" y="-0.815301" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-635.325" y="231.241" z="-481.446" unit="cm"/>
+<rotation x="-0.447768" y="-0.871742" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-657.874" y="155.921" z="-481.446" unit="cm"/>
+<rotation x="-0.3132" y="-0.915093" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-671.527" y="78.492" z="-481.446" unit="cm"/>
+<rotation x="-0.161612" y="-0.942566" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-676.099" y="0.00179409" z="-481.446" unit="cm"/>
+<rotation x="-3.72646e-06" y="-0.952" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="627.273" y="0" z="-543.533" unit="cm"/>
+<rotation x="-0" y="0.8568" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="622.327" y="78.6181" z="-543.533" unit="cm"/>
+<rotation x="-0.143646" y="0.847747" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="607.566" y="155.996" z="-543.533" unit="cm"/>
+<rotation x="-0.279492" y="0.821264" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="583.224" y="230.914" z="-543.533" unit="cm"/>
+<rotation x="-0.401735" y="0.779156" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="549.684" y="302.191" z="-543.533" unit="cm"/>
+<rotation x="-0.507419" y="0.723844" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="507.475" y="368.702" z="-543.533" unit="cm"/>
+<rotation x="-0.596042" y="0.657848" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="457.263" y="429.398" z="-543.533" unit="cm"/>
+<rotation x="-0.668621" y="0.583465" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="399.839" y="483.322" z="-543.533" unit="cm"/>
+<rotation x="-0.726829" y="0.502633" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="336.11" y="529.624" z="-543.533" unit="cm"/>
+<rotation x="-0.772438" y="0.416926" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="267.08" y="567.574" z="-543.533" unit="cm"/>
+<rotation x="-0.807031" y="0.327613" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="193.839" y="596.572" z="-543.533" unit="cm"/>
+<rotation x="-0.831886" y="0.235717" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.54" y="616.162" z="-543.533" unit="cm"/>
+<rotation x="-0.847944" y="0.142092" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.3876" y="626.035" z="-543.533" unit="cm"/>
+<rotation x="-0.855822" y="0.0474728" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.3859" y="626.035" z="-543.533" unit="cm"/>
+<rotation x="-0.855822" y="-0.0474708" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.538" y="616.163" z="-543.533" unit="cm"/>
+<rotation x="-0.847944" y="-0.14209" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-193.837" y="596.573" z="-543.533" unit="cm"/>
+<rotation x="-0.831886" y="-0.235715" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-267.079" y="567.574" z="-543.533" unit="cm"/>
+<rotation x="-0.807032" y="-0.327611" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-336.109" y="529.625" z="-543.533" unit="cm"/>
+<rotation x="-0.772439" y="-0.416925" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-399.838" y="483.323" z="-543.533" unit="cm"/>
+<rotation x="-0.72683" y="-0.502631" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-457.262" y="429.399" z="-543.533" unit="cm"/>
+<rotation x="-0.668622" y="-0.583463" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-507.474" y="368.703" z="-543.533" unit="cm"/>
+<rotation x="-0.596044" y="-0.657847" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-549.683" y="302.192" z="-543.533" unit="cm"/>
+<rotation x="-0.507421" y="-0.723843" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-583.223" y="230.916" z="-543.533" unit="cm"/>
+<rotation x="-0.401737" y="-0.779155" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-607.566" y="155.998" z="-543.533" unit="cm"/>
+<rotation x="-0.279495" y="-0.821263" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-622.327" y="78.6198" z="-543.533" unit="cm"/>
+<rotation x="-0.143649" y="-0.847747" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-627.273" y="0.00166453" z="-543.533" unit="cm"/>
+<rotation x="-3.06242e-06" y="-0.8568" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="572.767" y="0" z="-600.698" unit="cm"/>
+<rotation x="-0" y="0.7616" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="567.432" y="77.9917" z="-600.698" unit="cm"/>
+<rotation x="-0.129113" y="0.752756" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="551.527" y="154.531" z="-600.698" unit="cm"/>
+<rotation x="-0.251792" y="0.726812" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="525.348" y="228.191" z="-600.698" unit="cm"/>
+<rotation x="-0.363039" y="0.685357" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="489.383" y="297.6" z="-600.698" unit="cm"/>
+<rotation x="-0.45998" y="0.630586" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="444.302" y="361.466" z="-600.698" unit="cm"/>
+<rotation x="-0.5417" y="0.564867" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="390.944" y="418.598" z="-600.698" unit="cm"/>
+<rotation x="-0.608611" y="0.490443" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="330.304" y="467.933" z="-600.698" unit="cm"/>
+<rotation x="-0.661793" y="0.409288" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="263.51" y="508.551" z="-600.698" unit="cm"/>
+<rotation x="-0.702517" y="0.323073" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="191.808" y="539.696" z="-600.698" unit="cm"/>
+<rotation x="-0.731957" y="0.233203" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="116.533" y="560.787" z="-600.698" unit="cm"/>
+<rotation x="-0.751049" y="0.140867" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.0877" y="571.431" z="-600.698" unit="cm"/>
+<rotation x="-0.760435" y="0.0471111" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.0862" y="571.432" z="-600.698" unit="cm"/>
+<rotation x="-0.760435" y="-0.0471092" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-116.532" y="560.787" z="-600.698" unit="cm"/>
+<rotation x="-0.75105" y="-0.140865" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-191.807" y="539.696" z="-600.698" unit="cm"/>
+<rotation x="-0.731957" y="-0.233201" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-263.509" y="508.552" z="-600.698" unit="cm"/>
+<rotation x="-0.702517" y="-0.323072" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-330.302" y="467.934" z="-600.698" unit="cm"/>
+<rotation x="-0.661794" y="-0.409286" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-390.943" y="418.599" z="-600.698" unit="cm"/>
+<rotation x="-0.608612" y="-0.490442" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-444.301" y="361.467" z="-600.698" unit="cm"/>
+<rotation x="-0.541702" y="-0.564866" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-489.382" y="297.602" z="-600.698" unit="cm"/>
+<rotation x="-0.459982" y="-0.630585" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-525.348" y="228.192" z="-600.698" unit="cm"/>
+<rotation x="-0.363041" y="-0.685356" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-551.527" y="154.532" z="-600.698" unit="cm"/>
+<rotation x="-0.251794" y="-0.726811" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-567.432" y="77.9932" z="-600.698" unit="cm"/>
+<rotation x="-0.129115" y="-0.752756" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-572.767" y="0.00151989" z="-600.698" unit="cm"/>
+<rotation x="-2.5302e-06" y="-0.7616" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="513.073" y="0" z="-652.423" unit="cm"/>
+<rotation x="-0" y="0.666401" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="507.06" y="78.3202" z="-652.423" unit="cm"/>
+<rotation x="-0.119473" y="0.657217" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="489.162" y="154.805" z="-652.423" unit="cm"/>
+<rotation x="-0.232968" y="0.630257" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="459.799" y="227.661" z="-652.423" unit="cm"/>
+<rotation x="-0.335736" y="0.587131" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="419.658" y="295.18" z="-652.423" unit="cm"/>
+<rotation x="-0.424879" y="0.530091" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="369.681" y="355.781" z="-652.423" unit="cm"/>
+<rotation x="-0.499246" y="0.461619" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="311.038" y="408.043" z="-652.423" unit="cm"/>
+<rotation x="-0.558907" y="0.384122" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="245.106" y="450.741" z="-652.423" unit="cm"/>
+<rotation x="-0.604574" y="0.299778" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="173.428" y="482.874" z="-652.423" unit="cm"/>
+<rotation x="-0.63715" y="0.2105" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="97.6852" y="503.688" z="-652.423" unit="cm"/>
+<rotation x="-0.65745" y="0.117966" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="19.6528" y="512.697" z="-652.423" unit="cm"/>
+<rotation x="-0.666044" y="0.0236803" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-58.8403" y="509.688" z="-652.423" unit="cm"/>
+<rotation x="-0.663187" y="-0.0709514" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-135.954" y="494.733" z="-652.423" unit="cm"/>
+<rotation x="-0.648793" y="-0.164542" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-209.881" y="468.182" z="-652.423" unit="cm"/>
+<rotation x="-0.622444" y="-0.255645" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-278.889" y="430.657" z="-652.423" unit="cm"/>
+<rotation x="-0.583434" y="-0.342679" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-341.36" y="383.037" z="-652.423" unit="cm"/>
+<rotation x="-0.53088" y="-0.423855" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-395.83" y="326.44" z="-652.423" unit="cm"/>
+<rotation x="-0.463928" y="-0.497128" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-441.022" y="262.191" z="-652.423" unit="cm"/>
+<rotation x="-0.38212" y="-0.560195" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-475.876" y="191.797" z="-652.423" unit="cm"/>
+<rotation x="-0.285921" y="-0.610583" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-499.577" y="116.907" z="-652.423" unit="cm"/>
+<rotation x="-0.177307" y="-0.645878" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-511.568" y="39.2767" z="-652.423" unit="cm"/>
+<rotation x="-0.0601287" y="-0.664095" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="448.733" y="0" z="-698.239" unit="cm"/>
+<rotation x="-0" y="0.571201" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="441.916" y="77.9217" z="-698.239" unit="cm"/>
+<rotation x="-0.111138" y="0.561468" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="421.672" y="153.476" z="-698.239" unit="cm"/>
+<rotation x="-0.216363" y="0.532905" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="388.615" y="224.367" z="-698.239" unit="cm"/>
+<rotation x="-0.310911" y="0.487264" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="343.75" y="288.44" z="-698.239" unit="cm"/>
+<rotation x="-0.391745" y="0.427016" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="288.441" y="343.75" z="-698.239" unit="cm"/>
+<rotation x="-0.457476" y="0.354924" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="224.367" y="388.614" z="-698.239" unit="cm"/>
+<rotation x="-0.507868" y="0.273727" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="153.476" y="421.671" z="-698.239" unit="cm"/>
+<rotation x="-0.543287" y="0.185982" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="77.9223" y="441.916" z="-698.239" unit="cm"/>
+<rotation x="-0.56426" y="0.0940207" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.000595377" y="448.733" z="-698.239" unit="cm"/>
+<rotation x="-0.571201" y="7.17322e-07" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-77.9211" y="441.916" z="-698.239" unit="cm"/>
+<rotation x="-0.564261" y="-0.0940193" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-153.475" y="421.672" z="-698.239" unit="cm"/>
+<rotation x="-0.543287" y="-0.18598" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-224.366" y="388.615" z="-698.239" unit="cm"/>
+<rotation x="-0.507869" y="-0.273726" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-288.44" y="343.75" z="-698.239" unit="cm"/>
+<rotation x="-0.457477" y="-0.354922" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-343.749" y="288.441" z="-698.239" unit="cm"/>
+<rotation x="-0.391746" y="-0.427015" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-388.614" y="224.368" z="-698.239" unit="cm"/>
+<rotation x="-0.310912" y="-0.487264" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-421.671" y="153.477" z="-698.239" unit="cm"/>
+<rotation x="-0.216365" y="-0.532905" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-441.916" y="77.9228" z="-698.239" unit="cm"/>
+<rotation x="-0.111139" y="-0.561467" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-448.733" y="0.00119075" z="-698.239" unit="cm"/>
+<rotation x="-1.70537e-06" y="-0.571201" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="380.33" y="0" z="-737.733" unit="cm"/>
+<rotation x="-0" y="0.476001" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="372.019" y="79.0749" z="-737.733" unit="cm"/>
+<rotation x="-0.106779" y="0.464768" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="347.449" y="154.694" z="-737.733" unit="cm"/>
+<rotation x="-0.206694" y="0.431917" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="307.693" y="223.552" z="-737.733" unit="cm"/>
+<rotation x="-0.29423" y="0.379779" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="254.49" y="282.64" z="-737.733" unit="cm"/>
+<rotation x="-0.36587" y="0.311635" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="190.165" y="329.375" z="-737.733" unit="cm"/>
+<rotation x="-0.419914" y="0.231168" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="117.529" y="361.715" z="-737.733" unit="cm"/>
+<rotation x="-0.455863" y="0.142078" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.7557" y="378.246" z="-737.733" unit="cm"/>
+<rotation x="-0.473767" y="0.0479168" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.7547" y="378.246" z="-737.733" unit="cm"/>
+<rotation x="-0.473767" y="-0.0479156" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-117.528" y="361.715" z="-737.733" unit="cm"/>
+<rotation x="-0.455863" y="-0.142077" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-190.164" y="329.375" z="-737.733" unit="cm"/>
+<rotation x="-0.419915" y="-0.231167" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-254.49" y="282.641" z="-737.733" unit="cm"/>
+<rotation x="-0.365871" y="-0.311634" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-307.693" y="223.553" z="-737.733" unit="cm"/>
+<rotation x="-0.294231" y="-0.379778" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-347.448" y="154.695" z="-737.733" unit="cm"/>
+<rotation x="-0.206695" y="-0.431917" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-372.018" y="79.0759" z="-737.733" unit="cm"/>
+<rotation x="-0.10678" y="-0.464767" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-380.33" y="0.00100924" z="-737.733" unit="cm"/>
+<rotation x="-1.36803e-06" y="-0.476001" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="308.482" y="0" z="-770.545" unit="cm"/>
+<rotation x="-0" y="0.380801" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="297.97" y="79.8409" z="-770.545" unit="cm"/>
+<rotation x="-0.103248" y="0.367197" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="267.153" y="154.241" z="-770.545" unit="cm"/>
+<rotation x="-0.19756" y="0.327705" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="218.13" y="218.129" z="-770.545" unit="cm"/>
+<rotation x="-0.275867" y="0.26593" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="154.241" y="267.153" z="-770.545" unit="cm"/>
+<rotation x="-0.333738" y="0.186919" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="79.8413" y="297.97" z="-770.545" unit="cm"/>
+<rotation x="-0.368989" y="0.0963433" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.000409292" y="308.482" z="-770.545" unit="cm"/>
+<rotation x="-0.380801" y="4.93123e-07" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-79.8405" y="297.971" z="-770.545" unit="cm"/>
+<rotation x="-0.36899" y="-0.0963423" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-154.24" y="267.153" z="-770.545" unit="cm"/>
+<rotation x="-0.333738" y="-0.186918" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-218.129" y="218.13" z="-770.545" unit="cm"/>
+<rotation x="-0.275867" y="-0.265929" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-267.153" y="154.241" z="-770.545" unit="cm"/>
+<rotation x="-0.197561" y="-0.327705" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-297.97" y="79.8416" z="-770.545" unit="cm"/>
+<rotation x="-0.103249" y="-0.367196" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-308.482" y="0.000818584" z="-770.545" unit="cm"/>
+<rotation x="-1.06234e-06" y="-0.380801" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="233.84" y="0" z="-796.379" unit="cm"/>
+<rotation x="-0" y="0.285602" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="219.738" y="79.9779" z="-796.379" unit="cm"/>
+<rotation x="-0.100091" y="0.267939" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="179.132" y="150.309" z="-796.379" unit="cm"/>
+<rotation x="-0.186547" y="0.217533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="116.92" y="202.511" z="-796.379" unit="cm"/>
+<rotation x="-0.249012" y="0.141338" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="40.6062" y="230.287" z="-796.379" unit="cm"/>
+<rotation x="-0.28149" y="0.0489426" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-40.6055" y="230.287" z="-796.379" unit="cm"/>
+<rotation x="-0.28149" y="-0.0489419" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-116.92" y="202.512" z="-796.379" unit="cm"/>
+<rotation x="-0.249013" y="-0.141337" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-179.131" y="150.31" z="-796.379" unit="cm"/>
+<rotation x="-0.186547" y="-0.217533" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-219.737" y="79.9785" z="-796.379" unit="cm"/>
+<rotation x="-0.100092" y="-0.267938" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-233.84" y="0.000620515" z="-796.379" unit="cm"/>
+<rotation x="-7.79171e-07" y="-0.285602" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="157.081" y="0" z="-815" unit="cm"/>
+<rotation x="-0" y="0.190402" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="136.036" y="78.5402" z="-815" unit="cm"/>
+<rotation x="-0.0960717" y="0.164641" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="78.5404" y="136.036" z="-815" unit="cm"/>
+<rotation x="-0.16539" y="0.0947688" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="0.000208414" y="157.081" z="-815" unit="cm"/>
+<rotation x="-0.190402" y="2.51101e-07" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-78.54" y="136.036" z="-815" unit="cm"/>
+<rotation x="-0.16539" y="-0.0947683" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-136.036" y="78.5406" z="-815" unit="cm"/>
+<rotation x="-0.0960721" y="-0.164641" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-157.081" y="0.000416827" z="-815" unit="cm"/>
+<rotation x="-5.11444e-07" y="-0.190402" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="78.8986" y="0" z="-826.241" unit="cm"/>
+<rotation x="-0" y="0.0952024" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="39.4494" y="68.3282" z="-826.241" unit="cm"/>
+<rotation x="-0.0825099" y="0.0475473" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-39.4492" y="68.3283" z="-826.241" unit="cm"/>
+<rotation x="-0.08251" y="-0.0475471" unit="rad"/>
+</physvol>
+
+<physvol>
+<volumeref ref="PMTLog"/>
+<position x="-78.8986" y="0.000209365" z="-826.241" unit="cm"/>
+<rotation x="-2.53394e-07" y="-0.0952024" unit="rad"/>
+</physvol>
+

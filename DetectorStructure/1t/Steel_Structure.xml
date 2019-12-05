@@ -1,0 +1,810 @@
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.856" y="0." z="0.834" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.856" y="0." z="0.834" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="0.503" z="0.834" unit="m"/>
+    <rotation x="90" y="36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="-0.503" z="0.834" unit="m"/>
+    <rotation x="90" y="-36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="0.814" z="0.834" unit="m"/>
+    <rotation x="90" y="72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="-0.814" z="0.834" unit="m"/>
+    <rotation x="90" y="-72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="0.814" z="0.834" unit="m"/>
+    <rotation x="90" y="108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="-0.814" z="0.834" unit="m"/>
+    <rotation x="90" y="-108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="0.503" z="0.834" unit="m"/>
+    <rotation x="90" y="144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="-0.503" z="0.834" unit="m"/>
+    <rotation x="90" y="-144" z="0" unit="deg"/>
+</physvol>
+
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.856" y="0." z="0.354" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.856" y="0." z="0.354" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="0.503" z="0.354" unit="m"/>
+    <rotation x="90" y="36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="-0.503" z="0.354" unit="m"/>
+    <rotation x="90" y="-36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="0.814" z="0.354" unit="m"/>
+    <rotation x="90" y="72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="-0.814" z="0.354" unit="m"/>
+    <rotation x="90" y="-72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="0.814" z="0.354" unit="m"/>
+    <rotation x="90" y="108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="-0.814" z="0.354" unit="m"/>
+    <rotation x="90" y="-108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="0.503" z="0.354" unit="m"/>
+    <rotation x="90" y="144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="-0.503" z="0.354" unit="m"/>
+    <rotation x="90" y="-144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.856" y="0." z="-0.436" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.856" y="0." z="-0.436" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="0.503" z="-0.436" unit="m"/>
+    <rotation x="90" y="36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="-0.503" z="-0.436" unit="m"/>
+    <rotation x="90" y="-36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="0.814" z="-0.436" unit="m"/>
+    <rotation x="90" y="72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="-0.814" z="-0.436" unit="m"/>
+    <rotation x="90" y="-72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="0.814" z="-0.436" unit="m"/>
+    <rotation x="90" y="108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="-0.814" z="-0.436" unit="m"/>
+    <rotation x="90" y="-108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="0.503" z="-0.436" unit="m"/>
+    <rotation x="90" y="144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="-0.503" z="-0.436" unit="m"/>
+    <rotation x="90" y="-144" z="0" unit="deg"/>
+</physvol>
+
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.856" y="0." z="-0.966" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.856" y="0." z="-0.966" unit="m"/>
+    <rotation x="90" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="0.503" z="-0.966" unit="m"/>
+    <rotation x="90" y="36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.693" y="-0.503" z="-0.966" unit="m"/>
+    <rotation x="90" y="-36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="0.814" z="-0.966" unit="m"/>
+    <rotation x="90" y="72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="0.264" y="-0.814" z="-0.966" unit="m"/>
+    <rotation x="90" y="-72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="0.814" z="-0.966" unit="m"/>
+    <rotation x="90" y="108" z="0" unit="deg"/>
+</physvol>
+
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.264" y="-0.814" z="-0.966" unit="m"/>
+    <rotation x="90" y="-108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="0.503" z="-0.966" unit="m"/>
+    <rotation x="90" y="144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="short_tube"/>
+    <position x="-0.693" y="-0.503" z="-0.966" unit="m"/>
+    <rotation x="90" y="-144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.324" y="0.446" z="0.834" unit="m"/>
+    <rotation x="90" y="36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.525" y="0.171" z="0.834" unit="m"/>
+    <rotation x="90" y="72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.525" y="0.171" z="0.834" unit="m"/>
+    <rotation x="90" y="108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.324" y="0.446" z="0.834" unit="m"/>
+    <rotation x="90" y="144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0." y="0.552" z="0.834" unit="m"/>
+    <rotation x="90" y="180" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.324" y="-0.446" z="0.834" unit="m"/>
+    <rotation x="90" y="-36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.525" y="-0.171" z="0.834" unit="m"/>
+    <rotation x="90" y="-72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.525" y="-0.171" z="0.834" unit="m"/>
+    <rotation x="90" y="-108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.324" y="-0.446" z="0.834" unit="m"/>
+    <rotation x="90" y="-144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0." y="-0.552" z="0.834" unit="m"/>
+    <rotation x="90" y="180" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.324" y="0.446" z="-0.966" unit="m"/>
+    <rotation x="90" y="36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.525" y="0.171" z="-0.966" unit="m"/>
+    <rotation x="90" y="72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.525" y="0.171" z="-0.966" unit="m"/>
+    <rotation x="90" y="108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.324" y="0.446" z="-0.966" unit="m"/>
+    <rotation x="90" y="144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0." y="0.552" z="-0.966" unit="m"/>
+    <rotation x="90" y="180" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.324" y="-0.446" z="-0.966" unit="m"/>
+    <rotation x="90" y="-36" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="-0.525" y="-0.171" z="-0.966" unit="m"/>
+    <rotation x="90" y="-72" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.525" y="-0.171" z="-0.966" unit="m"/>
+    <rotation x="90" y="-108" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0.324" y="-0.446" z="-0.966" unit="m"/>
+    <rotation x="90" y="-144" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="middle_tube"/>
+    <position x="0." y="-0.552" z="-0.966" unit="m"/>
+    <rotation x="90" y="180" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="0.856" y="0.278" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="-0.856" y="0.278" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="0.529" y="0.728" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="0.529" y="-0.728" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="-0." y="0.9" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="-0." y="-0.9" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="-0.856" y="-0.278" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="-0.529" y="-0.728" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="-0.529" y="0.728" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="long_tube"/>
+    <position x="0.856" y="-0.278" z="-0.066" unit="m"/>
+    <rotation x="0" y="0" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="slope_tube"/>
+    <position x="0." y="-0.6" z="0.56" unit="m"/>
+    <rotation x="-135" y="0" z="" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="slope_tube"/>
+    <position x="-0.57" y="-0.185" z="0.56" unit="m"/>
+    <rotation x="-163" y="42.1" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="slope_tube"/>
+    <position x="-0.353" y="0.485" z="0.56" unit="m"/>
+    <rotation x="-218.99" y="24.47" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="slope_tube"/>
+    <position x="0.35" y="0.48" z="0.56" unit="m"/>
+    <rotation x="-218.99" y="-24.5" z="0" unit="deg"/>
+</physvol>
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="slope_tube"/>
+    <position x="0.575" y="-0.185" z="0.56" unit="m"/>
+    <rotation x="-162" y="-42.1" z="0" unit="deg"/>
+</physvol>
+
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="iron_ring"/>
+    <position x="0." y="0" z="0.835" unit="m"/>	
+</physvol>
+
+
+<physvol name="Steel_Frame_PV">
+    <volumeref ref="iron_ring"/>
+    <position x="0." y="0" z="-0.9675" unit="m"/>	
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_1"/> 
+    <position x="-0.253335" y=" 0.583787 " z=" 0.781806" unit="m"/>
+    <rotation x="1.14007" y="2.65897" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_1"/>
+    <position x ="0.253335" y ="0.583787" z="0.781806" unit="m"/>
+    <rotation x="1.14007" y="0.482607" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_1"/> 
+    <position x="0.476928" y=" 0.421338 " z=" 0.781806" unit="m"/>
+    <rotation x="1.38392" y="1.46661" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_1"/>
+    <position x ="0.6335" y ="-0.060532" z="0.781806" unit="m"/>
+    <rotation x="-1.32246" y="0.861304" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_1"/> 
+    <position x="0.548097" y=" -0.323382 " z=" 0.781806" unit="m"/>
+    <rotation x="0.829525" y="0.317377" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_1"/>
+    <position x ="0.138196" y ="-0.621199" z="0.781806" unit="m"/>
+    <rotation x="-1.35735" y="2.07506" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_1"/> 
+    <position x="-0.13818" y=" -0.621202 " z=" 0.781806" unit="m"/>
+    <rotation x="-1.35735" y="1.0665" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_1"/>
+    <position x ="-0.548089" y ="-0.323396" z="0.781806" unit="m"/>
+    <rotation x="0.829465" y="2.82422" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_1"/> 
+    <position x="-0.633498" y=" -0.0605481 " z=" 0.781806" unit="m"/>
+    <rotation x="-1.32247" y="2.28025" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_1"/>
+    <position x ="-0.476939" y ="0.421326" z="0.781806" unit="m"/>
+    <rotation x="1.38392" y="1.67499" z="0 " unit= "rad"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_4"/> 
+    <position x="-0.253335" y=" 0.57837 " z=" -0.831401" unit="m"/>
+    <rotation x="-3.92868" y="2.65897" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_4"/>
+    <position x ="0.253335" y ="0.57837" z="-0.831401" unit="m"/>
+    <rotation x="-3.92868" y="0.482607" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_4"/> 
+    <position x="0.471776" y=" 0.419664 " z=" -0.831401" unit="m"/>
+    <rotation x="-4.30876" y="1.44848" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_4"/>
+    <position x ="0.628348" y ="-0.062206" z="-0.831401" unit="m"/>
+    <rotation x="-2.09705" y="0.837312" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_4"/> 
+    <position x="0.544913" y=" -0.319 " z=" -0.831401" unit="m"/>
+    <rotation x="-3.55926" y="0.279511" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_4"/>
+    <position x ="0.135012" y ="-0.616816" z="-0.831401" unit="m"/>
+    <rotation x="-2.02132" y="2.06238" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_4"/> 
+    <position x="-0.134996" y=" -0.61682 " z=" -0.831401" unit="m"/>
+    <rotation x="-2.02132" y="1.07917" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_4"/>
+    <position x ="-0.544905" y ="-0.319013" z="-0.831401" unit="m"/>
+    <rotation x="-3.55921" y="2.86209" z="0 " unit= "rad"/>
+</physvol>
+<physvol name = "Steel_Frame_PV">
+    <volumeref  ref="support_box_4"/> 
+    <position x="-0.628346" y=" -0.0622219 " z=" -0.831401" unit="m"/>
+    <rotation x="-2.09704" y="2.30424" z="0 " unit="rad"/>
+</physvol>
+<physvol name ="Steel_Frame_PV">
+    <volumeref ref="support_box_4"/>
+    <position x ="-0.471787" y ="0.419652" z="-0.831401" unit="m"/>
+    <rotation x="-4.30876" y="1.69312" z="0 " unit= "rad"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="0.816117" y=" -0.133186 " z=" 0.301969" unit="m"/>
+<rotation x="-68.6615" y="88.6165" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="0.816117" y ="0.133186" z="0.301969" unit="m"/>
+<rotation x="68.6961" y="88.6611" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="0.738538" y=" 0.37195 " z=" 0.301969" unit="m"/>
+<rotation x="-63.7654" y="57.9136" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="0.581969" y ="0.58745" z="0.301969" unit="m"/>
+<rotation x="64.7024" y="119.541" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="0.378865" y=" 0.735015 " z=" 0.301969" unit="m"/>
+<rotation x="-35.8857" y="33.3474" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="0.125531" y ="0.817329" z="0.301969" unit="m"/>
+<rotation x="40.6681" y="145.201" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="-0.125521" y=" 0.817331 " z=" 0.301969" unit="m"/>
+<rotation x="40.6467" y="34.8718" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="-0.378856" y ="0.73502" z="0.301969" unit="m"/>
+<rotation x="-35.9026" y="146.727" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="-0.581962" y=" 0.587457 " z=" 0.301969" unit="m"/>
+<rotation x="64.6697" y="60.5187" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="-0.738533" y ="0.371959" z="0.301969" unit="m"/>
+<rotation x="-63.7973" y="122.148" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="-0.816115" y=" 0.133196 " z=" 0.301969" unit="m"/>
+<rotation x="68.6615" y="91.3829" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="-0.816119" y ="-0.133175" z="0.301969" unit="m"/>
+<rotation x="-68.6961" y="91.4301" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="-0.738543" y=" -0.371941 " z=" 0.301969" unit="m"/>
+<rotation x="63.7656" y="122.086" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="-0.581977" y ="-0.587442" z="0.301969" unit="m"/>
+<rotation x="-64.7026" y="60.5503" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="-0.378874" y=" -0.73501 " z=" 0.301969" unit="m"/>
+<rotation x="35.8869" y="146.652" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="-0.125541" y ="-0.817328" z="0.301969" unit="m"/>
+<rotation x="-40.6691" y="34.8901" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="0.12551" y=" -0.817333 " z=" 0.301969" unit="m"/>
+<rotation x="-40.6456" y="145.129" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="0.378846" y ="-0.735024" z="0.301969" unit="m"/>
+<rotation x="35.9014" y="33.3636" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_2"/> 
+<position x="0.581954" y=" -0.587464 " z=" 0.301969" unit="m"/>
+<rotation x="-64.6695" y="119.482" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_2"/>
+<position x ="0.738529" y ="-0.371969" z="0.301969" unit="m"/>
+<rotation x="63.7971" y="57.9415" z="0 " unit= "deg"/>
+</physvol>
+
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="0.816117" y=" -0.133186 " z=" -0.342969" unit="m"/>
+<rotation x="-124.934" y="88.6811" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="0.816117" y ="0.133186" z="-0.342969" unit="m"/>
+<rotation x="-235.184" y="88.7258" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="0.738538" y=" 0.37195 " z=" -0.342969" unit="m"/>
+<rotation x="-131.385" y="59.5773" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="0.581969" y ="0.58745" z="-0.342969" unit="m"/>
+<rotation x="-229.873" y="118.037" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="0.378865" y=" 0.735015 " z=" -0.342969" unit="m"/>
+<rotation x="-157.97" y="37.2201" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="0.125531" y ="0.817329" z="-0.342969" unit="m"/>
+<rotation x="-205.753" y="141.524" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="-0.125521" y=" 0.817331 " z=" -0.342969" unit="m"/>
+<rotation x="-205.648" y="38.5471" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="-0.378856" y ="0.73502" z="-0.342969" unit="m"/>
+<rotation x="-158.05" y="142.852" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="-0.581962" y=" 0.587457 " z=" -0.342969" unit="m"/>
+<rotation x="-229.757" y="62.0213" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="-0.738533" y ="0.371959" z="-0.342969" unit="m"/>
+<rotation x="-131.451" y="120.484" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="-0.816115" y=" 0.133196 " z=" -0.342969" unit="m"/>
+<rotation x="-235.066" y="91.3183" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="-0.816119" y ="-0.133175" z="-0.342969" unit="m"/>
+<rotation x="-124.997" y="91.3654" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="-0.738543" y=" -0.371941 " z=" -0.342969" unit="m"/>
+<rotation x="-228.615" y="120.422" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="-0.581977" y ="-0.587442" z="-0.342969" unit="m"/>
+<rotation x="-130.308" y="62.0537" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="-0.378874" y=" -0.73501 " z=" -0.342969" unit="m"/>
+<rotation x="-202.031" y="142.78" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="-0.125541" y ="-0.817328" z="-0.342969" unit="m"/>
+<rotation x="-154.428" y="38.5672" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="0.12551" y=" -0.817333 " z=" -0.342969" unit="m"/>
+<rotation x="-154.353" y="141.453" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="0.378846" y ="-0.735024" z="-0.342969" unit="m"/>
+<rotation x="-202.13" y="37.2383" z="0 " unit= "deg"/>
+</physvol>
+
+<physvol name = "Steel_Frame_PV">
+<volumeref  ref="support_box_3"/> 
+<position x="0.581954" y=" -0.587464 " z=" -0.342969" unit="m"/>
+<rotation x="-130.243" y="117.979" z="0 " unit="deg"/>
+</physvol>
+
+<physvol name ="Steel_Frame_PV">
+<volumeref ref="support_box_3"/>
+<position x ="0.738529" y ="-0.371969" z="-0.342969" unit="m"/>
+<rotation x="-228.73" y="59.6062" z="0 " unit= "deg"/>
+</physvol>
+
+
+

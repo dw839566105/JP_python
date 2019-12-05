@@ -1,0 +1,156 @@
+<define>
+
+	<!-- ********** Refractive index ********** -->
+
+	<matrix 
+		name="LAB_bis_SciYield" 
+		coldim="1" 
+		values="3400./MeV"
+	/>
+
+
+
+	<!-- The rindex of LAB -->
+	<matrix 
+		name="LAB_bis_RINDEX" 
+		coldim="2" 
+		values="5.916*eV		1.64007
+				5.647*eV		1.62064
+				5.522*eV		1.61214
+				5.177*eV		1.59049
+				4.437*eV		1.55186
+				3.882*eV		1.52896
+				3.451*eV		1.51424
+				3.106*eV		1.50420
+				3.067*eV		1.50315
+				2.833*eV		1.49727
+				2.515*eV		1.49022
+				2.268*eV		1.48545
+				2.143*eV		1.48325
+				1.981*eV		1.48064
+				1.941*eV		1.48004
+				1.827*eV		1.47838
+				1.726*eV		1.47700
+				1.635*eV		1.47584"
+	/>
+
+
+	<!-- ********** Refractive index end ********** -->
+
+	<!-- LAB scintillation fast time constant -->
+	<matrix 
+		name="LAB_bis_FastTimeConst" 
+		coldim="1" 
+		values="26.59*ns"
+	/>
+
+	<matrix 
+		name="LAB_bis_RisingConst" 
+		coldim="1" 
+		values="1.67*ns"
+	/>
+
+
+
+	
+	<!-- LAB scintillation spectrum -->
+	<matrix 
+		name="LAB_bis_SciComp" 
+		coldim="2"
+		values="3.6378*eV	27440.91
+				3.5773*eV	37196.38
+				3.5332*eV	37231.43
+				3.4622*eV	49425.77
+				3.3772*eV	49498.79
+				3.3154*eV	71398.95
+				3.2806*eV	107838.84
+				3.2527*eV	149127.27
+				3.2344*eV	207397.22
+				3.2132*eV	287514.75
+				3.1924*eV	382195.39
+				3.1747*eV	459882.82
+				3.163*eV	532710.03
+				3.1457*eV	605543.09
+				3.1228*eV	671100.44
+				3.0976*eV	692971.39
+				3.0509*eV	659040.46
+				3.0241*eV	649360.93
+				2.9977*eV	668807.61
+				2.9616*eV	693120.35
+				2.9363*eV	678586.45
+				2.9066*eV	610660.33
+				2.8798*eV	528168.19
+				2.8583*eV	467514.87
+				2.8231*eV	406879.07
+				2.7798*eV	377808.35
+				2.7509*eV	341438.55
+				2.6823*eV	222599.98
+				2.6533*eV	174097.18
+				2.627*eV	147436.12
+				2.5567*eV	101424.77
+				2.5046*eV	67525.97
+				2.439*eV	36080.64
+				2.3539*eV	19239.31
+				2.2611*eV	7278.63"
+
+
+
+
+	/>
+
+	<!-- ********** Absorption length ********** -->
+
+
+	<!--matrix 
+		name="LAB_bis_ABS" 
+		coldim="2" 
+		values="1.55*eV				12.0*m
+	            1.61*eV	            12.0*m
+	            2.07*eV	            12.0*m
+	            2.48*eV	            12.0*m
+	            3.76*eV	            12.0*m
+	            4.13*eV	            12.0*m
+	            6.20*eV	            12.0*m
+	            10.33*eV	        12.0*m
+	            15.5*eV	            12.0*m"
+	/-->
+
+	<matrix 
+		name="LAB_bis_ABS" 
+		coldim="2" 
+		values="1.55*eV				20.0*m
+	            3.269*eV	        20.0*m
+	            3.270*eV	        0.01*m
+	            15.5*eV	            0.01*m"
+	/>
+	
+	<!-- ********** Absorption length end ********** -->
+
+
+
+</define>
+
+<materials>
+
+	<material formula="C18H30" name="LAB_bis">
+		<property name="RINDEX" ref="LAB_bis_RINDEX"/>
+		<property name="SCINTILLATIONYIELD" ref="LAB_bis_SciYield"/>
+		<property name="FASTCOMPONENT" ref="LAB_bis_SciComp"/>
+		<property name="RESOLUTIONSCALE" ref="LAB_Res"/>
+		<property name="FASTTIMECONSTANT" ref="LAB_bis_FastTimeConst"/>
+		<property name="FASTSCINTILLATIONRISETIME" ref="LAB_bis_RisingConst"/>
+		<property name="YIELDRATIO" ref="LAB_YieldRatio"/>
+		<property name="ABSLENGTH" ref="LAB_bis_ABS"/>
+		<property name="RAYLEIGH" ref="LAB_RAY"/>
+
+		<ionisation name="BirksConstant" ref="LAB_BIRKS"/>
+
+
+		<D value="0.85"/>
+		<composite n="18" ref="Carbon"/>
+		<composite n="30" ref="Hydrogen"/>
+	</material>
+
+
+
+</materials>

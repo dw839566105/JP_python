@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+
+
+<solids>
+<opticalsurface name="surf12" model="glisur" finish="polished" type="dielectric_metal" value="1.0" reflectivity="0.14"/>
+
+	<genericPolycone name = "thesphere" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+	<rzpoint	 r="0"	z="152"/>
+	<rzpoint	r="35.14256"	z="147"/>
+	<rzpoint	r="49.1936"	z="142"/>
+	<rzpoint	r="59.624"	z="137"/>
+	<rzpoint	r="68.1176"	z="132"/>
+	<rzpoint	r="75.3324"	z="127"/>
+	<rzpoint	r="81.6088"	z="122"/>
+	<rzpoint	r="87.5416"	z="117"/>
+	<rzpoint	r="91.5896"	z="112"/>
+	<rzpoint	r="94.8456"	z="107"/>
+	<rzpoint	r="97.4516"	z="102"/>
+	<rzpoint	r="99.4976"	z="97"/>
+	<rzpoint	r="101.0428" z="92"/>
+	<rzpoint	r="102.1268" z="87"/>
+	<rzpoint	r="102.7744" z="82"/>
+	<rzpoint	r="102.9996" z="77"/>
+	<rzpoint	r="102.8076" z="72"/>
+	<rzpoint	r="102.1944" z="67"/>
+	<rzpoint	r="101.146"	z="62"/>
+	<rzpoint	r="99.6388"	z="57"/>
+	<rzpoint	r="97.6348"	z="52"/>
+	<rzpoint	r="95.0764"	z="47"/>
+	<rzpoint	r="91.8768"	z="42"/>
+	<rzpoint	r="87.8996"	z="37"/>
+	<rzpoint	r="82.912"	z="32"/>
+	<rzpoint	r="76.466"	z="27"/>
+	<rzpoint	r="66.3904"	z="22"/>
+	<rzpoint	r="59.404"	z="17"/>
+	<rzpoint	r="55.3568"	z="12"/>
+	<rzpoint	r="52.8468"	z="7"/>
+	<rzpoint	r="51.45"	z="2"/>
+	<rzpoint	r="50.8"	z="0"/>	
+		<rzpoint r="0" z="0"/>
+	</genericPolycone>
+
+	<genericPolycone name = "cathode" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+	<rzpoint	 r="0"	z="150"/>
+      <rzpoint 	r="34.85684"	z="145"/>
+      <rzpoint 	r="48.7852"	z="140"/>
+      <rzpoint 	r="59.1184"	z="135"/>
+      <rzpoint 	r="67.5276"	z="130"/>
+      <rzpoint 	r="74.666"	z="125"/>
+      <rzpoint 	r="80.8704"	z="120"/>
+      <rzpoint 	r="85.964"	z="115"/>
+      <rzpoint 	r="89.7724"	z="110"/>
+      <rzpoint 	r="92.8244"	z="105"/>
+      <rzpoint 	r="95.2472"	z="100"/>
+      <rzpoint 	r="97.1228"	z="95"/>
+      <rzpoint 	r="98.5044"	z="90"/>
+      <rzpoint 	r="99.4272"	z="85"/>
+      <rzpoint 	r="99.9132"	z="80"/>
+      <rzpoint 	r="99.9724"	z="75"/>
+      <rzpoint 	r="99.6068"	z="70"/>
+      <rzpoint 	r="98.808"	z="65"/>
+      <rzpoint 	r="97.5576"	z="60"/>
+      <rzpoint 	r="95.8248"	z="55"/>
+      <rzpoint 	r="93.562"	z="50"/>
+      <rzpoint 	r="90.6968"	z="45"/>
+      <rzpoint 	r="87.1168"	z="40"/>
+      <rzpoint 	r="82.6384"	z="35"/>
+      <rzpoint 	r="76.9272"	z="30"/>
+      <rzpoint 	r="69.2448"	z="25"/>
+      <rzpoint 	r="59.6796"	z="20"/>
+      <rzpoint 	r="54.7516"	z="15"/>
+      <rzpoint 	r="51.7016"	z="10"/>
+      <rzpoint 	r="49.8892"	z="5"/>
+      <rzpoint 	r="49.0716"	z="0"/>	
+		
+		<rzpoint r="0" z="0"/>
+	</genericPolycone>
+
+
+	<genericPolycone name="thepolycone" startphi="0" deltaphi="360" aunit="degree" lunit= "mm">
+
+		<rzpoint r="0" z="0"/>
+		<rzpoint r="50.8" z="0"/>
+		<rzpoint r="50.8" z="-4"/>
+		<rzpoint r="50.8" z="-8"/>
+		<rzpoint r="50.8" z="-12"/>
+		<rzpoint r="50.5668" z="-16"/>
+		<rzpoint r="49.8569" z="-20"/>
+		<rzpoint r="48.6392" z="-24"/>
+		<rzpoint r="46.8524" z="-28"/>
+		<rzpoint r="44.3884" z="-32"/>
+		<rzpoint r="41.0448" z="-36"/>
+		<rzpoint r="36.384" z="-40"/>
+		<rzpoint r="29.0238" z="-44"/>
+		<rzpoint r="20.60792" z="-48"/>
+		<rzpoint r="16.4" z="-52"/>
+		<rzpoint r="16.4" z="-56"/>
+		<rzpoint r="16.4" z="-60"/>
+		<rzpoint r="16.35604" z="-64"/>
+		<rzpoint r="15.55376" z="-68"/>
+		<rzpoint r="13.57644" z="-72"/>
+		<rzpoint r="9.73244" z="-76"/>
+
+		<rzpoint r="0" z="-76"/>
+
+	</genericPolycone>
+
+	<subtraction name="window">
+		<first ref="thesphere"/>
+		<second ref="thepolycone"/>
+	</subtraction>
+
+	<union name="_8PMT">
+		<first ref="thesphere"/>
+		<second ref="thepolycone"/>
+	</union>
+
+
+
+</solids>
+
+<structure>
+
+	<volume name="CathodeLog">
+		<materialref ref="CsPMT"/>
+		<solidref ref="cathode"/>
+	</volume>
+
+	<volume name="WindowLog">
+		<materialref ref="Boro_glass"/>
+		<solidref ref="window"/>
+		<physvol>
+			<volumeref ref="CathodeLog"/>
+		</physvol>
+	</volume>
+	<skinsurface name="skinsrf1" surfaceproperty="surf12" >
+		<volumeref ref="CathodeLog"/>
+	</skinsurface> 
+	<volume name="BodyLog">
+		<materialref ref="PMTShell"/>
+		<solidref ref="thepolycone"/>
+	</volume>
+
+	<volume name="_8inPMT">
+		<materialref ref="PMTShell"/>
+		<solidref ref="_8PMT"/>
+		<physvol>
+			<volumeref ref="WindowLog"/>
+		</physvol>
+		<physvol>
+			<volumeref ref="BodyLog"/>
+		</physvol>
+	</volume>
+
+
+</structure>
+
+<setup version="1.0" name="Default">
+	<world ref="_8inPMT"/>
+</setup>
+
+</gdml_simple_extension>

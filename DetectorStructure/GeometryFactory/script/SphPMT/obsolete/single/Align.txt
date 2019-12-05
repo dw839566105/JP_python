@@ -1,0 +1,2796 @@
+<physvol name="PMT_002">
+<file name="_20inPMT.gdml"/>
+<position x="106.986" y="0" z="641.135" unit="cm"/>
+<rotation x="-3.14159" y="0.165347" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_003">
+<file name="_20inPMT.gdml"/>
+<position x="53.4933" y="92.6529" z="641.135" unit="cm"/>
+<rotation x="-2.99807" y="0.0823905" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_004">
+<file name="_20inPMT.gdml"/>
+<position x="-53.493" y="92.653" z="641.135" unit="cm"/>
+<rotation x="-2.99807" y="-0.0823902" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_005">
+<file name="_20inPMT.gdml"/>
+<position x="-106.986" y="0.000283898" z="641.135" unit="cm"/>
+<rotation x="-3.14159" y="-0.165347" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_006">
+<file name="_20inPMT.gdml"/>
+<position x="-53.4935" y="-92.6527" z="641.135" unit="cm"/>
+<rotation x="-3.28511" y="-0.0823909" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_007">
+<file name="_20inPMT.gdml"/>
+<position x="53.4928" y="-92.6532" z="641.135" unit="cm"/>
+<rotation x="-3.28511" y="0.0823898" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_008">
+<file name="_20inPMT.gdml"/>
+<position x="211.054" y="0" z="614.781" unit="cm"/>
+<rotation x="-3.14159" y="0.330694" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_009">
+<file name="_20inPMT.gdml"/>
+<position x="182.779" y="105.527" z="614.781" unit="cm"/>
+<rotation x="-2.9716" y="0.285042" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_010">
+<file name="_20inPMT.gdml"/>
+<position x="105.527" y="182.778" z="614.781" unit="cm"/>
+<rotation x="-2.85261" y="0.163072" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_011">
+<file name="_20inPMT.gdml"/>
+<position x="0.000280026" y="211.054" z="614.781" unit="cm"/>
+<rotation x="-2.8109" y="4.30809e-07" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_012">
+<file name="_20inPMT.gdml"/>
+<position x="-105.527" y="182.779" z="614.781" unit="cm"/>
+<rotation x="-2.85261" y="-0.163071" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_013">
+<file name="_20inPMT.gdml"/>
+<position x="-182.778" y="105.528" z="614.781" unit="cm"/>
+<rotation x="-2.9716" y="-0.285042" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_014">
+<file name="_20inPMT.gdml"/>
+<position x="-211.054" y="0.000560052" z="614.781" unit="cm"/>
+<rotation x="-3.14159" y="-0.330694" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_015">
+<file name="_20inPMT.gdml"/>
+<position x="-182.779" y="-105.527" z="614.781" unit="cm"/>
+<rotation x="-3.31158" y="-0.285043" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_016">
+<file name="_20inPMT.gdml"/>
+<position x="-105.528" y="-182.778" z="614.781" unit="cm"/>
+<rotation x="-3.43057" y="-0.163072" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_017">
+<file name="_20inPMT.gdml"/>
+<position x="-0.000840078" y="-211.054" z="614.781" unit="cm"/>
+<rotation x="-3.47228" y="-1.29243e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_018">
+<file name="_20inPMT.gdml"/>
+<position x="105.526" y="-182.779" z="614.781" unit="cm"/>
+<rotation x="-3.43057" y="0.16307" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_019">
+<file name="_20inPMT.gdml"/>
+<position x="182.778" y="-105.528" z="614.781" unit="cm"/>
+<rotation x="-3.31158" y="0.285041" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_020">
+<file name="_20inPMT.gdml"/>
+<position x="309.366" y="0" z="571.658" unit="cm"/>
+<rotation x="-3.14159" y="0.496041" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_021">
+<file name="_20inPMT.gdml"/>
+<position x="290.709" y="105.809" z="571.658" unit="cm"/>
+<rotation x="-2.95857" y="0.463682" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_022">
+<file name="_20inPMT.gdml"/>
+<position x="236.988" y="198.856" z="571.658" unit="cm"/>
+<rotation x="-2.80682" y="0.3732" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_023">
+<file name="_20inPMT.gdml"/>
+<position x="154.683" y="267.918" z="571.658" unit="cm"/>
+<rotation x="-2.70332" y="0.240279" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_024">
+<file name="_20inPMT.gdml"/>
+<position x="53.7211" y="304.666" z="571.658" unit="cm"/>
+<rotation x="-2.65193" y="0.0827423" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_025">
+<file name="_20inPMT.gdml"/>
+<position x="-53.7203" y="304.666" z="571.658" unit="cm"/>
+<rotation x="-2.65193" y="-0.082741" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_026">
+<file name="_20inPMT.gdml"/>
+<position x="-154.682" y="267.919" z="571.658" unit="cm"/>
+<rotation x="-2.70332" y="-0.240278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_027">
+<file name="_20inPMT.gdml"/>
+<position x="-236.987" y="198.857" z="571.658" unit="cm"/>
+<rotation x="-2.80682" y="-0.373199" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_028">
+<file name="_20inPMT.gdml"/>
+<position x="-290.708" y="105.81" z="571.658" unit="cm"/>
+<rotation x="-2.95857" y="-0.463681" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_029">
+<file name="_20inPMT.gdml"/>
+<position x="-309.366" y="0.000820929" z="571.658" unit="cm"/>
+<rotation x="-3.14159" y="-0.496041" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_030">
+<file name="_20inPMT.gdml"/>
+<position x="-290.709" y="-105.808" z="571.658" unit="cm"/>
+<rotation x="-3.32461" y="-0.463682" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_031">
+<file name="_20inPMT.gdml"/>
+<position x="-236.988" y="-198.856" z="571.658" unit="cm"/>
+<rotation x="-3.47635" y="-0.373201" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_032">
+<file name="_20inPMT.gdml"/>
+<position x="-154.684" y="-267.918" z="571.658" unit="cm"/>
+<rotation x="-3.57986" y="-0.24028" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_033">
+<file name="_20inPMT.gdml"/>
+<position x="-53.7219" y="-304.665" z="571.658" unit="cm"/>
+<rotation x="-3.63125" y="-0.0827435" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_034">
+<file name="_20inPMT.gdml"/>
+<position x="53.7195" y="-304.666" z="571.658" unit="cm"/>
+<rotation x="-3.63125" y="0.0827398" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_035">
+<file name="_20inPMT.gdml"/>
+<position x="154.682" y="-267.919" z="571.658" unit="cm"/>
+<rotation x="-3.57986" y="0.240277" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_036">
+<file name="_20inPMT.gdml"/>
+<position x="236.987" y="-198.857" z="571.658" unit="cm"/>
+<rotation x="-3.47636" y="0.373198" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_037">
+<file name="_20inPMT.gdml"/>
+<position x="290.708" y="-105.811" z="571.658" unit="cm"/>
+<rotation x="-3.32461" y="0.463681" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_038">
+<file name="_20inPMT.gdml"/>
+<position x="399.238" y="0" z="512.942" unit="cm"/>
+<rotation x="-3.14159" y="0.661387" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_039">
+<file name="_20inPMT.gdml"/>
+<position x="385.634" y="103.33" z="512.942" unit="cm"/>
+<rotation x="-2.9428" y="0.635132" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_040">
+<file name="_20inPMT.gdml"/>
+<position x="345.75" y="199.619" z="512.942" unit="cm"/>
+<rotation x="-2.77046" y="0.560871" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_041">
+<file name="_20inPMT.gdml"/>
+<position x="282.304" y="282.304" z="512.942" unit="cm"/>
+<rotation x="-2.63847" y="0.449277" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_042">
+<file name="_20inPMT.gdml"/>
+<position x="199.619" y="345.75" z="512.942" unit="cm"/>
+<rotation x="-2.54849" y="0.312151" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_043">
+<file name="_20inPMT.gdml"/>
+<position x="103.331" y="385.634" z="512.942" unit="cm"/>
+<rotation x="-2.49693" y="0.159648" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_044">
+<file name="_20inPMT.gdml"/>
+<position x="0.000529707" y="399.238" z="512.942" unit="cm"/>
+<rotation x="-2.4802" y="8.14934e-07" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_045">
+<file name="_20inPMT.gdml"/>
+<position x="-103.33" y="385.634" z="512.942" unit="cm"/>
+<rotation x="-2.49693" y="-0.159646" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_046">
+<file name="_20inPMT.gdml"/>
+<position x="-199.618" y="345.751" z="512.942" unit="cm"/>
+<rotation x="-2.54849" y="-0.31215" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_047">
+<file name="_20inPMT.gdml"/>
+<position x="-282.303" y="282.304" z="512.942" unit="cm"/>
+<rotation x="-2.63847" y="-0.449275" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_048">
+<file name="_20inPMT.gdml"/>
+<position x="-345.75" y="199.62" z="512.942" unit="cm"/>
+<rotation x="-2.77046" y="-0.56087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_049">
+<file name="_20inPMT.gdml"/>
+<position x="-385.634" y="103.331" z="512.942" unit="cm"/>
+<rotation x="-2.9428" y="-0.635131" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_050">
+<file name="_20inPMT.gdml"/>
+<position x="-399.238" y="0.00105941" z="512.942" unit="cm"/>
+<rotation x="-3.14159" y="-0.661387" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_051">
+<file name="_20inPMT.gdml"/>
+<position x="-385.635" y="-103.329" z="512.942" unit="cm"/>
+<rotation x="-3.34037" y="-0.635132" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_052">
+<file name="_20inPMT.gdml"/>
+<position x="-345.751" y="-199.618" z="512.942" unit="cm"/>
+<rotation x="-3.51272" y="-0.560872" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_053">
+<file name="_20inPMT.gdml"/>
+<position x="-282.305" y="-282.303" z="512.942" unit="cm"/>
+<rotation x="-3.64471" y="-0.449278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_054">
+<file name="_20inPMT.gdml"/>
+<position x="-199.62" y="-345.75" z="512.942" unit="cm"/>
+<rotation x="-3.73469" y="-0.312153" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_055">
+<file name="_20inPMT.gdml"/>
+<position x="-103.332" y="-385.634" z="512.942" unit="cm"/>
+<rotation x="-3.78625" y="-0.159649" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_056">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00158912" y="-399.238" z="512.942" unit="cm"/>
+<rotation x="-3.80298" y="-2.4448e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_057">
+<file name="_20inPMT.gdml"/>
+<position x="103.329" y="-385.635" z="512.942" unit="cm"/>
+<rotation x="-3.78625" y="0.159645" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_058">
+<file name="_20inPMT.gdml"/>
+<position x="199.617" y="-345.751" z="512.942" unit="cm"/>
+<rotation x="-3.73469" y="0.312148" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_059">
+<file name="_20inPMT.gdml"/>
+<position x="282.303" y="-282.305" z="512.942" unit="cm"/>
+<rotation x="-3.64471" y="0.449274" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_060">
+<file name="_20inPMT.gdml"/>
+<position x="345.749" y="-199.621" z="512.942" unit="cm"/>
+<rotation x="-3.51272" y="0.560869" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_061">
+<file name="_20inPMT.gdml"/>
+<position x="385.634" y="-103.332" z="512.942" unit="cm"/>
+<rotation x="-3.34038" y="0.635131" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_062">
+<file name="_20inPMT.gdml"/>
+<position x="478.22" y="0" z="440.233" unit="cm"/>
+<rotation x="-3.14159" y="0.826734" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_063">
+<file name="_20inPMT.gdml"/>
+<position x="466.23" y="106.414" z="440.233" unit="cm"/>
+<rotation x="-2.90442" y="0.799887" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_064">
+<file name="_20inPMT.gdml"/>
+<position x="430.862" y="207.492" z="440.233" unit="cm"/>
+<rotation x="-2.70115" y="0.724637" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_065">
+<file name="_20inPMT.gdml"/>
+<position x="373.888" y="298.165" z="440.233" unit="cm"/>
+<rotation x="-2.54627" y="0.612863" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_066">
+<file name="_20inPMT.gdml"/>
+<position x="298.166" y="373.887" z="440.233" unit="cm"/>
+<rotation x="-2.43751" y="0.47655" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_067">
+<file name="_20inPMT.gdml"/>
+<position x="207.492" y="430.861" z="440.233" unit="cm"/>
+<rotation x="-2.36695" y="0.324905" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_068">
+<file name="_20inPMT.gdml"/>
+<position x="106.415" y="466.23" z="440.233" unit="cm"/>
+<rotation x="-2.32752" y="0.164455" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_069">
+<file name="_20inPMT.gdml"/>
+<position x="0.0006345" y="478.22" z="440.233" unit="cm"/>
+<rotation x="-2.31486" y="9.76154e-07" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_070">
+<file name="_20inPMT.gdml"/>
+<position x="-106.413" y="466.23" z="440.233" unit="cm"/>
+<rotation x="-2.32752" y="-0.164453" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_071">
+<file name="_20inPMT.gdml"/>
+<position x="-207.491" y="430.862" z="440.233" unit="cm"/>
+<rotation x="-2.36695" y="-0.324903" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_072">
+<file name="_20inPMT.gdml"/>
+<position x="-298.165" y="373.888" z="440.233" unit="cm"/>
+<rotation x="-2.43751" y="-0.476549" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_073">
+<file name="_20inPMT.gdml"/>
+<position x="-373.887" y="298.166" z="440.233" unit="cm"/>
+<rotation x="-2.54627" y="-0.612862" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_074">
+<file name="_20inPMT.gdml"/>
+<position x="-430.861" y="207.493" z="440.233" unit="cm"/>
+<rotation x="-2.70114" y="-0.724636" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_075">
+<file name="_20inPMT.gdml"/>
+<position x="-466.23" y="106.415" z="440.233" unit="cm"/>
+<rotation x="-2.90442" y="-0.799886" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_076">
+<file name="_20inPMT.gdml"/>
+<position x="-478.22" y="0.001269" z="440.233" unit="cm"/>
+<rotation x="-3.14159" y="-0.826734" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_077">
+<file name="_20inPMT.gdml"/>
+<position x="-466.231" y="-106.413" z="440.233" unit="cm"/>
+<rotation x="-3.37876" y="-0.799888" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_078">
+<file name="_20inPMT.gdml"/>
+<position x="-430.862" y="-207.491" z="440.233" unit="cm"/>
+<rotation x="-3.58203" y="-0.724639" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_079">
+<file name="_20inPMT.gdml"/>
+<position x="-373.889" y="-298.164" z="440.233" unit="cm"/>
+<rotation x="-3.73691" y="-0.612865" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_080">
+<file name="_20inPMT.gdml"/>
+<position x="-298.167" y="-373.887" z="440.233" unit="cm"/>
+<rotation x="-3.84567" y="-0.476552" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_081">
+<file name="_20inPMT.gdml"/>
+<position x="-207.494" y="-430.861" z="440.233" unit="cm"/>
+<rotation x="-3.91623" y="-0.324907" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_082">
+<file name="_20inPMT.gdml"/>
+<position x="-106.416" y="-466.23" z="440.233" unit="cm"/>
+<rotation x="-3.95566" y="-0.164457" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_083">
+<file name="_20inPMT.gdml"/>
+<position x="-0.0019035" y="-478.22" z="440.233" unit="cm"/>
+<rotation x="-3.96832" y="-2.92846e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_084">
+<file name="_20inPMT.gdml"/>
+<position x="106.412" y="-466.231" z="440.233" unit="cm"/>
+<rotation x="-3.95566" y="0.164451" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_085">
+<file name="_20inPMT.gdml"/>
+<position x="207.49" y="-430.862" z="440.233" unit="cm"/>
+<rotation x="-3.91623" y="0.324902" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_086">
+<file name="_20inPMT.gdml"/>
+<position x="298.164" y="-373.889" z="440.233" unit="cm"/>
+<rotation x="-3.84568" y="0.476547" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_087">
+<file name="_20inPMT.gdml"/>
+<position x="373.886" y="-298.167" z="440.233" unit="cm"/>
+<rotation x="-3.73691" y="0.61286" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_088">
+<file name="_20inPMT.gdml"/>
+<position x="430.861" y="-207.494" z="440.233" unit="cm"/>
+<rotation x="-3.58204" y="0.724635" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_089">
+<file name="_20inPMT.gdml"/>
+<position x="466.23" y="-106.416" z="440.233" unit="cm"/>
+<rotation x="-3.37877" y="0.799886" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_090">
+<file name="_20inPMT.gdml"/>
+<position x="544.158" y="0" z="355.517" unit="cm"/>
+<rotation x="-3.14159" y="0.992081" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_091">
+<file name="_20inPMT.gdml"/>
+<position x="533.702" y="106.16" z="355.517" unit="cm"/>
+<rotation x="-2.85141" y="0.963301" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_092">
+<file name="_20inPMT.gdml"/>
+<position x="502.736" y="208.24" z="355.517" unit="cm"/>
+<rotation x="-2.61172" y="0.884251" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_093">
+<file name="_20inPMT.gdml"/>
+<position x="452.451" y="302.318" z="355.517" unit="cm"/>
+<rotation x="-2.43689" y="0.769921" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_094">
+<file name="_20inPMT.gdml"/>
+<position x="384.778" y="384.777" z="355.517" unit="cm"/>
+<rotation x="-2.31669" y="0.633496" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_095">
+<file name="_20inPMT.gdml"/>
+<position x="302.318" y="452.451" z="355.517" unit="cm"/>
+<rotation x="-2.23679" y="0.483753" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_096">
+<file name="_20inPMT.gdml"/>
+<position x="208.241" y="502.736" z="355.517" unit="cm"/>
+<rotation x="-2.18631" y="0.32612" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_097">
+<file name="_20inPMT.gdml"/>
+<position x="106.161" y="533.702" z="355.517" unit="cm"/>
+<rotation x="-2.15843" y="0.164059" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_098">
+<file name="_20inPMT.gdml"/>
+<position x="0.000721986" y="544.158" z="355.517" unit="cm"/>
+<rotation x="-2.14951" y="1.11075e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_099">
+<file name="_20inPMT.gdml"/>
+<position x="-106.159" y="533.702" z="355.517" unit="cm"/>
+<rotation x="-2.15843" y="-0.164057" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_100">
+<file name="_20inPMT.gdml"/>
+<position x="-208.239" y="502.737" z="355.517" unit="cm"/>
+<rotation x="-2.18631" y="-0.326118" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_101">
+<file name="_20inPMT.gdml"/>
+<position x="-302.317" y="452.451" z="355.517" unit="cm"/>
+<rotation x="-2.23679" y="-0.483751" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_102">
+<file name="_20inPMT.gdml"/>
+<position x="-384.777" y="384.779" z="355.517" unit="cm"/>
+<rotation x="-2.31669" y="-0.633494" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_103">
+<file name="_20inPMT.gdml"/>
+<position x="-452.45" y="302.319" z="355.517" unit="cm"/>
+<rotation x="-2.43688" y="-0.769919" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_104">
+<file name="_20inPMT.gdml"/>
+<position x="-502.736" y="208.241" z="355.517" unit="cm"/>
+<rotation x="-2.61172" y="-0.88425" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_105">
+<file name="_20inPMT.gdml"/>
+<position x="-533.702" y="106.161" z="355.517" unit="cm"/>
+<rotation x="-2.85141" y="-0.9633" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_106">
+<file name="_20inPMT.gdml"/>
+<position x="-544.158" y="0.00144397" z="355.517" unit="cm"/>
+<rotation x="-3.14159" y="-0.992081" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_107">
+<file name="_20inPMT.gdml"/>
+<position x="-533.702" y="-106.158" z="355.517" unit="cm"/>
+<rotation x="-3.43176" y="-0.963301" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_108">
+<file name="_20inPMT.gdml"/>
+<position x="-502.737" y="-208.239" z="355.517" unit="cm"/>
+<rotation x="-3.67145" y="-0.884253" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_109">
+<file name="_20inPMT.gdml"/>
+<position x="-452.452" y="-302.317" z="355.517" unit="cm"/>
+<rotation x="-3.84629" y="-0.769922" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_110">
+<file name="_20inPMT.gdml"/>
+<position x="-384.779" y="-384.776" z="355.517" unit="cm"/>
+<rotation x="-3.96649" y="-0.633498" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_111">
+<file name="_20inPMT.gdml"/>
+<position x="-302.32" y="-452.45" z="355.517" unit="cm"/>
+<rotation x="-4.04639" y="-0.483755" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_112">
+<file name="_20inPMT.gdml"/>
+<position x="-208.242" y="-502.736" z="355.517" unit="cm"/>
+<rotation x="-4.09687" y="-0.326123" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_113">
+<file name="_20inPMT.gdml"/>
+<position x="-106.162" y="-533.702" z="355.517" unit="cm"/>
+<rotation x="-4.12475" y="-0.164061" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_114">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00216596" y="-544.158" z="355.517" unit="cm"/>
+<rotation x="-4.13367" y="-3.33224e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_115">
+<file name="_20inPMT.gdml"/>
+<position x="106.158" y="-533.703" z="355.517" unit="cm"/>
+<rotation x="-4.12475" y="0.164054" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_116">
+<file name="_20inPMT.gdml"/>
+<position x="208.238" y="-502.737" z="355.517" unit="cm"/>
+<rotation x="-4.09687" y="0.326116" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_117">
+<file name="_20inPMT.gdml"/>
+<position x="302.316" y="-452.452" z="355.517" unit="cm"/>
+<rotation x="-4.04639" y="0.483749" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_118">
+<file name="_20inPMT.gdml"/>
+<position x="384.776" y="-384.78" z="355.517" unit="cm"/>
+<rotation x="-3.9665" y="0.633492" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_119">
+<file name="_20inPMT.gdml"/>
+<position x="452.449" y="-302.32" z="355.517" unit="cm"/>
+<rotation x="-3.8463" y="0.769917" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_120">
+<file name="_20inPMT.gdml"/>
+<position x="502.735" y="-208.243" z="355.517" unit="cm"/>
+<rotation x="-3.67146" y="0.884249" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_121">
+<file name="_20inPMT.gdml"/>
+<position x="533.702" y="-106.163" z="355.517" unit="cm"/>
+<rotation x="-3.43178" y="0.963299" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_122">
+<file name="_20inPMT.gdml"/>
+<position x="595.252" y="0" z="261.103" unit="cm"/>
+<rotation x="-3.14159" y="1.15743" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_123">
+<file name="_20inPMT.gdml"/>
+<position x="586.209" y="103.364" z="261.103" unit="cm"/>
+<rotation x="-2.76464" y="1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_124">
+<file name="_20inPMT.gdml"/>
+<position x="559.354" y="203.588" z="261.103" unit="cm"/>
+<rotation x="-2.47933" y="1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_125">
+<file name="_20inPMT.gdml"/>
+<position x="515.504" y="297.626" z="261.103" unit="cm"/>
+<rotation x="-2.29092" y="0.915854" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_126">
+<file name="_20inPMT.gdml"/>
+<position x="455.99" y="382.621" z="261.103" unit="cm"/>
+<rotation x="-2.16961" y="0.777533" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_127">
+<file name="_20inPMT.gdml"/>
+<position x="382.621" y="455.99" z="261.103" unit="cm"/>
+<rotation x="-2.09083" y="0.629385" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_128">
+<file name="_20inPMT.gdml"/>
+<position x="297.627" y="515.503" z="261.103" unit="cm"/>
+<rotation x="-2.03963" y="0.475617" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_129">
+<file name="_20inPMT.gdml"/>
+<position x="203.589" y="559.354" z="261.103" unit="cm"/>
+<rotation x="-2.00752" y="0.318575" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_130">
+<file name="_20inPMT.gdml"/>
+<position x="103.365" y="586.209" z="261.103" unit="cm"/>
+<rotation x="-1.98982" y="0.159701" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_131">
+<file name="_20inPMT.gdml"/>
+<position x="0.000789778" y="595.252" z="261.103" unit="cm"/>
+<rotation x="-1.98416" y="1.21504e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_132">
+<file name="_20inPMT.gdml"/>
+<position x="-103.364" y="586.209" z="261.103" unit="cm"/>
+<rotation x="-1.98982" y="-0.159699" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_133">
+<file name="_20inPMT.gdml"/>
+<position x="-203.587" y="559.355" z="261.103" unit="cm"/>
+<rotation x="-2.00752" y="-0.318573" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_134">
+<file name="_20inPMT.gdml"/>
+<position x="-297.625" y="515.504" z="261.103" unit="cm"/>
+<rotation x="-2.03963" y="-0.475615" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_135">
+<file name="_20inPMT.gdml"/>
+<position x="-382.62" y="455.991" z="261.103" unit="cm"/>
+<rotation x="-2.09083" y="-0.629383" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_136">
+<file name="_20inPMT.gdml"/>
+<position x="-455.989" y="382.622" z="261.103" unit="cm"/>
+<rotation x="-2.16961" y="-0.77753" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_137">
+<file name="_20inPMT.gdml"/>
+<position x="-515.503" y="297.627" z="261.103" unit="cm"/>
+<rotation x="-2.29091" y="-0.915852" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_138">
+<file name="_20inPMT.gdml"/>
+<position x="-559.354" y="203.59" z="261.103" unit="cm"/>
+<rotation x="-2.47933" y="-1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_139">
+<file name="_20inPMT.gdml"/>
+<position x="-586.209" y="103.366" z="261.103" unit="cm"/>
+<rotation x="-2.76464" y="-1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_140">
+<file name="_20inPMT.gdml"/>
+<position x="-595.252" y="0.00157956" z="261.103" unit="cm"/>
+<rotation x="-3.14158" y="-1.15743" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_141">
+<file name="_20inPMT.gdml"/>
+<position x="-586.209" y="-103.363" z="261.103" unit="cm"/>
+<rotation x="-3.51853" y="-1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_142">
+<file name="_20inPMT.gdml"/>
+<position x="-559.355" y="-203.587" z="261.103" unit="cm"/>
+<rotation x="-3.80384" y="-1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_143">
+<file name="_20inPMT.gdml"/>
+<position x="-515.505" y="-297.625" z="261.103" unit="cm"/>
+<rotation x="-3.99226" y="-0.915856" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_144">
+<file name="_20inPMT.gdml"/>
+<position x="-455.991" y="-382.619" z="261.103" unit="cm"/>
+<rotation x="-4.11356" y="-0.777535" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_145">
+<file name="_20inPMT.gdml"/>
+<position x="-382.622" y="-455.989" z="261.103" unit="cm"/>
+<rotation x="-4.19235" y="-0.629388" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_146">
+<file name="_20inPMT.gdml"/>
+<position x="-297.628" y="-515.503" z="261.103" unit="cm"/>
+<rotation x="-4.24355" y="-0.475619" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_147">
+<file name="_20inPMT.gdml"/>
+<position x="-203.59" y="-559.354" z="261.103" unit="cm"/>
+<rotation x="-4.27566" y="-0.318578" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_148">
+<file name="_20inPMT.gdml"/>
+<position x="-103.367" y="-586.209" z="261.103" unit="cm"/>
+<rotation x="-4.29336" y="-0.159704" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_149">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00236933" y="-595.252" z="261.103" unit="cm"/>
+<rotation x="-4.29902" y="-3.64513e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_150">
+<file name="_20inPMT.gdml"/>
+<position x="103.362" y="-586.21" z="261.103" unit="cm"/>
+<rotation x="-4.29336" y="0.159697" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_151">
+<file name="_20inPMT.gdml"/>
+<position x="203.586" y="-559.355" z="261.103" unit="cm"/>
+<rotation x="-4.27566" y="0.31857" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_152">
+<file name="_20inPMT.gdml"/>
+<position x="297.624" y="-515.505" z="261.103" unit="cm"/>
+<rotation x="-4.24355" y="0.475612" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_153">
+<file name="_20inPMT.gdml"/>
+<position x="382.619" y="-455.992" z="261.103" unit="cm"/>
+<rotation x="-4.19235" y="0.629381" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_154">
+<file name="_20inPMT.gdml"/>
+<position x="455.988" y="-382.623" z="261.103" unit="cm"/>
+<rotation x="-4.11357" y="0.777528" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_155">
+<file name="_20inPMT.gdml"/>
+<position x="515.502" y="-297.629" z="261.103" unit="cm"/>
+<rotation x="-3.99227" y="0.91585" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_156">
+<file name="_20inPMT.gdml"/>
+<position x="559.353" y="-203.591" z="261.103" unit="cm"/>
+<rotation x="-3.80385" y="1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_157">
+<file name="_20inPMT.gdml"/>
+<position x="586.209" y="-103.368" z="261.103" unit="cm"/>
+<rotation x="-3.51855" y="1.12405" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_158">
+<file name="_20inPMT.gdml"/>
+<position x="630.11" y="0" z="159.566" unit="cm"/>
+<rotation x="-3.14159" y="1.32277" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_159">
+<file name="_20inPMT.gdml"/>
+<position x="621.516" y="103.713" z="159.566" unit="cm"/>
+<rotation x="-2.56524" y="1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_160">
+<file name="_20inPMT.gdml"/>
+<position x="595.969" y="204.596" z="159.566" unit="cm"/>
+<rotation x="-2.23316" y="1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_161">
+<file name="_20inPMT.gdml"/>
+<position x="554.165" y="299.899" z="159.566" unit="cm"/>
+<rotation x="-2.05976" y="1.02087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_162">
+<file name="_20inPMT.gdml"/>
+<position x="497.246" y="387.021" z="159.566" unit="cm"/>
+<rotation x="-1.96185" y="0.871031" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_163">
+<file name="_20inPMT.gdml"/>
+<position x="426.762" y="463.587" z="159.566" unit="cm"/>
+<rotation x="-1.90229" y="0.716245" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_164">
+<file name="_20inPMT.gdml"/>
+<position x="344.638" y="527.507" z="159.566" unit="cm"/>
+<rotation x="-1.86453" y="0.558851" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_165">
+<file name="_20inPMT.gdml"/>
+<position x="253.113" y="577.038" z="159.566" unit="cm"/>
+<rotation x="-1.84058" y="0.399985" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_166">
+<file name="_20inPMT.gdml"/>
+<position x="154.684" y="610.829" z="159.566" unit="cm"/>
+<rotation x="-1.82631" y="0.24028" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_167">
+<file name="_20inPMT.gdml"/>
+<position x="52.0349" y="627.958" z="159.566" unit="cm"/>
+<rotation x="-1.81963" y="0.0801394" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_168">
+<file name="_20inPMT.gdml"/>
+<position x="-52.0332" y="627.958" z="159.566" unit="cm"/>
+<rotation x="-1.81963" y="-0.0801368" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_169">
+<file name="_20inPMT.gdml"/>
+<position x="-154.682" y="610.829" z="159.566" unit="cm"/>
+<rotation x="-1.82631" y="-0.240278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_170">
+<file name="_20inPMT.gdml"/>
+<position x="-253.111" y="577.038" z="159.566" unit="cm"/>
+<rotation x="-1.84058" y="-0.399982" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_171">
+<file name="_20inPMT.gdml"/>
+<position x="-344.637" y="527.508" z="159.566" unit="cm"/>
+<rotation x="-1.86453" y="-0.558848" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_172">
+<file name="_20inPMT.gdml"/>
+<position x="-426.761" y="463.588" z="159.566" unit="cm"/>
+<rotation x="-1.90229" y="-0.716243" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_173">
+<file name="_20inPMT.gdml"/>
+<position x="-497.245" y="387.023" z="159.566" unit="cm"/>
+<rotation x="-1.96185" y="-0.871028" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_174">
+<file name="_20inPMT.gdml"/>
+<position x="-554.165" y="299.9" z="159.566" unit="cm"/>
+<rotation x="-2.05976" y="-1.02087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_175">
+<file name="_20inPMT.gdml"/>
+<position x="-595.968" y="204.598" z="159.566" unit="cm"/>
+<rotation x="-2.23316" y="-1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_176">
+<file name="_20inPMT.gdml"/>
+<position x="-621.516" y="103.714" z="159.566" unit="cm"/>
+<rotation x="-2.56523" y="-1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_177">
+<file name="_20inPMT.gdml"/>
+<position x="-630.11" y="0.00167205" z="159.566" unit="cm"/>
+<rotation x="-3.14158" y="-1.32277" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_178">
+<file name="_20inPMT.gdml"/>
+<position x="-621.516" y="-103.711" z="159.566" unit="cm"/>
+<rotation x="-3.71793" y="-1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_179">
+<file name="_20inPMT.gdml"/>
+<position x="-595.969" y="-204.595" z="159.566" unit="cm"/>
+<rotation x="-4.05001" y="-1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_180">
+<file name="_20inPMT.gdml"/>
+<position x="-554.166" y="-299.898" z="159.566" unit="cm"/>
+<rotation x="-4.22341" y="-1.02087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_181">
+<file name="_20inPMT.gdml"/>
+<position x="-497.247" y="-387.02" z="159.566" unit="cm"/>
+<rotation x="-4.32133" y="-0.871033" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_182">
+<file name="_20inPMT.gdml"/>
+<position x="-426.763" y="-463.586" z="159.566" unit="cm"/>
+<rotation x="-4.38089" y="-0.716248" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_183">
+<file name="_20inPMT.gdml"/>
+<position x="-344.639" y="-527.506" z="159.566" unit="cm"/>
+<rotation x="-4.41864" y="-0.558853" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_184">
+<file name="_20inPMT.gdml"/>
+<position x="-253.114" y="-577.037" z="159.566" unit="cm"/>
+<rotation x="-4.4426" y="-0.399987" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_185">
+<file name="_20inPMT.gdml"/>
+<position x="-154.685" y="-610.828" z="159.566" unit="cm"/>
+<rotation x="-4.45687" y="-0.240283" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_186">
+<file name="_20inPMT.gdml"/>
+<position x="-52.0365" y="-627.958" z="159.566" unit="cm"/>
+<rotation x="-4.46355" y="-0.080142" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_187">
+<file name="_20inPMT.gdml"/>
+<position x="52.0315" y="-627.958" z="159.566" unit="cm"/>
+<rotation x="-4.46355" y="0.0801342" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_188">
+<file name="_20inPMT.gdml"/>
+<position x="154.68" y="-610.829" z="159.566" unit="cm"/>
+<rotation x="-4.45687" y="0.240275" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_189">
+<file name="_20inPMT.gdml"/>
+<position x="253.11" y="-577.039" z="159.566" unit="cm"/>
+<rotation x="-4.4426" y="0.39998" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_190">
+<file name="_20inPMT.gdml"/>
+<position x="344.635" y="-527.509" z="159.566" unit="cm"/>
+<rotation x="-4.41865" y="0.558846" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_191">
+<file name="_20inPMT.gdml"/>
+<position x="426.76" y="-463.589" z="159.566" unit="cm"/>
+<rotation x="-4.38089" y="0.71624" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_192">
+<file name="_20inPMT.gdml"/>
+<position x="497.243" y="-387.024" z="159.566" unit="cm"/>
+<rotation x="-4.32133" y="0.871026" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_193">
+<file name="_20inPMT.gdml"/>
+<position x="554.164" y="-299.902" z="159.566" unit="cm"/>
+<rotation x="-4.22342" y="1.02086" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_194">
+<file name="_20inPMT.gdml"/>
+<position x="595.968" y="-204.599" z="159.566" unit="cm"/>
+<rotation x="-4.05002" y="1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_195">
+<file name="_20inPMT.gdml"/>
+<position x="621.516" y="-103.716" z="159.566" unit="cm"/>
+<rotation x="-3.71796" y="1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_196">
+<file name="_20inPMT.gdml"/>
+<position x="647.78" y="0" z="53.6774" unit="cm"/>
+<rotation x="-3.14159" y="1.48812" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_197">
+<file name="_20inPMT.gdml"/>
+<position x="639.391" y="103.911" z="53.6774" unit="cm"/>
+<rotation x="-2.04761" y="1.38988" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_198">
+<file name="_20inPMT.gdml"/>
+<position x="614.443" y="205.131" z="53.6774" unit="cm"/>
+<rotation x="-1.82673" y="1.2385" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_199">
+<file name="_20inPMT.gdml"/>
+<position x="573.581" y="301.038" z="53.6774" unit="cm"/>
+<rotation x="-1.74725" y="1.08101" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_200">
+<file name="_20inPMT.gdml"/>
+<position x="517.863" y="389.148" z="53.6774" unit="cm"/>
+<rotation x="-1.70786" y="0.921836" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_201">
+<file name="_20inPMT.gdml"/>
+<position x="448.733" y="467.18" z="53.6774" unit="cm"/>
+<rotation x="-1.68519" y="0.761985" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_202">
+<file name="_20inPMT.gdml"/>
+<position x="367.981" y="533.112" z="53.6774" unit="cm"/>
+<rotation x="-1.67114" y="0.601798" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_203">
+<file name="_20inPMT.gdml"/>
+<position x="277.699" y="585.237" z="53.6774" unit="cm"/>
+<rotation x="-1.66226" y="0.441426" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_204">
+<file name="_20inPMT.gdml"/>
+<position x="180.224" y="622.204" z="53.6774" unit="cm"/>
+<rotation x="-1.65685" y="0.28095" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_205">
+<file name="_20inPMT.gdml"/>
+<position x="78.082" y="643.057" z="53.6774" unit="cm"/>
+<rotation x="-1.65407" y="0.120417" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_206">
+<file name="_20inPMT.gdml"/>
+<position x="-26.0826" y="647.255" z="53.6774" unit="cm"/>
+<rotation x="-1.65354" y="-0.0401378" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_207">
+<file name="_20inPMT.gdml"/>
+<position x="-129.572" y="634.689" z="53.6774" unit="cm"/>
+<rotation x="-1.65517" y="-0.200685" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_208">
+<file name="_20inPMT.gdml"/>
+<position x="-229.705" y="605.685" z="53.6774" unit="cm"/>
+<rotation x="-1.65919" y="-0.361195" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_209">
+<file name="_20inPMT.gdml"/>
+<position x="-323.889" y="560.994" z="53.6774" unit="cm"/>
+<rotation x="-1.66619" y="-0.521626" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_210">
+<file name="_20inPMT.gdml"/>
+<position x="-409.684" y="501.774" z="53.6774" unit="cm"/>
+<rotation x="-1.67736" y="-0.681919" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_211">
+<file name="_20inPMT.gdml"/>
+<position x="-484.869" y="429.558" z="53.6774" unit="cm"/>
+<rotation x="-1.69511" y="-0.841964" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_212">
+<file name="_20inPMT.gdml"/>
+<position x="-547.496" y="346.217" z="53.6774" unit="cm"/>
+<rotation x="-1.72461" y="-1.00154" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_213">
+<file name="_20inPMT.gdml"/>
+<position x="-595.944" y="253.909" z="53.6774" unit="cm"/>
+<rotation x="-1.77913" y="-1.16008" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_214">
+<file name="_20inPMT.gdml"/>
+<position x="-628.956" y="155.025" z="53.6774" unit="cm"/>
+<rotation x="-1.90412" y="-1.31564" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_215">
+<file name="_20inPMT.gdml"/>
+<position x="-645.679" y="52.1263" z="53.6774" unit="cm"/>
+<rotation x="-2.37085" y="-1.45543" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_216">
+<file name="_20inPMT.gdml"/>
+<position x="-645.679" y="-52.1229" z="53.6774" unit="cm"/>
+<rotation x="-3.9123" y="-1.45543" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_217">
+<file name="_20inPMT.gdml"/>
+<position x="-628.957" y="-155.022" z="53.6774" unit="cm"/>
+<rotation x="-4.37905" y="-1.31565" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_218">
+<file name="_20inPMT.gdml"/>
+<position x="-595.945" y="-253.906" z="53.6774" unit="cm"/>
+<rotation x="-4.50405" y="-1.16009" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_219">
+<file name="_20inPMT.gdml"/>
+<position x="-547.498" y="-346.214" z="53.6774" unit="cm"/>
+<rotation x="-4.55857" y="-1.00155" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_220">
+<file name="_20inPMT.gdml"/>
+<position x="-484.872" y="-429.556" z="53.6774" unit="cm"/>
+<rotation x="-4.58807" y="-0.84197" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_221">
+<file name="_20inPMT.gdml"/>
+<position x="-409.687" y="-501.772" z="53.6774" unit="cm"/>
+<rotation x="-4.60582" y="-0.681924" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_222">
+<file name="_20inPMT.gdml"/>
+<position x="-323.892" y="-560.993" z="53.6774" unit="cm"/>
+<rotation x="-4.61699" y="-0.521631" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_223">
+<file name="_20inPMT.gdml"/>
+<position x="-229.708" y="-605.684" z="53.6774" unit="cm"/>
+<rotation x="-4.62399" y="-0.3612" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_224">
+<file name="_20inPMT.gdml"/>
+<position x="-129.575" y="-634.688" z="53.6774" unit="cm"/>
+<rotation x="-4.62801" y="-0.200691" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_225">
+<file name="_20inPMT.gdml"/>
+<position x="-26.086" y="-647.254" z="53.6774" unit="cm"/>
+<rotation x="-4.62964" y="-0.0401431" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_226">
+<file name="_20inPMT.gdml"/>
+<position x="78.0786" y="-643.057" z="53.6774" unit="cm"/>
+<rotation x="-4.62911" y="0.120412" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_227">
+<file name="_20inPMT.gdml"/>
+<position x="180.221" y="-622.205" z="53.6774" unit="cm"/>
+<rotation x="-4.62633" y="0.280944" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_228">
+<file name="_20inPMT.gdml"/>
+<position x="277.696" y="-585.238" z="53.6774" unit="cm"/>
+<rotation x="-4.62092" y="0.441421" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_229">
+<file name="_20inPMT.gdml"/>
+<position x="367.979" y="-533.114" z="53.6774" unit="cm"/>
+<rotation x="-4.61204" y="0.601792" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_230">
+<file name="_20inPMT.gdml"/>
+<position x="448.731" y="-467.182" z="53.6774" unit="cm"/>
+<rotation x="-4.59799" y="0.76198" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_231">
+<file name="_20inPMT.gdml"/>
+<position x="517.861" y="-389.151" z="53.6774" unit="cm"/>
+<rotation x="-4.57532" y="0.921831" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_232">
+<file name="_20inPMT.gdml"/>
+<position x="573.579" y="-301.041" z="53.6774" unit="cm"/>
+<rotation x="-4.53593" y="1.081" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_233">
+<file name="_20inPMT.gdml"/>
+<position x="614.442" y="-205.134" z="53.6774" unit="cm"/>
+<rotation x="-4.45646" y="1.2385" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_234">
+<file name="_20inPMT.gdml"/>
+<position x="639.391" y="-103.915" z="53.6774" unit="cm"/>
+<rotation x="-4.23558" y="1.38987" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_235">
+<file name="_20inPMT.gdml"/>
+<position x="647.78" y="0" z="-53.6757" unit="cm"/>
+<rotation x="-0" y="1.48812" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_236">
+<file name="_20inPMT.gdml"/>
+<position x="639.391" y="103.911" z="-53.6757" unit="cm"/>
+<rotation x="-1.09399" y="1.38988" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_237">
+<file name="_20inPMT.gdml"/>
+<position x="614.443" y="205.131" z="-53.6757" unit="cm"/>
+<rotation x="-1.31487" y="1.2385" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_238">
+<file name="_20inPMT.gdml"/>
+<position x="573.581" y="301.038" z="-53.6757" unit="cm"/>
+<rotation x="-1.39435" y="1.08101" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_239">
+<file name="_20inPMT.gdml"/>
+<position x="517.863" y="389.149" z="-53.6757" unit="cm"/>
+<rotation x="-1.43373" y="0.921836" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_240">
+<file name="_20inPMT.gdml"/>
+<position x="448.733" y="467.18" z="-53.6757" unit="cm"/>
+<rotation x="-1.45641" y="0.761985" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_241">
+<file name="_20inPMT.gdml"/>
+<position x="367.981" y="533.112" z="-53.6757" unit="cm"/>
+<rotation x="-1.47045" y="0.601798" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_242">
+<file name="_20inPMT.gdml"/>
+<position x="277.699" y="585.237" z="-53.6757" unit="cm"/>
+<rotation x="-1.47934" y="0.441426" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_243">
+<file name="_20inPMT.gdml"/>
+<position x="180.224" y="622.204" z="-53.6757" unit="cm"/>
+<rotation x="-1.48474" y="0.28095" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_244">
+<file name="_20inPMT.gdml"/>
+<position x="78.082" y="643.057" z="-53.6757" unit="cm"/>
+<rotation x="-1.48752" y="0.120417" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_245">
+<file name="_20inPMT.gdml"/>
+<position x="-26.0826" y="647.255" z="-53.6757" unit="cm"/>
+<rotation x="-1.48806" y="-0.0401378" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_246">
+<file name="_20inPMT.gdml"/>
+<position x="-129.572" y="634.689" z="-53.6757" unit="cm"/>
+<rotation x="-1.48643" y="-0.200685" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_247">
+<file name="_20inPMT.gdml"/>
+<position x="-229.705" y="605.685" z="-53.6757" unit="cm"/>
+<rotation x="-1.48241" y="-0.361195" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_248">
+<file name="_20inPMT.gdml"/>
+<position x="-323.889" y="560.995" z="-53.6757" unit="cm"/>
+<rotation x="-1.47541" y="-0.521626" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_249">
+<file name="_20inPMT.gdml"/>
+<position x="-409.685" y="501.774" z="-53.6757" unit="cm"/>
+<rotation x="-1.46423" y="-0.681919" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_250">
+<file name="_20inPMT.gdml"/>
+<position x="-484.869" y="429.559" z="-53.6757" unit="cm"/>
+<rotation x="-1.44649" y="-0.841965" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_251">
+<file name="_20inPMT.gdml"/>
+<position x="-547.496" y="346.217" z="-53.6757" unit="cm"/>
+<rotation x="-1.41699" y="-1.00154" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_252">
+<file name="_20inPMT.gdml"/>
+<position x="-595.944" y="253.91" z="-53.6757" unit="cm"/>
+<rotation x="-1.36247" y="-1.16008" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_253">
+<file name="_20inPMT.gdml"/>
+<position x="-628.956" y="155.025" z="-53.6757" unit="cm"/>
+<rotation x="-1.23748" y="-1.31564" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_254">
+<file name="_20inPMT.gdml"/>
+<position x="-645.679" y="52.1263" z="-53.6757" unit="cm"/>
+<rotation x="-0.770755" y="-1.45543" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_255">
+<file name="_20inPMT.gdml"/>
+<position x="-645.68" y="-52.1229" z="-53.6757" unit="cm"/>
+<rotation x="0.770722" y="-1.45543" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_256">
+<file name="_20inPMT.gdml"/>
+<position x="-628.957" y="-155.022" z="-53.6757" unit="cm"/>
+<rotation x="1.23747" y="-1.31565" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_257">
+<file name="_20inPMT.gdml"/>
+<position x="-595.945" y="-253.906" z="-53.6757" unit="cm"/>
+<rotation x="1.36246" y="-1.16009" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_258">
+<file name="_20inPMT.gdml"/>
+<position x="-547.498" y="-346.215" z="-53.6757" unit="cm"/>
+<rotation x="1.41699" y="-1.00155" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_259">
+<file name="_20inPMT.gdml"/>
+<position x="-484.872" y="-429.556" z="-53.6757" unit="cm"/>
+<rotation x="1.44648" y="-0.84197" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_260">
+<file name="_20inPMT.gdml"/>
+<position x="-409.687" y="-501.772" z="-53.6757" unit="cm"/>
+<rotation x="1.46423" y="-0.681924" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_261">
+<file name="_20inPMT.gdml"/>
+<position x="-323.892" y="-560.993" z="-53.6757" unit="cm"/>
+<rotation x="1.47541" y="-0.521632" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_262">
+<file name="_20inPMT.gdml"/>
+<position x="-229.708" y="-605.684" z="-53.6757" unit="cm"/>
+<rotation x="1.48241" y="-0.3612" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_263">
+<file name="_20inPMT.gdml"/>
+<position x="-129.575" y="-634.688" z="-53.6757" unit="cm"/>
+<rotation x="1.48643" y="-0.200691" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_264">
+<file name="_20inPMT.gdml"/>
+<position x="-26.086" y="-647.255" z="-53.6757" unit="cm"/>
+<rotation x="1.48806" y="-0.0401431" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_265">
+<file name="_20inPMT.gdml"/>
+<position x="78.0786" y="-643.057" z="-53.6757" unit="cm"/>
+<rotation x="1.48752" y="0.120412" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_266">
+<file name="_20inPMT.gdml"/>
+<position x="180.221" y="-622.205" z="-53.6757" unit="cm"/>
+<rotation x="1.48474" y="0.280944" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_267">
+<file name="_20inPMT.gdml"/>
+<position x="277.696" y="-585.238" z="-53.6757" unit="cm"/>
+<rotation x="1.47934" y="0.441421" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_268">
+<file name="_20inPMT.gdml"/>
+<position x="367.979" y="-533.114" z="-53.6757" unit="cm"/>
+<rotation x="1.47045" y="0.601792" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_269">
+<file name="_20inPMT.gdml"/>
+<position x="448.731" y="-467.183" z="-53.6757" unit="cm"/>
+<rotation x="1.45641" y="0.76198" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_270">
+<file name="_20inPMT.gdml"/>
+<position x="517.861" y="-389.151" z="-53.6757" unit="cm"/>
+<rotation x="1.43373" y="0.921831" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_271">
+<file name="_20inPMT.gdml"/>
+<position x="573.579" y="-301.041" z="-53.6757" unit="cm"/>
+<rotation x="1.39435" y="1.081" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_272">
+<file name="_20inPMT.gdml"/>
+<position x="614.442" y="-205.134" z="-53.6757" unit="cm"/>
+<rotation x="1.31487" y="1.2385" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_273">
+<file name="_20inPMT.gdml"/>
+<position x="639.391" y="-103.915" z="-53.6757" unit="cm"/>
+<rotation x="1.09401" y="1.38987" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_274">
+<file name="_20inPMT.gdml"/>
+<position x="630.11" y="0" z="-159.565" unit="cm"/>
+<rotation x="-0" y="1.32278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_275">
+<file name="_20inPMT.gdml"/>
+<position x="621.517" y="103.713" z="-159.565" unit="cm"/>
+<rotation x="-0.576356" y="1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_276">
+<file name="_20inPMT.gdml"/>
+<position x="595.969" y="204.596" z="-159.565" unit="cm"/>
+<rotation x="-0.908433" y="1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_277">
+<file name="_20inPMT.gdml"/>
+<position x="554.166" y="299.899" z="-159.565" unit="cm"/>
+<rotation x="-1.08183" y="1.02087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_278">
+<file name="_20inPMT.gdml"/>
+<position x="497.246" y="387.022" z="-159.565" unit="cm"/>
+<rotation x="-1.17974" y="0.871031" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_279">
+<file name="_20inPMT.gdml"/>
+<position x="426.762" y="463.587" z="-159.565" unit="cm"/>
+<rotation x="-1.2393" y="0.716246" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_280">
+<file name="_20inPMT.gdml"/>
+<position x="344.638" y="527.507" z="-159.565" unit="cm"/>
+<rotation x="-1.27706" y="0.558851" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_281">
+<file name="_20inPMT.gdml"/>
+<position x="253.113" y="577.038" z="-159.565" unit="cm"/>
+<rotation x="-1.30101" y="0.399985" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_282">
+<file name="_20inPMT.gdml"/>
+<position x="154.684" y="610.829" z="-159.565" unit="cm"/>
+<rotation x="-1.31528" y="0.24028" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_283">
+<file name="_20inPMT.gdml"/>
+<position x="52.0349" y="627.958" z="-159.565" unit="cm"/>
+<rotation x="-1.32196" y="0.0801394" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_284">
+<file name="_20inPMT.gdml"/>
+<position x="-52.0332" y="627.958" z="-159.565" unit="cm"/>
+<rotation x="-1.32196" y="-0.0801369" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_285">
+<file name="_20inPMT.gdml"/>
+<position x="-154.682" y="610.829" z="-159.565" unit="cm"/>
+<rotation x="-1.31528" y="-0.240278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_286">
+<file name="_20inPMT.gdml"/>
+<position x="-253.112" y="577.039" z="-159.565" unit="cm"/>
+<rotation x="-1.30101" y="-0.399983" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_287">
+<file name="_20inPMT.gdml"/>
+<position x="-344.637" y="527.508" z="-159.565" unit="cm"/>
+<rotation x="-1.27706" y="-0.558849" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_288">
+<file name="_20inPMT.gdml"/>
+<position x="-426.761" y="463.588" z="-159.565" unit="cm"/>
+<rotation x="-1.2393" y="-0.716243" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_289">
+<file name="_20inPMT.gdml"/>
+<position x="-497.245" y="387.023" z="-159.565" unit="cm"/>
+<rotation x="-1.17974" y="-0.871029" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_290">
+<file name="_20inPMT.gdml"/>
+<position x="-554.165" y="299.901" z="-159.565" unit="cm"/>
+<rotation x="-1.08183" y="-1.02087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_291">
+<file name="_20inPMT.gdml"/>
+<position x="-595.969" y="204.598" z="-159.565" unit="cm"/>
+<rotation x="-0.908436" y="-1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_292">
+<file name="_20inPMT.gdml"/>
+<position x="-621.516" y="103.714" z="-159.565" unit="cm"/>
+<rotation x="-0.576363" y="-1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_293">
+<file name="_20inPMT.gdml"/>
+<position x="-630.11" y="0.00167205" z="-159.565" unit="cm"/>
+<rotation x="-1.04789e-05" y="-1.32278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_294">
+<file name="_20inPMT.gdml"/>
+<position x="-621.517" y="-103.711" z="-159.565" unit="cm"/>
+<rotation x="0.576349" y="-1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_295">
+<file name="_20inPMT.gdml"/>
+<position x="-595.97" y="-204.595" z="-159.565" unit="cm"/>
+<rotation x="0.908429" y="-1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_296">
+<file name="_20inPMT.gdml"/>
+<position x="-554.166" y="-299.898" z="-159.565" unit="cm"/>
+<rotation x="1.08183" y="-1.02087" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_297">
+<file name="_20inPMT.gdml"/>
+<position x="-497.247" y="-387.02" z="-159.565" unit="cm"/>
+<rotation x="1.17974" y="-0.871034" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_298">
+<file name="_20inPMT.gdml"/>
+<position x="-426.764" y="-463.586" z="-159.565" unit="cm"/>
+<rotation x="1.2393" y="-0.716248" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_299">
+<file name="_20inPMT.gdml"/>
+<position x="-344.64" y="-527.506" z="-159.565" unit="cm"/>
+<rotation x="1.27706" y="-0.558854" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_300">
+<file name="_20inPMT.gdml"/>
+<position x="-253.115" y="-577.037" z="-159.565" unit="cm"/>
+<rotation x="1.30101" y="-0.399988" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_301">
+<file name="_20inPMT.gdml"/>
+<position x="-154.685" y="-610.829" z="-159.565" unit="cm"/>
+<rotation x="1.31528" y="-0.240283" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_302">
+<file name="_20inPMT.gdml"/>
+<position x="-52.0366" y="-627.958" z="-159.565" unit="cm"/>
+<rotation x="1.32196" y="-0.080142" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_303">
+<file name="_20inPMT.gdml"/>
+<position x="52.0316" y="-627.958" z="-159.565" unit="cm"/>
+<rotation x="1.32196" y="0.0801343" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_304">
+<file name="_20inPMT.gdml"/>
+<position x="154.68" y="-610.83" z="-159.565" unit="cm"/>
+<rotation x="1.31528" y="0.240275" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_305">
+<file name="_20inPMT.gdml"/>
+<position x="253.11" y="-577.039" z="-159.565" unit="cm"/>
+<rotation x="1.30101" y="0.39998" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_306">
+<file name="_20inPMT.gdml"/>
+<position x="344.635" y="-527.509" z="-159.565" unit="cm"/>
+<rotation x="1.27706" y="0.558846" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_307">
+<file name="_20inPMT.gdml"/>
+<position x="426.76" y="-463.589" z="-159.565" unit="cm"/>
+<rotation x="1.2393" y="0.716241" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_308">
+<file name="_20inPMT.gdml"/>
+<position x="497.244" y="-387.024" z="-159.565" unit="cm"/>
+<rotation x="1.17974" y="0.871027" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_309">
+<file name="_20inPMT.gdml"/>
+<position x="554.164" y="-299.902" z="-159.565" unit="cm"/>
+<rotation x="1.08183" y="1.02086" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_310">
+<file name="_20inPMT.gdml"/>
+<position x="595.968" y="-204.6" z="-159.565" unit="cm"/>
+<rotation x="0.90844" y="1.16018" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_311">
+<file name="_20inPMT.gdml"/>
+<position x="621.516" y="-103.716" z="-159.565" unit="cm"/>
+<rotation x="0.576371" y="1.27366" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_312">
+<file name="_20inPMT.gdml"/>
+<position x="595.253" y="0" z="-261.101" unit="cm"/>
+<rotation x="-0" y="1.15743" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_313">
+<file name="_20inPMT.gdml"/>
+<position x="586.21" y="103.365" z="-261.101" unit="cm"/>
+<rotation x="-0.376949" y="1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_314">
+<file name="_20inPMT.gdml"/>
+<position x="559.355" y="203.588" z="-261.101" unit="cm"/>
+<rotation x="-0.662259" y="1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_315">
+<file name="_20inPMT.gdml"/>
+<position x="515.504" y="297.626" z="-261.101" unit="cm"/>
+<rotation x="-0.850678" y="0.915855" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_316">
+<file name="_20inPMT.gdml"/>
+<position x="455.991" y="382.621" z="-261.101" unit="cm"/>
+<rotation x="-0.97198" y="0.777534" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_317">
+<file name="_20inPMT.gdml"/>
+<position x="382.622" y="455.99" z="-261.101" unit="cm"/>
+<rotation x="-1.05077" y="0.629386" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_318">
+<file name="_20inPMT.gdml"/>
+<position x="297.627" y="515.504" z="-261.101" unit="cm"/>
+<rotation x="-1.10196" y="0.475618" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_319">
+<file name="_20inPMT.gdml"/>
+<position x="203.589" y="559.355" z="-261.101" unit="cm"/>
+<rotation x="-1.13407" y="0.318575" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_320">
+<file name="_20inPMT.gdml"/>
+<position x="103.365" y="586.21" z="-261.101" unit="cm"/>
+<rotation x="-1.15177" y="0.159702" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_321">
+<file name="_20inPMT.gdml"/>
+<position x="0.000789779" y="595.253" z="-261.101" unit="cm"/>
+<rotation x="-1.15743" y="1.21504e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_322">
+<file name="_20inPMT.gdml"/>
+<position x="-103.364" y="586.21" z="-261.101" unit="cm"/>
+<rotation x="-1.15177" y="-0.159699" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_323">
+<file name="_20inPMT.gdml"/>
+<position x="-203.588" y="559.355" z="-261.101" unit="cm"/>
+<rotation x="-1.13407" y="-0.318573" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_324">
+<file name="_20inPMT.gdml"/>
+<position x="-297.626" y="515.505" z="-261.101" unit="cm"/>
+<rotation x="-1.10197" y="-0.475615" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_325">
+<file name="_20inPMT.gdml"/>
+<position x="-382.62" y="455.991" z="-261.101" unit="cm"/>
+<rotation x="-1.05077" y="-0.629384" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_326">
+<file name="_20inPMT.gdml"/>
+<position x="-455.99" y="382.622" z="-261.101" unit="cm"/>
+<rotation x="-0.971981" y="-0.777531" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_327">
+<file name="_20inPMT.gdml"/>
+<position x="-515.504" y="297.628" z="-261.101" unit="cm"/>
+<rotation x="-0.85068" y="-0.915853" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_328">
+<file name="_20inPMT.gdml"/>
+<position x="-559.354" y="203.59" z="-261.101" unit="cm"/>
+<rotation x="-0.662262" y="-1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_329">
+<file name="_20inPMT.gdml"/>
+<position x="-586.21" y="103.366" z="-261.101" unit="cm"/>
+<rotation x="-0.376954" y="-1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_330">
+<file name="_20inPMT.gdml"/>
+<position x="-595.253" y="0.00157956" z="-261.101" unit="cm"/>
+<rotation x="-6.0496e-06" y="-1.15743" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_331">
+<file name="_20inPMT.gdml"/>
+<position x="-586.21" y="-103.363" z="-261.101" unit="cm"/>
+<rotation x="0.376944" y="-1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_332">
+<file name="_20inPMT.gdml"/>
+<position x="-559.356" y="-203.587" z="-261.101" unit="cm"/>
+<rotation x="0.662255" y="-1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_333">
+<file name="_20inPMT.gdml"/>
+<position x="-515.505" y="-297.625" z="-261.101" unit="cm"/>
+<rotation x="0.850675" y="-0.915857" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_334">
+<file name="_20inPMT.gdml"/>
+<position x="-455.992" y="-382.62" z="-261.101" unit="cm"/>
+<rotation x="0.971978" y="-0.777536" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_335">
+<file name="_20inPMT.gdml"/>
+<position x="-382.623" y="-455.989" z="-261.101" unit="cm"/>
+<rotation x="1.05076" y="-0.629389" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_336">
+<file name="_20inPMT.gdml"/>
+<position x="-297.628" y="-515.503" z="-261.101" unit="cm"/>
+<rotation x="1.10196" y="-0.47562" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_337">
+<file name="_20inPMT.gdml"/>
+<position x="-203.591" y="-559.354" z="-261.101" unit="cm"/>
+<rotation x="1.13407" y="-0.318578" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_338">
+<file name="_20inPMT.gdml"/>
+<position x="-103.367" y="-586.209" z="-261.101" unit="cm"/>
+<rotation x="1.15177" y="-0.159704" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_339">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00236934" y="-595.253" z="-261.101" unit="cm"/>
+<rotation x="1.15743" y="-3.64513e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_340">
+<file name="_20inPMT.gdml"/>
+<position x="103.362" y="-586.21" z="-261.101" unit="cm"/>
+<rotation x="1.15177" y="0.159697" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_341">
+<file name="_20inPMT.gdml"/>
+<position x="203.586" y="-559.356" z="-261.101" unit="cm"/>
+<rotation x="1.13407" y="0.318571" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_342">
+<file name="_20inPMT.gdml"/>
+<position x="297.624" y="-515.506" z="-261.101" unit="cm"/>
+<rotation x="1.10197" y="0.475613" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_343">
+<file name="_20inPMT.gdml"/>
+<position x="382.619" y="-455.992" z="-261.101" unit="cm"/>
+<rotation x="1.05077" y="0.629382" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_344">
+<file name="_20inPMT.gdml"/>
+<position x="455.989" y="-382.623" z="-261.101" unit="cm"/>
+<rotation x="0.971983" y="0.777529" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_345">
+<file name="_20inPMT.gdml"/>
+<position x="515.503" y="-297.629" z="-261.101" unit="cm"/>
+<rotation x="0.850682" y="0.915851" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_346">
+<file name="_20inPMT.gdml"/>
+<position x="559.354" y="-203.591" z="-261.101" unit="cm"/>
+<rotation x="0.662266" y="1.03634" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_347">
+<file name="_20inPMT.gdml"/>
+<position x="586.209" y="-103.368" z="-261.101" unit="cm"/>
+<rotation x="0.376959" y="1.12406" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_348">
+<file name="_20inPMT.gdml"/>
+<position x="544.159" y="0" z="-355.515" unit="cm"/>
+<rotation x="-0" y="0.992084" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_349">
+<file name="_20inPMT.gdml"/>
+<position x="533.703" y="106.16" z="-355.515" unit="cm"/>
+<rotation x="-0.29018" y="0.963303" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_350">
+<file name="_20inPMT.gdml"/>
+<position x="502.737" y="208.24" z="-355.515" unit="cm"/>
+<rotation x="-0.52987" y="0.884253" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_351">
+<file name="_20inPMT.gdml"/>
+<position x="452.452" y="302.318" z="-355.515" unit="cm"/>
+<rotation x="-0.704707" y="0.769922" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_352">
+<file name="_20inPMT.gdml"/>
+<position x="384.779" y="384.778" z="-355.515" unit="cm"/>
+<rotation x="-0.824906" y="0.633497" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_353">
+<file name="_20inPMT.gdml"/>
+<position x="302.319" y="452.451" z="-355.515" unit="cm"/>
+<rotation x="-0.904803" y="0.483754" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_354">
+<file name="_20inPMT.gdml"/>
+<position x="208.241" y="502.737" z="-355.515" unit="cm"/>
+<rotation x="-0.955281" y="0.326121" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_355">
+<file name="_20inPMT.gdml"/>
+<position x="106.161" y="533.703" z="-355.515" unit="cm"/>
+<rotation x="-0.983166" y="0.164059" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_356">
+<file name="_20inPMT.gdml"/>
+<position x="0.000721987" y="544.159" z="-355.515" unit="cm"/>
+<rotation x="-0.992084" y="1.11075e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_357">
+<file name="_20inPMT.gdml"/>
+<position x="-106.159" y="533.703" z="-355.515" unit="cm"/>
+<rotation x="-0.983166" y="-0.164057" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_358">
+<file name="_20inPMT.gdml"/>
+<position x="-208.24" y="502.738" z="-355.515" unit="cm"/>
+<rotation x="-0.955282" y="-0.326119" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_359">
+<file name="_20inPMT.gdml"/>
+<position x="-302.318" y="452.452" z="-355.515" unit="cm"/>
+<rotation x="-0.904804" y="-0.483752" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_360">
+<file name="_20inPMT.gdml"/>
+<position x="-384.778" y="384.779" z="-355.515" unit="cm"/>
+<rotation x="-0.824908" y="-0.633496" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_361">
+<file name="_20inPMT.gdml"/>
+<position x="-452.451" y="302.319" z="-355.515" unit="cm"/>
+<rotation x="-0.704709" y="-0.769921" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_362">
+<file name="_20inPMT.gdml"/>
+<position x="-502.737" y="208.242" z="-355.515" unit="cm"/>
+<rotation x="-0.529873" y="-0.884252" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_363">
+<file name="_20inPMT.gdml"/>
+<position x="-533.703" y="106.161" z="-355.515" unit="cm"/>
+<rotation x="-0.290184" y="-0.963302" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_364">
+<file name="_20inPMT.gdml"/>
+<position x="-544.159" y="0.00144397" z="-355.515" unit="cm"/>
+<rotation x="-4.06164e-06" y="-0.992084" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_365">
+<file name="_20inPMT.gdml"/>
+<position x="-533.703" y="-106.159" z="-355.515" unit="cm"/>
+<rotation x="0.290176" y="-0.963304" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_366">
+<file name="_20inPMT.gdml"/>
+<position x="-502.738" y="-208.239" z="-355.515" unit="cm"/>
+<rotation x="0.529867" y="-0.884255" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_367">
+<file name="_20inPMT.gdml"/>
+<position x="-452.453" y="-302.317" z="-355.515" unit="cm"/>
+<rotation x="0.704705" y="-0.769924" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_368">
+<file name="_20inPMT.gdml"/>
+<position x="-384.78" y="-384.777" z="-355.515" unit="cm"/>
+<rotation x="0.824905" y="-0.633499" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_369">
+<file name="_20inPMT.gdml"/>
+<position x="-302.32" y="-452.451" z="-355.515" unit="cm"/>
+<rotation x="0.904802" y="-0.483756" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_370">
+<file name="_20inPMT.gdml"/>
+<position x="-208.242" y="-502.736" z="-355.515" unit="cm"/>
+<rotation x="0.955281" y="-0.326123" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_371">
+<file name="_20inPMT.gdml"/>
+<position x="-106.162" y="-533.703" z="-355.515" unit="cm"/>
+<rotation x="0.983165" y="-0.164061" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_372">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00216596" y="-544.159" z="-355.515" unit="cm"/>
+<rotation x="0.992084" y="-3.33225e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_373">
+<file name="_20inPMT.gdml"/>
+<position x="106.158" y="-533.703" z="-355.515" unit="cm"/>
+<rotation x="0.983166" y="0.164055" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_374">
+<file name="_20inPMT.gdml"/>
+<position x="208.238" y="-502.738" z="-355.515" unit="cm"/>
+<rotation x="0.955282" y="0.326117" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_375">
+<file name="_20inPMT.gdml"/>
+<position x="302.316" y="-452.453" z="-355.515" unit="cm"/>
+<rotation x="0.904804" y="0.48375" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_376">
+<file name="_20inPMT.gdml"/>
+<position x="384.777" y="-384.78" z="-355.515" unit="cm"/>
+<rotation x="0.824909" y="0.633494" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_377">
+<file name="_20inPMT.gdml"/>
+<position x="452.45" y="-302.321" z="-355.515" unit="cm"/>
+<rotation x="0.704711" y="0.769919" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_378">
+<file name="_20inPMT.gdml"/>
+<position x="502.736" y="-208.243" z="-355.515" unit="cm"/>
+<rotation x="0.529876" y="0.884251" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_379">
+<file name="_20inPMT.gdml"/>
+<position x="533.702" y="-106.163" z="-355.515" unit="cm"/>
+<rotation x="0.290187" y="0.963302" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_380">
+<file name="_20inPMT.gdml"/>
+<position x="478.221" y="0" z="-440.232" unit="cm"/>
+<rotation x="-0" y="0.826737" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_381">
+<file name="_20inPMT.gdml"/>
+<position x="466.231" y="106.414" z="-440.232" unit="cm"/>
+<rotation x="-0.237173" y="0.799889" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_382">
+<file name="_20inPMT.gdml"/>
+<position x="430.863" y="207.492" z="-440.232" unit="cm"/>
+<rotation x="-0.440445" y="0.72464" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_383">
+<file name="_20inPMT.gdml"/>
+<position x="373.889" y="298.166" z="-440.232" unit="cm"/>
+<rotation x="-0.595323" y="0.612865" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_384">
+<file name="_20inPMT.gdml"/>
+<position x="298.166" y="373.888" z="-440.232" unit="cm"/>
+<rotation x="-0.704086" y="0.476551" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_385">
+<file name="_20inPMT.gdml"/>
+<position x="207.493" y="430.862" z="-440.232" unit="cm"/>
+<rotation x="-0.774642" y="0.324906" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_386">
+<file name="_20inPMT.gdml"/>
+<position x="106.415" y="466.231" z="-440.232" unit="cm"/>
+<rotation x="-0.814072" y="0.164455" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_387">
+<file name="_20inPMT.gdml"/>
+<position x="0.000634502" y="478.221" z="-440.232" unit="cm"/>
+<rotation x="-0.826737" y="9.76156e-07" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_388">
+<file name="_20inPMT.gdml"/>
+<position x="-106.414" y="466.232" z="-440.232" unit="cm"/>
+<rotation x="-0.814073" y="-0.164453" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_389">
+<file name="_20inPMT.gdml"/>
+<position x="-207.492" y="430.863" z="-440.232" unit="cm"/>
+<rotation x="-0.774643" y="-0.324904" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_390">
+<file name="_20inPMT.gdml"/>
+<position x="-298.165" y="373.889" z="-440.232" unit="cm"/>
+<rotation x="-0.704088" y="-0.47655" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_391">
+<file name="_20inPMT.gdml"/>
+<position x="-373.888" y="298.167" z="-440.232" unit="cm"/>
+<rotation x="-0.595325" y="-0.612864" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_392">
+<file name="_20inPMT.gdml"/>
+<position x="-430.862" y="207.493" z="-440.232" unit="cm"/>
+<rotation x="-0.440448" y="-0.724638" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_393">
+<file name="_20inPMT.gdml"/>
+<position x="-466.231" y="106.415" z="-440.232" unit="cm"/>
+<rotation x="-0.237176" y="-0.799889" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_394">
+<file name="_20inPMT.gdml"/>
+<position x="-478.221" y="0.001269" z="-440.232" unit="cm"/>
+<rotation x="-2.88258e-06" y="-0.826737" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_395">
+<file name="_20inPMT.gdml"/>
+<position x="-466.232" y="-106.413" z="-440.232" unit="cm"/>
+<rotation x="0.237171" y="-0.79989" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_396">
+<file name="_20inPMT.gdml"/>
+<position x="-430.863" y="-207.491" z="-440.232" unit="cm"/>
+<rotation x="0.440443" y="-0.724641" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_397">
+<file name="_20inPMT.gdml"/>
+<position x="-373.89" y="-298.165" z="-440.232" unit="cm"/>
+<rotation x="0.595321" y="-0.612867" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_398">
+<file name="_20inPMT.gdml"/>
+<position x="-298.167" y="-373.888" z="-440.232" unit="cm"/>
+<rotation x="0.704085" y="-0.476553" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_399">
+<file name="_20inPMT.gdml"/>
+<position x="-207.494" y="-430.862" z="-440.232" unit="cm"/>
+<rotation x="0.774642" y="-0.324908" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_400">
+<file name="_20inPMT.gdml"/>
+<position x="-106.416" y="-466.231" z="-440.232" unit="cm"/>
+<rotation x="0.814072" y="-0.164457" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_401">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00190351" y="-478.221" z="-440.232" unit="cm"/>
+<rotation x="0.826737" y="-2.92847e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_402">
+<file name="_20inPMT.gdml"/>
+<position x="106.412" y="-466.232" z="-440.232" unit="cm"/>
+<rotation x="0.814073" y="0.164452" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_403">
+<file name="_20inPMT.gdml"/>
+<position x="207.491" y="-430.864" z="-440.232" unit="cm"/>
+<rotation x="0.774644" y="0.324902" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_404">
+<file name="_20inPMT.gdml"/>
+<position x="298.164" y="-373.89" z="-440.232" unit="cm"/>
+<rotation x="0.704089" y="0.476548" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_405">
+<file name="_20inPMT.gdml"/>
+<position x="373.887" y="-298.168" z="-440.232" unit="cm"/>
+<rotation x="0.595326" y="0.612862" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_406">
+<file name="_20inPMT.gdml"/>
+<position x="430.862" y="-207.495" z="-440.232" unit="cm"/>
+<rotation x="0.44045" y="0.724637" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_407">
+<file name="_20inPMT.gdml"/>
+<position x="466.231" y="-106.417" z="-440.232" unit="cm"/>
+<rotation x="0.237179" y="0.799888" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_408">
+<file name="_20inPMT.gdml"/>
+<position x="399.239" y="0" z="-512.94" unit="cm"/>
+<rotation x="-0" y="0.66139" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_409">
+<file name="_20inPMT.gdml"/>
+<position x="385.636" y="103.331" z="-512.94" unit="cm"/>
+<rotation x="-0.198787" y="0.635134" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_410">
+<file name="_20inPMT.gdml"/>
+<position x="345.751" y="199.62" z="-512.94" unit="cm"/>
+<rotation x="-0.371133" y="0.560873" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_411">
+<file name="_20inPMT.gdml"/>
+<position x="282.305" y="282.305" z="-512.94" unit="cm"/>
+<rotation x="-0.503124" y="0.449278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_412">
+<file name="_20inPMT.gdml"/>
+<position x="199.62" y="345.751" z="-512.94" unit="cm"/>
+<rotation x="-0.593102" y="0.312152" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_413">
+<file name="_20inPMT.gdml"/>
+<position x="103.331" y="385.635" z="-512.94" unit="cm"/>
+<rotation x="-0.644661" y="0.159648" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_414">
+<file name="_20inPMT.gdml"/>
+<position x="0.000529709" y="399.239" z="-512.94" unit="cm"/>
+<rotation x="-0.66139" y="8.14936e-07" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_415">
+<file name="_20inPMT.gdml"/>
+<position x="-103.33" y="385.636" z="-512.94" unit="cm"/>
+<rotation x="-0.644661" y="-0.159647" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_416">
+<file name="_20inPMT.gdml"/>
+<position x="-199.619" y="345.752" z="-512.94" unit="cm"/>
+<rotation x="-0.593102" y="-0.312151" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_417">
+<file name="_20inPMT.gdml"/>
+<position x="-282.304" y="282.305" z="-512.94" unit="cm"/>
+<rotation x="-0.503125" y="-0.449277" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_418">
+<file name="_20inPMT.gdml"/>
+<position x="-345.751" y="199.62" z="-512.94" unit="cm"/>
+<rotation x="-0.371134" y="-0.560872" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_419">
+<file name="_20inPMT.gdml"/>
+<position x="-385.635" y="103.332" z="-512.94" unit="cm"/>
+<rotation x="-0.198789" y="-0.635134" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_420">
+<file name="_20inPMT.gdml"/>
+<position x="-399.239" y="0.00105942" z="-512.94" unit="cm"/>
+<rotation x="-2.06538e-06" y="-0.66139" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_421">
+<file name="_20inPMT.gdml"/>
+<position x="-385.636" y="-103.33" z="-512.94" unit="cm"/>
+<rotation x="0.198785" y="-0.635135" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_422">
+<file name="_20inPMT.gdml"/>
+<position x="-345.752" y="-199.619" z="-512.94" unit="cm"/>
+<rotation x="0.371131" y="-0.560874" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_423">
+<file name="_20inPMT.gdml"/>
+<position x="-282.306" y="-282.304" z="-512.94" unit="cm"/>
+<rotation x="0.503123" y="-0.449279" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_424">
+<file name="_20inPMT.gdml"/>
+<position x="-199.621" y="-345.751" z="-512.94" unit="cm"/>
+<rotation x="0.593101" y="-0.312154" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_425">
+<file name="_20inPMT.gdml"/>
+<position x="-103.332" y="-385.635" z="-512.94" unit="cm"/>
+<rotation x="0.64466" y="-0.15965" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_426">
+<file name="_20inPMT.gdml"/>
+<position x="-0.00158913" y="-399.239" z="-512.94" unit="cm"/>
+<rotation x="0.66139" y="-2.44481e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_427">
+<file name="_20inPMT.gdml"/>
+<position x="103.329" y="-385.636" z="-512.94" unit="cm"/>
+<rotation x="0.644661" y="0.159645" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_428">
+<file name="_20inPMT.gdml"/>
+<position x="199.618" y="-345.752" z="-512.94" unit="cm"/>
+<rotation x="0.593103" y="0.312149" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_429">
+<file name="_20inPMT.gdml"/>
+<position x="282.304" y="-282.306" z="-512.94" unit="cm"/>
+<rotation x="0.503126" y="0.449276" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_430">
+<file name="_20inPMT.gdml"/>
+<position x="345.75" y="-199.621" z="-512.94" unit="cm"/>
+<rotation x="0.371136" y="0.560871" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_431">
+<file name="_20inPMT.gdml"/>
+<position x="385.635" y="-103.333" z="-512.94" unit="cm"/>
+<rotation x="0.198791" y="0.635133" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_432">
+<file name="_20inPMT.gdml"/>
+<position x="309.367" y="0" z="-571.657" unit="cm"/>
+<rotation x="-0" y="0.496043" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_433">
+<file name="_20inPMT.gdml"/>
+<position x="290.71" y="105.81" z="-571.657" unit="cm"/>
+<rotation x="-0.183022" y="0.463684" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_434">
+<file name="_20inPMT.gdml"/>
+<position x="236.989" y="198.857" z="-571.657" unit="cm"/>
+<rotation x="-0.334768" y="0.373202" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_435">
+<file name="_20inPMT.gdml"/>
+<position x="154.684" y="267.92" z="-571.657" unit="cm"/>
+<rotation x="-0.438272" y="0.24028" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_436">
+<file name="_20inPMT.gdml"/>
+<position x="53.7214" y="304.667" z="-571.657" unit="cm"/>
+<rotation x="-0.489662" y="0.0827427" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_437">
+<file name="_20inPMT.gdml"/>
+<position x="-53.7206" y="304.667" z="-571.657" unit="cm"/>
+<rotation x="-0.489662" y="-0.0827414" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_438">
+<file name="_20inPMT.gdml"/>
+<position x="-154.683" y="267.92" z="-571.657" unit="cm"/>
+<rotation x="-0.438273" y="-0.240279" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_439">
+<file name="_20inPMT.gdml"/>
+<position x="-236.989" y="198.858" z="-571.657" unit="cm"/>
+<rotation x="-0.334769" y="-0.373201" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_440">
+<file name="_20inPMT.gdml"/>
+<position x="-290.71" y="105.81" z="-571.657" unit="cm"/>
+<rotation x="-0.183023" y="-0.463684" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_441">
+<file name="_20inPMT.gdml"/>
+<position x="-309.367" y="0.000820933" z="-571.657" unit="cm"/>
+<rotation x="-1.43606e-06" y="-0.496043" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_442">
+<file name="_20inPMT.gdml"/>
+<position x="-290.71" y="-105.809" z="-571.657" unit="cm"/>
+<rotation x="0.18302" y="-0.463684" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_443">
+<file name="_20inPMT.gdml"/>
+<position x="-236.99" y="-198.857" z="-571.657" unit="cm"/>
+<rotation x="0.334767" y="-0.373203" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_444">
+<file name="_20inPMT.gdml"/>
+<position x="-154.684" y="-267.919" z="-571.657" unit="cm"/>
+<rotation x="0.438272" y="-0.240282" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_445">
+<file name="_20inPMT.gdml"/>
+<position x="-53.7222" y="-304.667" z="-571.657" unit="cm"/>
+<rotation x="0.489662" y="-0.0827439" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_446">
+<file name="_20inPMT.gdml"/>
+<position x="53.7198" y="-304.667" z="-571.657" unit="cm"/>
+<rotation x="0.489662" y="0.0827402" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_447">
+<file name="_20inPMT.gdml"/>
+<position x="154.682" y="-267.92" z="-571.657" unit="cm"/>
+<rotation x="0.438274" y="0.240278" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_448">
+<file name="_20inPMT.gdml"/>
+<position x="236.988" y="-198.858" z="-571.657" unit="cm"/>
+<rotation x="0.33477" y="0.3732" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_449">
+<file name="_20inPMT.gdml"/>
+<position x="290.709" y="-105.811" z="-571.657" unit="cm"/>
+<rotation x="0.183024" y="0.463683" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_450">
+<file name="_20inPMT.gdml"/>
+<position x="211.056" y="0" z="-614.781" unit="cm"/>
+<rotation x="-0" y="0.330696" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_451">
+<file name="_20inPMT.gdml"/>
+<position x="182.78" y="105.528" z="-614.781" unit="cm"/>
+<rotation x="-0.169995" y="0.285044" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_452">
+<file name="_20inPMT.gdml"/>
+<position x="105.528" y="182.78" z="-614.781" unit="cm"/>
+<rotation x="-0.288986" y="0.163073" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_453">
+<file name="_20inPMT.gdml"/>
+<position x="0.000280028" y="211.056" z="-614.781" unit="cm"/>
+<rotation x="-0.330696" y="4.30813e-07" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_454">
+<file name="_20inPMT.gdml"/>
+<position x="-105.528" y="182.78" z="-614.781" unit="cm"/>
+<rotation x="-0.288987" y="-0.163072" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_455">
+<file name="_20inPMT.gdml"/>
+<position x="-182.78" y="105.528" z="-614.781" unit="cm"/>
+<rotation x="-0.169996" y="-0.285044" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_456">
+<file name="_20inPMT.gdml"/>
+<position x="-211.056" y="0.000560056" z="-614.781" unit="cm"/>
+<rotation x="-9.10986e-07" y="-0.330696" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_457">
+<file name="_20inPMT.gdml"/>
+<position x="-182.78" y="-105.527" z="-614.781" unit="cm"/>
+<rotation x="0.169994" y="-0.285045" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_458">
+<file name="_20inPMT.gdml"/>
+<position x="-105.529" y="-182.78" z="-614.781" unit="cm"/>
+<rotation x="0.288986" y="-0.163074" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_459">
+<file name="_20inPMT.gdml"/>
+<position x="-0.000840085" y="-211.056" z="-614.781" unit="cm"/>
+<rotation x="0.330696" y="-1.29244e-06" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_460">
+<file name="_20inPMT.gdml"/>
+<position x="105.527" y="-182.78" z="-614.781" unit="cm"/>
+<rotation x="0.288987" y="0.163071" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_461">
+<file name="_20inPMT.gdml"/>
+<position x="182.779" y="-105.529" z="-614.781" unit="cm"/>
+<rotation x="0.169996" y="0.285043" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_462">
+<file name="_20inPMT.gdml"/>
+<position x="106.988" y="0" z="-641.135" unit="cm"/>
+<rotation x="-0" y="0.165349" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_463">
+<file name="_20inPMT.gdml"/>
+<position x="53.4941" y="92.6544" z="-641.135" unit="cm"/>
+<rotation x="-0.143523" y="0.0823918" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_464">
+<file name="_20inPMT.gdml"/>
+<position x="-53.4939" y="92.6545" z="-641.135" unit="cm"/>
+<rotation x="-0.143523" y="-0.0823915" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_465">
+<file name="_20inPMT.gdml"/>
+<position x="-106.988" y="0.000283903" z="-641.135" unit="cm"/>
+<rotation x="-4.42813e-07" y="-0.165349" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_466">
+<file name="_20inPMT.gdml"/>
+<position x="-53.4944" y="-92.6542" z="-641.135" unit="cm"/>
+<rotation x="0.143522" y="-0.0823922" unit="rad"/>
+</physvol>
+
+<physvol name="PMT_467">
+<file name="_20inPMT.gdml"/>
+<position x="53.4936" y="-92.6546" z="-641.135" unit="cm"/>
+<rotation x="0.143523" y="0.0823911" unit="rad"/>
+</physvol>
+

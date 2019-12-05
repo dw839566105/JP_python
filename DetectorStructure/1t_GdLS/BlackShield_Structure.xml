@@ -1,0 +1,199 @@
+
+<!-- Teflon Shape Define-->
+		<sphere name="Teflon_Sphere" rmin="770" rmax="775" lunit="mm"  starttheta= "0" deltatheta="360" startphi="0" deltaphi="360"  aunit="deg"/> 
+<orb name ="Teflon_Hole" r="135" lunit="mm"/>
+<!-- Tefon Geometry subtraction PMT Hole-->
+
+		<subtraction name= "Teflon">
+			<first       ref = "Teflon_Sphere"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.4" y="0.13" z="0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_1">
+			<first       ref = "Teflon"/>
+			<second      ref = "Teflon_Hole" />
+			<position    x="0" y="0.421" z="0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_2">
+			<first       ref = "Teflon_1"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.40" y="0.13" z="0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_3">
+			<first       ref = "Teflon_2"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.247" y="-0.34" z="0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_4">
+			<first       ref = "Teflon_3"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.247" y="-0.340" z="0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_5">
+			<first       ref = "Teflon_4"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.743" y="0." z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_6">
+			<first       ref = "Teflon_5"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.229" y="0.706" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_7">
+			<first       ref = "Teflon_6"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.601" y="0.436" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_8">
+			<first       ref = "Teflon_7"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.229" y="0.706" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_9">
+			<first       ref = "Teflon_8"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.601" y="0.436" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_10">
+			<first       ref = "Teflon_9"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.743" y="0." z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_11">
+			<first       ref = "Teflon_10"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.601" y="-0.436" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_12">
+			<first       ref = "Teflon_11"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.229" y="-0.706" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_13">
+			<first       ref = "Teflon_12"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.601" y="-0.436" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_14">
+			<first       ref = "Teflon_13"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.229" y="-0.706" z="0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_15">
+			<first       ref = "Teflon_14"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.4" y="0.13" z="-0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_16">
+			<first       ref = "Teflon_15"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.0" y="0.421" z="-0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_17">
+			<first       ref = "Teflon_16"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.40" y="0.13" z="-0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_18">
+			<first       ref = "Teflon_17"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.247" y="-0.34" z="-0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_19">
+			<first       ref = "Teflon_18"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.247" y="-0.340" z="-0.654" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_20">
+			<first       ref = "Teflon_19"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.743" y="0." z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_21">
+			<first       ref = "Teflon_20"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.229" y="0.706" z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_22">
+			<first       ref = "Teflon_21"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.601" y="0.436" z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_23">
+			<first       ref = "Teflon_22"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.229" y="0.706" z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_24">
+			<first       ref = "Teflon_23"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.601" y="0.436" z="-0.229" unit="m"/>
+		</subtraction>
+
+
+		<subtraction name= "Teflon_25">
+			<first       ref = "Teflon_24"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.743" y="0." z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_26">
+			<first       ref = "Teflon_25"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.601" y="-0.436" z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_27">
+			<first       ref = "Teflon_26"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="-0.229" y="-0.706" z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_28">
+			<first       ref = "Teflon_27"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.601" y="-0.436" z="-0.229" unit="m"/>
+		</subtraction>
+
+		<subtraction name= "Teflon_29">
+			<first       ref = "Teflon_28"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0.229" y="-0.706" z="-0.229" unit="m"/>
+		</subtraction>
+
+	    <subtraction name= "Teflon_30">
+			<first       ref = "Teflon_29"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0." y="0." z="0.775" unit="m"/>
+		</subtraction>
+    
+          <subtraction name= "Teflon_31">
+			<first       ref = "Teflon_30"/>
+			<second      ref = "Teflon_Hole" />
+			<position x="0." y="0." z="-0.775" unit="m"/>
+	</subtraction>
+

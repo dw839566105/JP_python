@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE gdml_simple_extension [
+
+<!ENTITY Materials SYSTEM "../materials/Material.xml">
+<!ENTITY Acrylic SYSTEM "../materials/Acrylic.xml">
+<!ENTITY LS SYSTEM "../materials/LS.xml">
+<!ENTITY LAB_0.07PPO_13bis SYSTEM "../materials/LAB_0.07PPO_13bis.xml">
+<!ENTITY LAB SYSTEM "../materials/LAB.xml">
+<!ENTITY LAB_0PPO SYSTEM "../materials/LAB_0.0PPO.xml">
+<!ENTITY Water SYSTEM "../materials/Water.xml">
+<!ENTITY GdLS SYSTEM "../materials/GdLS.xml">
+<!ENTITY Mineral_Oil SYSTEM "../materials/Mineral_Oil.xml">
+<!ENTITY Steel_Structure SYSTEM "Steel_Structure.xml">
+<!ENTITY Tank_Structure SYSTEM "Tank_Structure.xml">
+<!ENTITY BlackShield_Structure SYSTEM "BlackShield_Structure.xml">
+<!ENTITY PMT_Property SYSTEM "../PMTlib/Hamamatsu_R5912/Hamamatsu_R5912_Elec.xml">
+<!ENTITY PMT_Positions SYSTEM "PMT_Position.xml">
+<!ENTITY PMT_Gain SYSTEM "PMT_Gain.xml">
+<!ENTITY PMT_Material SYSTEM "../materials/PMT_Material.xml">
+<!ENTITY Trigger_Params SYSTEM "Trigger_Params.xml">
+
+]>
+
+<gdml_simple_extension
+	xmlns:gdml="http://cern.ch/2001/Schemas/GDML" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+	xs:noNamespaceSchemaLocation="SimpleExtension11.xsd">
+
+	<define>
+
+		<matrix name="RINDEX" coldim="2" values="1.65*eV 1.58" />
+
+	</define>
+	
+	<extension>
+		<color name="Teflon_color" R=".0" G=".0" B=".0" A="0.1"/> 
+		<color name="LAB_color" R="0.0" G="1.0" B="1.0" A="0.2"/> 
+		<color name="Steel_color" R="0.5" G="0.5" B="0.5" A="0.3"/> 
+		<color name="Water_color" R="0.0" G="1.0" B="0.3" A="0.4"/> 
+		<color name="Acrylic_color" R="1.0" G="1.0" B="1.0" A="0.3"/> 
+		<color name="Oil_color" R="1.0" G="1.0" B="0.0" A="0.3"/> 
+		<color name="Acrylic_Black_color" R="0.0" G="0.0" B="0.0" A="0.1"/> 
+		<color name="Lead_color" R="1" G="1" B="1" A="0.3"/> 
+	</extension>
+	
+	<!--materials-->
+	&Materials;
+	&Acrylic;
+	&LAB;
+	&LAB_0PPO;
+	&LS;
+	&GdLS;
+	&Water;
+	&Mineral_Oil;
+	&PMT_Material;
+	&LAB_0.07PPO_13bis;
+
+	<materials>
+
+		<material formula="C2F4" name="C2F4" >
+			<property name="RINDEX" ref="RINDEX"/>  
+			<D value="1" />
+			<fraction n="0.7" ref="Fluorine" />
+			<fraction n="0.3" ref="Carbon" />
+		</material>
+				<material formula="Fe" name="FeRing">
+			<D value="7.9"/>
+			<composite n="1" ref="Iron"/>
+		</material>
+
+		<material formula="Pb" name="LeadShell">
+			<D value="11.34"/>
+			<composite n="1" ref="Plumbum"/>
+		</material>
+
+	</materials>
+	
+	<!--electronics-->
+	&Trigger_Params;
+	&PMT_Property;
+	&PMT_Gain;
+	
+
+	<solids>
+		<box name="World_Box" x="200" y="200" z="10" lunit="m"/>
+
+		<eltube name="Rock_Tube" dx="4./2" dy="4./2" dz="4./2" lunit="m"/>
+
+		<eltube name="WaterWall_Tube" dx="3./2" dy="3./2" dz="3./2" lunit="m"/>
+
+		<cone name="Lead_Tube" rmin1="1.07" rmax1="1.12" rmin2="1.07" rmax2="1.12" z="2.1" startphi="0" deltaphi="360" aunit="deg" lunit="m" />
+
+        <!-- Steel Tube Shape Define-->
+		<tube name="Short_Tube" rmin="0" rmax="12" z="500" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+		<tube name="Middle_Tube" rmin="0" rmax="12" z="620" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+		<tube name="Long_Tube" rmin="0" rmax="12" z="1803" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+		<tube name="Slope_Tube" rmin="0" rmax="12" z="670" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+        
+        <!--PMT Support Steel Define-->
+  		<box name="Support_Box_1layer" x="410" y="30" z="10" lunit="mm"/>
+		<box name="Support_Box_2layer" x="130" y="30" z="10" lunit="mm"/>
+		<box name="Support_Box_3layer" x="130" y="30" z="10" lunit="mm"/>
+		<box name="Support_Box_4layer" x="410" y="30" z="10" lunit="mm"/>
+
+        <!--Steel Ring  Define-->
+		<tube name="Iron_Ring"  rmin="82" rmax="225" z="55" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+
+        <!-- Water(Oil) Shape Define-->
+
+		<eltube name="Water_Orb" dx="1.992/2" dy="1.992/2" dz="1.992/2" lunit="m"/>
+
+        <!--LAB(LS) Shape Define-->
+
+		<orb name="LABOrb" r="1.29/2" lunit="m"/>
+		
+		&Tank_Structure;
+		&BlackShield_Structure;
+
+        <!-- Acylic Shape Define-->
+
+		<orb name="Acrylic_Orb" r="1.30/2" lunit="m"/>
+		<tube name="Acrylic_Tube" rmin="40" rmax="80" z="240" deltaphi="360" startphi="0" aunit= "deg" lunit="mm"/>
+		<eltube name="AcrylicSpill" dx="515" dy="515" dz="50" lunit="mm"/>
+        <eltube name ="AcrylicSpillInner" dx="495" dy="495"  dz="45" lunit="mm"/>
+		<orb name ="Acrylic_Hole" r="40" lunit="mm"/>
+        <cone name = "Acrylic_Cone" rmin1= "0" rmax1="110" rmin2 = "0" rmax2="100" z="290" startphi="0" deltaphi="360" aunit="deg" lunit= "mm" />
+		
+		<union name= "AcrylicU_1">
+			<first       ref = "Acrylic_Orb"/>
+			<second      ref = "Acrylic_Tube" />
+			<position x="0." y="0." z="0.75" unit="m"/>
+		</union>
+     
+        <union name= "AcrylicU_2">
+			<first       ref = "AcrylicU_1"/>
+			<second      ref = "AcrylicSpill" />
+			<position x="0." y="0." z="0.93" unit="m"/>
+		</union>
+
+		<subtraction name= "Acrylic_2">
+			<first       ref = "AcrylicU_2"/>
+			<second      ref = "AcrylicSpillInner" />
+			<position x="0." y="0." z="0.93" unit="m"/>
+		</subtraction>
+
+         <union name= "AcrylicU_3">
+			<first       ref = "Acrylic_2"/>
+			<second      ref = "Acrylic_Cone" />
+			<position x="0." y="0." z="-0.78" unit="m"/>
+		</union>
+		<!--orb name="Tflonsphere" r="0.5/2" lunit="m"/-->
+		<opticalsurface name="surf1" model="glisur" finish="polished" type="dielectric_metal" value="1.0" reflectivity="0.05"/>
+
+	</solids>
+
+	<structure>
+		
+		<volume name="ScintillatorLog">
+			<!--materialref ref="LS"/-->
+			<materialref ref="LAB_bis"/>
+			<solidref ref="LABOrb"/>
+			<colorref ref="LAB_color"/>
+			<auxiliary auxtype="dEID" auxvalue="1"/>
+		</volume>
+
+		<volume name="AcrylicLog">
+			<materialref ref="Acrylic"/>
+			<solidref ref="AcrylicU_3"/>
+			<colorref ref="Acrylic_color"/>
+			<physvol>
+				<volumeref ref="ScintillatorLog"/>
+			</physvol>
+		</volume>
+
+        <!--Steel_Structure.xml use this info -->
+		<volume name="iron_ring">
+			<materialref ref="FeRing"/>
+			<solidref ref="Iron_Ring"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="short_tube">
+			<materialref ref="FeRing"/>
+			<solidref ref="Short_Tube"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="middle_tube">
+			<materialref ref="FeRing"/>
+			<solidref ref="Middle_Tube"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="long_tube">
+			<materialref ref="FeRing"/>
+			<solidref ref="Long_Tube"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="slope_tube">
+			<materialref ref="FeRing"/>
+			<solidref ref="Slope_Tube"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+    	<volume name="support_box_1">
+			<materialref ref="FeRing"/>
+			<solidref ref="Support_Box_1layer"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="support_box_2">
+			<materialref ref="FeRing"/>
+			<solidref ref="Support_Box_2layer"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="support_box_3">
+			<materialref ref="FeRing"/>
+			<solidref ref="Support_Box_3layer"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="support_box_4">
+			<materialref ref="FeRing"/>
+			<solidref ref="Support_Box_4layer"/>
+			<colorref ref="Steel_color"/>
+		</volume>
+
+		<volume name="TeflonLog" >
+			<materialref ref="C2F4" />
+			<solidref ref="Teflon_31" />
+			<colorref ref="Teflon_color"/>
+		</volume>
+
+		<skinsurface name="skinsrf1" surfaceproperty="surf1" >
+			<volumeref ref="TeflonLog"/>
+		</skinsurface> 
+
+		<volume name="WaterLog">
+	    	<materialref ref="Water"/>
+			<solidref ref="Water_Orb"/>
+			<colorref ref="Oil_color"/>
+			<physvol>
+				<volumeref ref="AcrylicLog"/>
+			</physvol>
+
+			<physvol name="Black_Shield_PV">
+				<volumeref ref="TeflonLog"/>
+				<position x="0." y="0" z="0." unit="m"/>	
+			</physvol>
+
+			&Steel_Structure;
+
+			&PMT_Positions;
+
+		</volume>
+
+		<volume name="LeadWallLog">
+			<materialref ref="LeadShell"/>
+			<solidref ref="Lead_Tube"/>
+			<colorref ref="Lead_color"/>
+		</volume>
+		
+		<volume name="TankLog">
+			<materialref ref="IronShell"/>
+			<solidref ref="Tank"/>
+			<colorref ref="Steel_color"/>
+			<physvol>
+				<volumeref ref="WaterLog"/>
+			</physvol>
+		</volume>
+
+		<volume name="TOP">
+			<materialref ref="Vacuum"/>
+			<solidref ref="World_Box"/>
+			<physvol>
+                <volumeref ref="LeadWallLog"/>
+			</physvol>
+			<physvol>
+                <volumeref ref="TankLog"/>
+			</physvol>
+		</volume>
+
+	</structure>
+
+	<setup version="1.0" name="Default">
+		<world ref="TOP"/>
+	</setup>
+
+</gdml_simple_extension>

@@ -1,0 +1,125 @@
+<define>
+
+	<!-- ********** Refractive index ********** -->
+	<!-- The rindex of air -->
+	<matrix 
+		name="Air_RINDEX" 
+		coldim="2" 
+		values="1.65*eV 1.00 
+				4.14*eV 1.00"
+	/>
+
+</define>
+
+<materials>
+
+	<!-- Element -->
+
+	<!--Gadolinium isotope definition-->
+	<element Z="64" formula="Gd" name="Gd152">
+		<atom value="151.91979" />
+	</element>
+	<element Z="64" formula="Gd" name="Gd154">
+		<atom value="153.92087" />
+	</element>
+	<element Z="64" formula="Gd" name="Gd155">
+		<atom value="154.92262" />
+	</element>
+	<element Z="64" formula="Gd" name="Gd156">
+		<atom value="155.92212" />
+	</element>
+	<element Z="64" formula="Gd" name="Gd157">
+		<atom value="156.92396" />
+	</element>
+	<element Z="64" formula="Gd" name="Gd158">
+		<atom value="157.92410" />
+	</element>
+	<element Z="64" formula="Gd" name="Gd160">
+		<atom value="159.92705" />
+	</element>
+	<!-- G4dyb uses ubundance, we need fraction mass = ubundance*mass/avgmass -->
+    <element name="Gadolinium">
+        <fraction ref="Gd152" n="0.002*152/157.318"/>
+        <fraction ref="Gd154" n="0.022*154/157.318"/>
+        <fraction ref="Gd155" n="0.149*155/157.318"/>
+        <fraction ref="Gd156" n="0.206*156/157.318"/>
+        <fraction ref="Gd157" n="0.157*157/157.318"/>
+        <fraction ref="Gd158" n="0.247*158/157.318"/>
+        <fraction ref="Gd160" n="0.217*160/157.318"/>
+    </element>
+
+	<element Z="6" formula="C" name="Carbon">
+		<atom value="12.011"/>
+	</element>
+
+	<element Z="6" formula="C" name="TS_C_of_Graphite">
+  		<atom value="12.011"/>
+	</element>
+
+	<element Z="8" formula="O" name="Oxygen">
+		<atom value="15.9994"/>
+	</element>
+
+	<element Z="7" formula="N" name="Nitrogen">
+		<atom value="14.0067"/>
+	</element>
+
+	<element Z="1" formula="H" name="Hydrogen">
+		<atom value="1.00794"/>
+	</element>
+	<element Z="1" formula="H" name="TS_H_of_Water">
+		<atom value="1.00794"/>
+	</element>
+	<element Z="1" formula="H" name="TS_H_of_Polyethylene">
+		<atom value="1.00794"/>
+	</element>
+
+	<element Z="16" formula="S" name="Sulfur">
+		<atom value="32.066"/>
+	</element>
+
+	<element Z="26" formula="Fe" name="Iron">
+		<atom value="55.847"/>
+	</element>
+
+	<element Z="20" formula="Ca" name="Calcium">
+		<atom value="40.078"/>
+	</element>
+
+	<element Z="82" formula="Pb" name="Plumbum">
+		<atom value="207.2"/>
+	</element>
+	
+	<element Z="9" formula="F" name="Fluorine" >
+		<atom value="19.00" />
+	</element>
+
+
+	<!-- Material -->
+	<material formula="air" name="Air">
+		<property name="RINDEX" ref="Air_RINDEX"/>
+		<D value="0.00129"/>
+		<fraction n="0.7" ref="Nitrogen"/>
+		<fraction n="0.3" ref="Oxygen"/>
+	</material>
+
+	<material formula="vacuum" name="Vacuum">
+		<D value="1e-25"/>
+		<fraction n="0.7" ref="Nitrogen"/>
+		<fraction n="0.3" ref="Oxygen"/>
+	</material>
+
+	<material formula="rock" name="Rock">
+		<D value="2.7"/>
+		<fraction n="0.48" ref="Oxygen"/>
+		<fraction n="0.12" ref="Carbon"/>
+		<fraction n="0.40" ref="Calcium"/>
+	</material>
+
+	<material formula="Fe" name="IronShell">
+		<D value="7.9"/>
+		<composite n="1" ref="Iron"/>
+	</material>
+
+</materials>
+

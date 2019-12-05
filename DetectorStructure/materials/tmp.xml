@@ -1,0 +1,108 @@
+<water>
+<define>
+
+
+	<!-- ********** Refractive index ********** -->
+
+
+
+
+	<!-- The rindex of Water 210nm to 760nm -->
+	<matrix 
+		name="Water_RINDEX" 
+		coldim="2" 
+		values="5.916*eV			1.36733
+				5.647*eV			1.36639
+				5.522*eV			1.36577
+				5.177*eV			1.36360
+				4.437*eV			1.35714
+				3.882*eV			1.35134
+				3.451*eV			1.34663
+				3.106*eV			1.34290
+				3.067*eV			1.34248
+				2.833*eV			1.34004
+				2.515*eV			1.33687
+				2.268*eV			1.33457
+				2.143*eV			1.33346
+				1.981*eV			1.33210
+				1.941*eV			1.33178
+				1.827*eV			1.33088
+				1.726*eV			1.33013
+				1.635*eV			1.32948"
+	/>
+
+
+	<!-- ********** Refractive index end ********** -->
+
+
+	<!-- ********** Absorption length ********** -->
+
+
+	<matrix 
+		name="Water_ABS" 
+		coldim="2" 
+		values="3.687*eV			526.316*m
+				3.313*eV			689.655*m
+				3.068*eV			359.712*m
+				2.792*eV			146.843*m
+				2.627*eV			109.769*m"
+	/>
+	
+	<!-- ********** Absorption length end ********** -->
+
+	<!-- ********** Rayleigh scattering length ********** -->
+
+		<matrix 
+		name="Water_RAY" 
+		coldim="2" 
+		values="3.687*eV			73.046*m
+				3.313*eV			121.212*m
+				3.068*eV			176.678*m
+				2.792*eV			291.545*m
+				2.627*eV			366.300*m"
+
+
+	/>
+
+	<!-- ********** Rayleigh scattering length end ********** -->
+
+	
+	<!-- ********** Mie scattering length ********** -->
+
+		<matrix 
+		name="Water_MIE" 
+		coldim="2" 
+		values="3.687*eV			3333.333*m
+				3.313*eV			8333.333*m
+				3.068*eV			7142.857*m
+				2.792*eV			7142.857*m
+				2.627*eV			14285.714*m"
+
+
+	/>
+
+	<!-- ********** Rayleigh scattering length end ********** -->
+
+
+</define>
+
+
+
+
+<materials>
+
+
+	<material formula="H2O" name="Water">
+		<property name="RINDEX" ref="Water_RINDEX"/>
+		<property name="ABSLENGTH" ref="Water_ABS"/>
+		<property name="RAYLEIGH" ref="Water_RAY"/>
+		<!--property name="MIEHG" ref="Water_MIE"/-->
+		<D value="1.00"/>
+		<composite n="2" ref="TS_H_of_Water"/>
+		<composite n="1" ref="Oxygen"/>
+	</material>
+
+
+
+</materials>
+</water>

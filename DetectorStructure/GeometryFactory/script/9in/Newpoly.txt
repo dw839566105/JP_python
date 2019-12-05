@@ -1,0 +1,48 @@
+<rzpoint r="0.02" z="168.286"/>
+
+<rzpoint r="206" z="168.286"/>
+<rzpoint r="208" z="165.302"/>
+<rzpoint r="210" z="162.116"/>
+<rzpoint r="212" z="158.7"/>
+<rzpoint r="214" z="155.01"/>
+<rzpoint r="216" z="150.99"/>
+<rzpoint r="218" z="146.56"/>
+<rzpoint r="220" z="141.592"/>
+<rzpoint r="222" z="135.88"/>
+<rzpoint r="224" z="129.014"/>
+<rzpoint r="226" z="119.956"/>
+<rzpoint r="228" z="97.774"/>
+
+<rzpoint r="228" z="77.892"/>
+<rzpoint r="226" z="52.672"/>
+<rzpoint r="224" z="42.34"/>
+<rzpoint r="222" z="34.486"/>
+<rzpoint r="220" z="27.932"/>
+<rzpoint r="218" z="22.214"/>
+<rzpoint r="216" z="17.098"/>
+<rzpoint r="214" z="12.42"/>
+<rzpoint r="212" z="8.15"/>
+<rzpoint r="210" z="4.162"/>
+<rzpoint r="208" z="0.432"/>
+<rzpoint r="207.76" z="0"/>
+<rzpoint r="196" z="-18.108"/>
+<rzpoint r="186" z="-30.164"/>
+<rzpoint r="176" z="-40.156"/>
+<rzpoint r="166" z="-48.584"/>
+<rzpoint r="156" z="-55.734"/>
+<rzpoint r="146" z="-61.806"/>
+<rzpoint r="136" z="-66.94"/>
+<rzpoint r="126" z="-71.226"/>
+<rzpoint r="116" z="-74.738"/>
+<rzpoint r="106" z="-77.53"/>
+<rzpoint r="105.778" z="-77.584"/>
+
+<rzpoint r="99" z="-79.694"/>
+<rzpoint r="93" z="-82.4"/>
+<rzpoint r="87" z="-86.044"/>
+<rzpoint r="81" z="-90.866"/>
+<rzpoint r="75" z="-97.358"/>
+<rzpoint r="69" z="-106.78"/>
+<rzpoint r="63" z="-132"/>
+
+<rzpoint r="0.02" z="-132"/>
