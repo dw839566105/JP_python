@@ -1,7 +1,7 @@
 data
 data_new
 [1-8]
-type*
+type*/*.root
 *.swp
 trash
 

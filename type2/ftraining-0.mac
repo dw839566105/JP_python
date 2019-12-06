@@ -1,0 +1,39 @@
+# Comments begin with # 
+# Set random seed int int
+/random/setSeeds 3814677686 2403466214
+# verbose level
+/gps/verbose 0
+# clear previous sources
+# /gps/source/clear
+# add a new source, the input number is the intensity, unit is Hz
+/gps/source/add 5
+# init an ion
+/gps/particle e-
+# choose where the ion is placed
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0. 0. 0. m
+/gps/pos/radius 0.64 m
+# /gps/position 0 0 0
+# choose the confine physics volume, multi-choice will be combined, choices listed in Manual
+# /gps/pos/confine SciLog_PV
+# /gps/pos/confine WindowLog_PV
+# energy and angular distrubution
+/gps/ang/type iso
+/gps/energy 5 MeV
+
+#/gps/direction 1 0 0 
+#/gps/ene/type Lin
+#/gps/ene/min 0 MeV
+#/gps/ene/max 10 MeV
+#/gps/ene/gradient 0
+#/gps/ene/intercept 1
+
+# choose time range in every event, unit is ns
+#/gps/tim/range 10000
+
+# length of time to be simulated, unit is second
+/run/printProgress 100
+/run/initialize
+/run/verbose 1
+/run/beamOn 10000
