@@ -1,0 +1,10 @@
+main_recon.py:77: RuntimeWarning: invalid value encountered in sqrt
+  np.transpose(np.tile(d2*np.sqrt(radius_O2**2*(d2**2 - radius_O2**2)/d2**2),[3,1]))
+main_recon.py:98: RuntimeWarning: invalid value encountered in less
+  chord = 2*np.sqrt(radius_O2**2 - d[d<radius_O2]**2)
+main_recon.py:103: RuntimeWarning: invalid value encountered in less
+  - np.sqrt(radius_O2**2 - radius_O1**2)*np.abs(np.sin(np.arccos(theta1[d<radius_O2]))))*chord
+main_recon.py:105: RuntimeWarning: invalid value encountered in less
+  Omega[d<radius_O2] = Omega[d<radius_O2] + add_area/(4*d2[d<radius_O2]**2)
+main_recon.py:126: RuntimeWarning: invalid value encountered in log
+  p_time  = np.log(tau_d + tau_r) - 2*np.log(tau_d) + np.log(a1-a2+a3-a4)

@@ -157,7 +157,8 @@ def recon(fid, fout):
     
     result_recon = np.empty((0,6))
     result_truth = np.empty((0,4))
-
+    result_drc = np.empty((0,3))
+    result_tdrc = np.empty((0,3))
     event_count = 0
 
     rootfile = ROOT.TFile(fid)
@@ -214,8 +215,10 @@ def recon(fid, fout):
 
         result_truth = np.vstack((result_truth, truth_vertex))
         result_recon = np.vstack((result_recon, recon_vertex))
-        result_drc = recon_drc(time_array, fired_PMT, recon_vertex)
-        print(np.sum(result_drc*truth_px)/np.sqrt(np.sum(result_drc**2)*np.sum(truth_px**2)))
+        drc = recon_drc(time_array, fired_PMT, recon_vertex)
+        result_drc = np.vstack((result_drc, drc))
+        result_tdrc = np.vstack((result_tdrc, truth_px))
+        # print(np.sum(result_drc*truth_px)/np.sqrt(np.sum(result_drc**2)*np.sum(truth_px**2)))
         '''
         EE = recon_vertex[0,0]
         xx = recon_vertex[0,1]
@@ -226,11 +229,12 @@ def recon(fid, fout):
         '''
         event_count = event_count + 1
         print(event_count)
-        print(truth_vertex)
-        print(recon_vertex)
+    
     with h5py.File(fout,'w') as out:
         out.create_dataset("truth", data=result_truth)
         out.create_dataset("recon", data=result_recon)
+        out.create_dataset("drc", data=result_drc)
+        out.create_dataset("tdrc", data=result_tdrc)
 
 fid = sys.argv[2]
 

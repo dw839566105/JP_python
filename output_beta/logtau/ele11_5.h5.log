@@ -1,0 +1,26 @@
+Sender: LSF System <lsfadmin@c06b08>
+Subject: Job 15186120: <output/ele11_5.h5> Exited
+
+Job <output/ele11_5.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c06b08>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+</home/wangzhe3> was used as the home directory.
+</home/wangzhe3/work/JP_python> was used as the working directory.
+Started at Sat Nov 23 18:27:53 2019
+Results reported at Wed Nov 27 11:06:31 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 main_recon.py output/ele11_5.h5 type1/ele11_5.root
+------------------------------------------------------------
+
+Exited
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <output/ele11_5.h5.err> for stderr output of this job.
+

@@ -1,0 +1,52 @@
+Sender: LSF System <lsfadmin@c16b13>
+Subject: Job 15273799: <output/ele17_36.h5> Done
+
+Job <output/ele17_36.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c16b13>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+</home/wangzhe3> was used as the home directory.
+</home/wangzhe3/work/JP_python> was used as the working directory.
+Started at Thu Dec  5 10:14:38 2019
+Results reported at Thu Dec  5 10:17:38 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 main_recon.py output/ele17_36.h5 type3/ele17_36.root
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :    111.39 sec.
+    Max Memory :       164 MB
+    Max Swap   :       497 MB
+
+    Max Processes  :         3
+    Max Threads    :         5
+
+The output (if any) follows:
+
+type3/ele17_36.root
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+
+PS:
+
+Read file <output/ele17_36.h5.err> for stderr output of this job.
+

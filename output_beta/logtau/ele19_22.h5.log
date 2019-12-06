@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@c06b10>
+Subject: Job 15186119: <output/ele19_22.h5> Exited
+
+Job <output/ele19_22.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c06b10>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+</tmp/.lsbtmp1663> was used as the home directory.
+</home/wangzhe3/work/JP_python> was used as the working directory.
+Started at Sat Nov 23 18:27:58 2019
+Results reported at Fri Nov 29 11:12:01 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 main_recon.py output/ele19_22.h5 type1/ele19_22.root
+------------------------------------------------------------
+
+Exited with exit code 135.
+
+Resource usage summary:
+
+    CPU time   : 299731.53 sec.
+    Max Memory :       166 MB
+    Max Swap   :       496 MB
+
+    Max Processes  :         4
+    Max Threads    :         5
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <output/ele19_22.h5.err> for stderr output of this job.
+

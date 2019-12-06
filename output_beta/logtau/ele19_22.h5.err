@@ -1,0 +1,1 @@
+/tmp/.lsbtmp1663/.lsbatch/1574504869.15186119: line 8: 23604 Bus error               (core dumped) python3 main_recon.py output/ele19_22.h5 type1/ele19_22.root
