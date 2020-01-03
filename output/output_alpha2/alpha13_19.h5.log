@@ -1,0 +1,42 @@
+Sender: LSF System <lsfadmin@c14b11>
+Subject: Job 15320473: <output/alpha13_19.h5> Done
+
+Job <output/alpha13_19.h5> was submitted from host <ln0> by user <wangzhe3> in cluster <cluster1>.
+Job was executed on host(s) <c14b11>, in queue <normal>, as user <wangzhe3> in cluster <cluster1>.
+</tmp/.lsbtmp1663> was used as the home directory.
+</work1/wangzhe3_work/JP_python> was used as the working directory.
+Started at Wed Dec 18 16:46:56 2019
+Results reported at Wed Dec 18 16:48:06 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 main_recon.py output/alpha13_19.h5 type7/alpha13_19.root
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      6.75 sec.
+    Max Memory :       137 MB
+    Max Swap   :       383 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+type7/alpha13_19.root
+1
+2
+3
+4
+5
+
+
+PS:
+
+Read file <output/alpha13_19.h5.err> for stderr output of this job.
+
