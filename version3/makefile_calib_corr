@@ -1,0 +1,14 @@
+.PHONY: all
+
+E:= $(shell seq -f '%+.2f' -0.63 0.01 0.63)
+files:=$(E:%=file_corr%.h5)
+
+all:coeff_corr.h5
+
+file_corr%.h5:
+	mkdir -p calib
+	python3 main_calib_correct.py $* calib/$@
+
+coeff_corr.h5: $(files)
+	python3 calib/calib_corr.py
+

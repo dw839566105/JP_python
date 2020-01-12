@@ -1,0 +1,14 @@
+.PHONY: all
+
+E:= $(shell seq -f '%+.2f' -0.63 0.01 0.63)
+files:=$(E:%=file%.h5)
+
+all:coeff.h5
+
+file%.h5:
+	mkdir -p calib
+	python3 main_calib.py $* calib/$@
+
+coeff.h5: $(files)
+	python3 calib/calib.py
+

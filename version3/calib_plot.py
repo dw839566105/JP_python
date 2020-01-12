@@ -1,7 +1,6 @@
 import numpy as np 
 import h5py
 import matplotlib.pyplot as plt
-filepath = './calib/output/'
 radius = np.linspace(-0.63, 0.63, 127)
 record = np.zeros((np.size(radius), 7))
 for i in np.arange(0, np.size(radius)):

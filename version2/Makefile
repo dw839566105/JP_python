@@ -1,5 +1,5 @@
-srcL:=$(wildcard type1/ele*.root)
-dstL:=$(srcL:type1/%.root=8/%.h5)
+srcL:=$(wildcard input/data/type2/ele*.root)
+dstL:=$(srcL:input/data/type2/%.root=8/%.h5)
 
 .PHONY: all
 all: $(dstL)
@@ -8,7 +8,7 @@ iterl:=$(shell seq 7)
 
 bs=bsub -J $@ -oo $@.log -eo $@.err
 
-1/%.h5: type1/%.root
+1/%.h5: input/data/type2/%.root
 	mkdir -p $(dir $@)
 	echo $(bs) python3 Recon.py 0 $@ $^
 

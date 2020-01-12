@@ -35,8 +35,9 @@ def calib(theta):
 
 def main_calib(fid, fout):
     global total_pe, PMT_pos, cut
-    filepath = './calib/type9'
-    k = '%+.2f' % fid
+    filepath = '../input/data/type9'
+    # k = '%+.2f' % fid
+    k = fid
     filename = filepath + '/calib' + k + '.h5'
 
     # read files by table
@@ -80,7 +81,7 @@ def main_calib(fid, fout):
 
 ## read data from calib files
 global total_pe, PMT_pos, cut
-f = open(r"./calib/PMT1t.txt")
+f = open(r"../input/PMT/PMT1t.txt")
 line = f.readline()
 data_list = []
 while line:
