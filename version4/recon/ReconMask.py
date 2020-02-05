@@ -34,10 +34,11 @@ x = np.nan_to_num(x)
 y = taud_total
 y = np.nan_to_num(y)
 r = np.sqrt(x_total**2 + y_total**2 + z_total**2)
+print(np.max(x))
 a = y>5
 b = y<100
 c = x>1.0
-d = x<1.3
+d = x<3.0
 e = r<0.6
 print(np.sum(e), np.sum(b))
 index = b & e
