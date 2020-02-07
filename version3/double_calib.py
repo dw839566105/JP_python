@@ -36,7 +36,7 @@ def calib(theta):
         - np.transpose(np.exp(np.dot(x, theta)))))
     return L
 
-def Recon_time()
+def Recon_time():
     fun = lambda theta: calib_time(theta)
     return fun
 

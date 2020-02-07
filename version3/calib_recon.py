@@ -53,12 +53,16 @@ def calib(vertex):
         # print(z)
         f = interpolate.interp1d(xx, yy, kind='cubic')
         k[i] = f(z)
-        k[0] = k[0] + np.log(vertex[0])
-    # print(k) 
-    # print('haha')
+    k[0] = k[0] + np.log(vertex[0])
+
     expect = np.exp(np.dot(x,k))
     L = - np.sum(np.sum(np.log((expect**y)*np.exp(-expect))))
     return L
+
+def con():
+    cons = ({'type': 'ineq', 'fun': lambda x: x[0] - 0.01},\
+    {'type': 'ineq', 'fun': lambda x: 0.65**2 - (x[1]**2 + x[2]**2+x[3]**2)})
+    return cons
 
 def ReconSph(fid, fout):
     global PMT_pos, coeff, event_pe
@@ -73,7 +77,6 @@ def ReconSph(fid, fout):
     record = np.zeros((1,4))
     h = h5py.File('./calib/coeff_corr.h5','r')
     coeff = h['coeff_corr'][...]
-
     h1 = tables.open_file(filename,'r')
     truthtable = h1.root.GroundTruth
     EventID = truthtable[:]['EventID']
@@ -89,14 +92,13 @@ def ReconSph(fid, fout):
         x0 = np.sum(pe*PMT_pos,axis=0)/np.sum(pe)
         theta0 = np.array([1,0.1,0.1,0.1])
         theta0[1:4] = x0
-        result = minimize(Recon(),theta0, method='SLSQP')  
+        cons = con()
+        result = minimize(Recon(),theta0, method='SLSQP', constraints=cons)  
         record[0,:] = np.array(result.x, dtype=float)
         result_total = np.vstack((result_total,record))
         print(record)
-
     with h5py.File(fout,'w') as out:
         out.create_dataset("result", data=result_total)
-    
 
 ## read data from calib files
 global PMT_pos, cut
@@ -111,4 +113,5 @@ f.close()
 PMT_pos = np.array(data_list)
 
 cut = 7 # Legend order
-ReconSph(sys.argv[1],sys.argv[2])
+# ReconSph(sys.argv[1],sys.argv[2])
+ReconSph('+2.00', 'tmp.h5')
