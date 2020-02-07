@@ -18,11 +18,6 @@ def coeff3d():
         x_axis = h.root.x
         coeff_x = np.array(recondata[:])
         x = np.array(x_axis[:])
-        print(np.array(coeff_x).shape)
-        print(type(coeff_x))
-        print(coeff_x[0,:])
-        print(len(coeff_x[0,:]))
-        #print(np.size(coeff_x[:0]))
         for j in np.arange(len(coeff_x[0,])):
             if i == 0:
                 coeff_x[0,0] = 0
@@ -44,5 +39,12 @@ if __name__ == '__main__':
     logs, radius, new_cell = coeff3d()
     print(type(logs))
     print(type(np.array(logs)[0]))
-    plt.plot(new_cell[:,0,:])
-    plt.show()
+    for i in range(len(new_cell[0,:,0])):
+        plt.figure(i)
+        plt.plot(radius, new_cell[:,i,:])
+        
+        plt.xlabel('radius/m')
+        plt.ylabel('coeff value')
+        plt.legend(['0.8','1.0','1.2','1.5','1.8','2.0'])
+        plt.title((str(i) + '-th value'))
+        plt.savefig(('./fig'+str(i)+'.jpg'))

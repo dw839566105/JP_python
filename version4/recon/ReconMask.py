@@ -41,23 +41,33 @@ c = x>1.0
 d = x<3.0
 e = r<0.6
 print(np.sum(e), np.sum(b))
-index = b & e
+index = b
+print(sum(b), max(x),x.shape, r.shape)
 # index = y>5 & y<200
+
+plt.figure(1)
+for i in np.arange(0.7,0.3,-0.05):
+    plt.hist(x[r<i],bins=100)
+plt.legend(["0.65","0.60","0.55","0.50","0.45","0.40","0.35","0.30"])
+plt.xlabel('Energy/MeV')
+plt.ylabel('Count')
+plt.savefig('./EnergySpectrum.jpg')
+
 x = x[index]
 y = y[index]
+r = r[index]
 #print(x.shape, y.shape)
 #print(np.min(x), np.max(x), np.min(y), np.max(y))
 
 H, xedges, yedges = np.histogram2d(x, y, bins=50)
 
 X, Y = np.meshgrid(xedges[1:],yedges[1:])
-plt.figure(1)
-plt.hist(x,bins=50)
 
 plt.figure(2)
 plt.contourf(X,Y,np.transpose(H),cmap='Greys')
 plt.xlabel('Energy/MeV')
 plt.ylabel('Tau_d/ns')
+plt.savefig('./EnergyVsTau.jpg')
 plt.show()
 
 '''
